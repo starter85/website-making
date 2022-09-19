@@ -7,8 +7,8 @@
 </template>
 
 <script>
-import cs_ner from '@/assets/scideberta-cs-scierc-ordered(new).json';
-// import cs_ner from '@/assets/scideberta-full-genia-ordered(new).json';
+import cs_ner from "../../data/scideberta-cs-scierc-ordered.json"
+import { eventBus } from '../main'
 
 
 export default {
@@ -28,8 +28,25 @@ export default {
 
     },
     methods: {
-
+        
     },
+    created(){
+        eventBus.$on('doc_key', doc_key =>{
+            this.doc_key = doc_key
+        })
+        eventBus.$on('check',check =>{
+            this.check.check_enti = check.check_enti
+            this.check.check_rela = check.check_rela
+            // console.log(check.check_enti)
+            //alert(check.check_enti)
+            // alert(check.check_rela)asd
+        })
+        
+    }
+    // vue 2 형제 컴포넌트 데이터 수신
+    
+    /* 
+    vue 3 형제 컴포넌트 데이터 수신
     mounted() {
         this.emitter.on('doc_key', doc_key => {
             this.doc_key = doc_key
@@ -42,6 +59,7 @@ export default {
             // alert(check.check_rela)
         })
     }
+    */
 }
 </script>
 

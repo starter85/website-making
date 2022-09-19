@@ -13,7 +13,7 @@
             <form>
                 <div v-for="item in relation_type" :key="item">
                     <input type="checkbox" v-model="check.check_rela" :value="item" @change="send_check_Prop"> {{item}}
-                    <!-- <input type="checkbox" v-model="check.check_rela" :value="item" v-on:click="send_check_Prop"> {{item}} 이건 안됨! -->
+                    <!--<input type="checkbox" v-model="check.check_rela" :value="item" v-on:click="send_check_Prop"> {{item}} -->
                     <br>
 
                 </div>
@@ -27,9 +27,48 @@
 </template>
 
 <script>
-import cs_ner from '@/assets/scideberta-cs-scierc-ordered(new).json';
-// import cs_ner from '@/assets/scideberta-full-genia-ordered(new).json';
+import cs_ner from "../../data/scideberta-cs-scierc-ordered.json"
+import {eventBus} from "../main"
 
+export default {
+    name: 'select_Property',
+    data(){
+        return {
+
+            cs_ner : cs_ner,
+            entity_type : entity_type,
+            relation_type : relation_type,
+            check : {
+
+                check_enti : ['Task'],
+                check_rela : [],
+                
+            }
+        }
+    },
+    components :{
+
+    },
+    methods: {
+        check_out(){
+            // alert(this.check.check_enti)
+            // alert(this.check.check_rela)
+        },        
+        send_check_Prop(){
+            console.log("selectproperty 파일에서 check_enti,check_rela디버깅중입니다.")
+            console.log(this.check.check_enti)
+            console.log(this.check.check_rela)
+            eventBus.$emit("check",this.check) // vue 2 형제 컴포넌트 데이터 전송
+            //this.emitter.emit("check", this.check) vue 3
+        }
+
+    },
+    // watch: {
+    //     check(newValue, oldValue){
+    //         console.log(newValue, oldValue)
+    //     }
+    // }
+}
 
 let ent_rel_array = ['ner', 'predicted_ner', 'relations', 'predicted_relations']
 
@@ -38,6 +77,8 @@ let relation_type = new Set()
 
 var check = false;
 
+
+///////////////
 for(const x of ent_rel_array){
     for (var i = 0; i< cs_ner.length; i++){
         if (Array.isArray(cs_ner[i][x]) && cs_ner[i][x][0].length === 0){
@@ -56,7 +97,7 @@ for(const x of ent_rel_array){
         }
     }
 }
-
+//////////////////
 
 
 
@@ -68,43 +109,7 @@ console.log(cs_ner.length)
 console.log(entity_type)
 console.log(relation_type)
 
-export default {
-    name: 'select_Property',
-    data(){
-        return {
 
-            cs_ner : cs_ner,
-            entity_type : entity_type,
-            relation_type : relation_type,
-            check : {
-
-                check_enti : [],
-                check_rela : [],
-            }
-        }
-    },
-    components :{
-
-    },
-    methods: {
-        check_out(){
-            // alert(this.check.check_enti)
-            // alert(this.check.check_rela)
-        },        
-        send_check_Prop(){
-            console.log(this.check.check_enti)
-            console.log(this.check.check_rela)
-
-            this.emitter.emit("check", this.check)
-        }
-
-    },
-    // watch: {
-    //     check(newValue, oldValue){
-    //         console.log(newValue, oldValue)
-    //     }
-    // }
-}
 
 </script>
 

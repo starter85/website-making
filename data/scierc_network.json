@@ -1,0 +1,5580 @@
+{
+	"documents": [
+		{
+			"doc_key": "I05-5003",
+			"nodes": [
+				{
+					"name": "MT evaluation methods",
+					"id": "29 31_Metric"
+				},
+				{
+					"name": "classifiers",
+					"id": "43 43_Method"
+				},
+				{
+					"name": "BLEU",
+					"id": "33 33_Metric"
+				},
+				{
+					"name": "NIST",
+					"id": "35 35_Metric"
+				},
+				{
+					"name": "WER",
+					"id": "37 37_Metric"
+				},
+				{
+					"name": "PER",
+					"id": "39 39_Metric"
+				},
+				{
+					"name": "entailment",
+					"id": "49 49_non"
+				},
+				{
+					"name": "semantic equivalence",
+					"id": "46 47_OtherScientificTerm"
+				},
+				{
+					"name": "PER",
+					"id": "60 60_Method"
+				},
+				{
+					"name": "classification method",
+					"id": "56 57_Method"
+				},
+				{
+					"name": "part of speech information",
+					"id": "63 66_OtherScientificTerm"
+				},
+				{
+					"name": "MT evaluation techniques",
+					"id": "85 87_Method"
+				},
+				{
+					"name": "features",
+					"id": "93 93_OtherScientificTerm"
+				},
+				{
+					"name": "paraphrase classification",
+					"id": "95 96_Task"
+				},
+				{
+					"name": "entailment",
+					"id": "102 102_Task"
+				},
+				{
+					"name": "technique",
+					"id": "105 105_Generic"
+				},
+				{
+					"name": "models",
+					"id": "119 119_Generic"
+				},
+				{
+					"name": "paraphrase classification accuracy",
+					"id": "111 113_Metric"
+				}
+			],
+			"links": [
+				{
+					"sid": "29 31_Metric",
+					"tid": "43 43_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "33 33_Metric",
+					"tid": "29 31_Metric",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "33 33_Metric",
+					"tid": "35 35_Metric",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "35 35_Metric",
+					"tid": "29 31_Metric",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "35 35_Metric",
+					"tid": "37 37_Metric",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "35 35_Metric",
+					"tid": "39 39_Metric",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "37 37_Metric",
+					"tid": "29 31_Metric",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "37 37_Metric",
+					"tid": "39 39_Metric",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "37 37_Metric",
+					"tid": "49 49_non",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "39 39_Metric",
+					"tid": "29 31_Metric",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "43 43_Method",
+					"tid": "46 47_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "43 43_Method",
+					"tid": "49 49_non",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "46 47_OtherScientificTerm",
+					"tid": "49 49_non",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "60 60_Method",
+					"tid": "56 57_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "63 66_OtherScientificTerm",
+					"tid": "56 57_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "85 87_Method",
+					"tid": "93 93_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "85 87_Method",
+					"tid": "95 96_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "85 87_Method",
+					"tid": "102 102_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "93 93_OtherScientificTerm",
+					"tid": "95 96_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "93 93_OtherScientificTerm",
+					"tid": "102 102_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "105 105_Generic",
+					"tid": "119 119_Generic",
+					"name": "COMPARE"
+				},
+				{
+					"sid": "111 113_Metric",
+					"tid": "105 105_Generic",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "111 113_Metric",
+					"tid": "119 119_Generic",
+					"name": "EVALUATE-FOR"
+				}
+			]
+		},
+		{
+			"doc_key": "CVPR_2008_256_abs",
+			"nodes": [
+				{
+					"name": "object model",
+					"id": "2 3_Method"
+				},
+				{
+					"name": "visual object tracking",
+					"id": "19 21_Task"
+				},
+				{
+					"name": "numerical optimization problem",
+					"id": "24 26_Task"
+				},
+				{
+					"name": "local optimization",
+					"id": "42 43_Method"
+				},
+				{
+					"name": "local mode of the similarity measure",
+					"id": "49 54_OtherScientificTerm"
+				},
+				{
+					"name": "parameter space",
+					"id": "57 58_OtherScientificTerm"
+				},
+				{
+					"name": "translation",
+					"id": "60 60_OtherScientificTerm"
+				},
+				{
+					"name": "rotation",
+					"id": "62 62_OtherScientificTerm"
+				},
+				{
+					"name": "scale",
+					"id": "64 64_OtherScientificTerm"
+				},
+				{
+					"name": "Kalman filter",
+					"id": "92 93_Method"
+				},
+				{
+					"name": "prediction techniques",
+					"id": "88 89_Method"
+				},
+				{
+					"name": "global optimization problem",
+					"id": "121 123_Task"
+				},
+				{
+					"name": "object detection",
+					"id": "117 118_Task"
+				},
+				{
+					"name": "Adaptive Simulated Annealing -LRB- ASA -RRB-",
+					"id": "128 133_Method"
+				},
+				{
+					"name": "it",
+					"id": "126 126_Generic"
+				},
+				{
+					"name": "method",
+					"id": "136 136_Generic"
+				},
+				{
+					"name": "exhaustive search",
+					"id": "149 150_Method"
+				},
+				{
+					"name": "Monte Carlo approach",
+					"id": "154 156_Method"
+				},
+				{
+					"name": "ASA",
+					"id": "158 158_Method"
+				},
+				{
+					"name": "local deterministic search",
+					"id": "168 170_Method"
+				},
+				{
+					"name": "cluster analysis",
+					"id": "174 175_Method"
+				},
+				{
+					"name": "local tracker",
+					"id": "188 189_Method"
+				},
+				{
+					"name": "sampled parameter space",
+					"id": "178 180_OtherScientificTerm"
+				},
+				{
+					"name": "airborne videos",
+					"id": "203 204_Material"
+				},
+				{
+					"name": "numerical hybrid local and global mode-seeking tracker",
+					"id": "192 198_Method"
+				},
+				{
+					"name": "approach",
+					"id": "214 214_Generic"
+				},
+				{
+					"name": "state-of-the-art trackers",
+					"id": "216 217_Generic"
+				},
+				{
+					"name": "trackers",
+					"id": "217 217_Method"
+				},
+				{
+					"name": "VIVID benchmark datasets",
+					"id": "220 222_Material"
+				}
+			],
+			"links": [
+				{
+					"sid": "2 3_Method",
+					"tid": "19 21_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "24 26_Task",
+					"tid": "19 21_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "42 43_Method",
+					"tid": "49 54_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "57 58_OtherScientificTerm",
+					"tid": "49 54_OtherScientificTerm",
+					"name": "FEATURE-OF"
+				},
+				{
+					"sid": "60 60_OtherScientificTerm",
+					"tid": "49 54_OtherScientificTerm",
+					"name": "FEATURE-OF"
+				},
+				{
+					"sid": "60 60_OtherScientificTerm",
+					"tid": "62 62_OtherScientificTerm",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "62 62_OtherScientificTerm",
+					"tid": "49 54_OtherScientificTerm",
+					"name": "FEATURE-OF"
+				},
+				{
+					"sid": "62 62_OtherScientificTerm",
+					"tid": "64 64_OtherScientificTerm",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "64 64_OtherScientificTerm",
+					"tid": "49 54_OtherScientificTerm",
+					"name": "FEATURE-OF"
+				},
+				{
+					"sid": "92 93_Method",
+					"tid": "88 89_Method",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "121 123_Task",
+					"tid": "117 118_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "128 133_Method",
+					"tid": "117 118_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "128 133_Method",
+					"tid": "126 126_Generic",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "136 136_Generic",
+					"tid": "149 150_Method",
+					"name": "COMPARE"
+				},
+				{
+					"sid": "154 156_Method",
+					"tid": "158 158_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "158 158_Method",
+					"tid": "168 170_Method",
+					"name": "COMPARE"
+				},
+				{
+					"sid": "174 175_Method",
+					"tid": "188 189_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "178 180_OtherScientificTerm",
+					"tid": "174 175_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "203 204_Material",
+					"tid": "192 198_Method",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "214 214_Generic",
+					"tid": "216 217_Generic",
+					"name": "COMPARE"
+				},
+				{
+					"sid": "214 214_Generic",
+					"tid": "217 217_Method",
+					"name": "COMPARE"
+				},
+				{
+					"sid": "217 217_Method",
+					"tid": "214 214_Generic",
+					"name": "COMPARE"
+				},
+				{
+					"sid": "220 222_Material",
+					"tid": "214 214_Generic",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "220 222_Material",
+					"tid": "216 217_Generic",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "220 222_Material",
+					"tid": "217 217_Method",
+					"name": "EVALUATE-FOR"
+				}
+			]
+		},
+		{
+			"doc_key": "ICML_2016_11_abs",
+			"nodes": [
+				{
+					"name": "low rank part",
+					"id": "30 32_OtherScientificTerm"
+				},
+				{
+					"name": "sparse residual",
+					"id": "35 36_OtherScientificTerm"
+				},
+				{
+					"name": "low rank plus sparse structure",
+					"id": "47 51_OtherScientificTerm"
+				},
+				{
+					"name": "approaches",
+					"id": "40 40_Generic"
+				},
+				{
+					"name": "robust PCA",
+					"id": "81 82_Method"
+				},
+				{
+					"name": "side information",
+					"id": "98 99_OtherScientificTerm"
+				},
+				{
+					"name": "robust PCA",
+					"id": "95 96_Method"
+				},
+				{
+					"name": "prior structure",
+					"id": "103 104_OtherScientificTerm"
+				},
+				{
+					"name": "features of entities",
+					"id": "106 108_OtherScientificTerm"
+				},
+				{
+					"name": "convex problem",
+					"id": "117 118_Task"
+				},
+				{
+					"name": "robust PCA",
+					"id": "124 125_Method"
+				},
+				{
+					"name": "low rank matrix",
+					"id": "130 132_OtherScientificTerm"
+				},
+				{
+					"name": "side information",
+					"id": "121 122_OtherScientificTerm"
+				},
+				{
+					"name": "method",
+					"id": "140 140_Generic"
+				},
+				{
+					"name": "method",
+					"id": "175 175_Generic"
+				},
+				{
+					"name": "low rank matrices",
+					"id": "156 158_OtherScientificTerm"
+				},
+				{
+					"name": "features",
+					"id": "184 184_OtherScientificTerm"
+				},
+				{
+					"name": "robust PCA",
+					"id": "186 187_Method"
+				},
+				{
+					"name": "method",
+					"id": "210 210_Generic"
+				},
+				{
+					"name": "noisy image classification",
+					"id": "203 205_Task"
+				},
+				{
+					"name": "side information",
+					"id": "219 220_OtherScientificTerm"
+				}
+			],
+			"links": [
+				{
+					"sid": "30 32_OtherScientificTerm",
+					"tid": "35 36_OtherScientificTerm",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "47 51_OtherScientificTerm",
+					"tid": "40 40_Generic",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "47 51_OtherScientificTerm",
+					"tid": "81 82_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "98 99_OtherScientificTerm",
+					"tid": "95 96_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "103 104_OtherScientificTerm",
+					"tid": "106 108_OtherScientificTerm",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "117 118_Task",
+					"tid": "124 125_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "117 118_Task",
+					"tid": "130 132_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "121 122_OtherScientificTerm",
+					"tid": "124 125_Method",
+					"name": "PART-OF"
+				},
+				{
+					"sid": "140 140_Generic",
+					"tid": "130 132_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "140 140_Generic",
+					"tid": "130 132_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "140 140_Generic",
+					"tid": "130 132_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "140 140_Generic",
+					"tid": "130 132_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "140 140_Generic",
+					"tid": "130 132_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "140 140_Generic",
+					"tid": "130 132_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "140 140_Generic",
+					"tid": "130 132_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "140 140_Generic",
+					"tid": "130 132_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "175 175_Generic",
+					"tid": "156 158_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "184 184_OtherScientificTerm",
+					"tid": "186 187_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "210 210_Generic",
+					"tid": "203 205_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "219 220_OtherScientificTerm",
+					"tid": "210 210_Generic",
+					"name": "USED-FOR"
+				}
+			]
+		},
+		{
+			"doc_key": "ECCV_2016_212_abs",
+			"nodes": [
+				{
+					"name": "pose",
+					"id": "10 10_OtherScientificTerm"
+				},
+				{
+					"name": "illumination",
+					"id": "12 12_OtherScientificTerm"
+				},
+				{
+					"name": "occlusion",
+					"id": "14 14_OtherScientificTerm"
+				},
+				{
+					"name": "camera view",
+					"id": "16 17_OtherScientificTerm"
+				},
+				{
+					"name": "convolutional neural networks -LRB- CNN -RRB-",
+					"id": "40 45_Method"
+				},
+				{
+					"name": "pedestrian data",
+					"id": "25 26_Material"
+				},
+				{
+					"name": "feature extraction",
+					"id": "49 50_Task"
+				},
+				{
+					"name": "Euclidean distance",
+					"id": "83 84_OtherScientificTerm"
+				},
+				{
+					"name": "deep embedding methods",
+					"id": "78 80_Method"
+				},
+				{
+					"name": "Euclidean distance",
+					"id": "104 105_OtherScientificTerm"
+				},
+				{
+					"name": "manifold learning methods",
+					"id": "97 99_Method"
+				},
+				{
+					"name": "local range",
+					"id": "108 109_OtherScientificTerm"
+				},
+				{
+					"name": "moderate positive sample mining method",
+					"id": "169 173_Method"
+				},
+				{
+					"name": "robust CNN",
+					"id": "176 177_Method"
+				},
+				{
+					"name": "person re-identification",
+					"id": "179 180_Task"
+				},
+				{
+					"name": "large variation",
+					"id": "187 188_OtherScientificTerm"
+				},
+				{
+					"name": "metric weight constraint",
+					"id": "199 201_OtherScientificTerm"
+				},
+				{
+					"name": "learning",
+					"id": "196 196_Task"
+				},
+				{
+					"name": "generalization ability",
+					"id": "211 212_Metric"
+				},
+				{
+					"name": "metric",
+					"id": "207 207_Generic"
+				},
+				{
+					"name": "strategies",
+					"id": "219 219_Generic"
+				},
+				{
+					"name": "deep metrics",
+					"id": "225 226_Metric"
+				},
+				{
+					"name": "person re-identification",
+					"id": "228 229_Task"
+				},
+				{
+					"name": "deep model",
+					"id": "234 235_Method"
+				},
+				{
+					"name": "state-of-the-art methods",
+					"id": "239 240_Generic"
+				},
+				{
+					"name": "benchmarks",
+					"id": "243 243_Generic"
+				},
+				{
+					"name": "deep models",
+					"id": "264 265_Method"
+				},
+				{
+					"name": "person re-identification",
+					"id": "267 268_Task"
+				}
+			],
+			"links": [
+				{
+					"sid": "10 10_OtherScientificTerm",
+					"tid": "12 12_OtherScientificTerm",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "14 14_OtherScientificTerm",
+					"tid": "16 17_OtherScientificTerm",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "40 45_Method",
+					"tid": "25 26_Material",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "40 45_Method",
+					"tid": "49 50_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "83 84_OtherScientificTerm",
+					"tid": "78 80_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "104 105_OtherScientificTerm",
+					"tid": "97 99_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "104 105_OtherScientificTerm",
+					"tid": "108 109_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "169 173_Method",
+					"tid": "176 177_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "176 177_Method",
+					"tid": "179 180_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "176 177_Method",
+					"tid": "187 188_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "199 201_OtherScientificTerm",
+					"tid": "196 196_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "211 212_Metric",
+					"tid": "207 207_Generic",
+					"name": "FEATURE-OF"
+				},
+				{
+					"sid": "219 219_Generic",
+					"tid": "225 226_Metric",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "219 219_Generic",
+					"tid": "228 229_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "225 226_Metric",
+					"tid": "228 229_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "234 235_Method",
+					"tid": "239 240_Generic",
+					"name": "COMPARE"
+				},
+				{
+					"sid": "243 243_Generic",
+					"tid": "234 235_Method",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "243 243_Generic",
+					"tid": "239 240_Generic",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "264 265_Method",
+					"tid": "267 268_Task",
+					"name": "USED-FOR"
+				}
+			]
+		},
+		{
+			"doc_key": "P05-1056",
+			"nodes": [
+				{
+					"name": "Sentence boundary detection",
+					"id": "0 2_non"
+				},
+				{
+					"name": "speech recognition output",
+					"id": "9 11_OtherScientificTerm"
+				},
+				{
+					"name": "hidden Markov model -LRB- HMM -RRB-",
+					"id": "33 38_Method"
+				},
+				{
+					"name": "maximum entropy -LRB- Maxent -RRB- classifiers",
+					"id": "40 45_Method"
+				},
+				{
+					"name": "detecting sentence boundaries",
+					"id": "54 56_Task"
+				},
+				{
+					"name": "conditional random field -LRB- CRF -RRB-",
+					"id": "68 73_Method"
+				},
+				{
+					"name": "task",
+					"id": "76 76_Generic"
+				},
+				{
+					"name": "conversational telephone speech",
+					"id": "94 96_Material"
+				},
+				{
+					"name": "corpora",
+					"id": "92 92_Generic"
+				},
+				{
+					"name": "broadcast news speech",
+					"id": "98 100_Material"
+				},
+				{
+					"name": "CRF model",
+					"id": "115 116_Method"
+				},
+				{
+					"name": "HMM and Max-ent models",
+					"id": "124 127_Method"
+				},
+				{
+					"name": "Max-ent models",
+					"id": "126 127_Method"
+				},
+				{
+					"name": "error rate",
+					"id": "120 121_Metric"
+				},
+				{
+					"name": "NIST sentence boundary detection task in speech",
+					"id": "130 136_Material"
+				},
+				{
+					"name": "three-way voting",
+					"id": "151 152_OtherScientificTerm"
+				},
+				{
+					"name": "model",
+					"id": "162 162_Generic"
+				},
+				{
+					"name": "knowledge sources",
+					"id": "171 172_Material"
+				}
+			],
+			"links": [
+				{
+					"sid": "0 2_non",
+					"tid": "9 11_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "33 38_Method",
+					"tid": "40 45_Method",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "40 45_Method",
+					"tid": "54 56_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "68 73_Method",
+					"tid": "76 76_Generic",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "94 96_Material",
+					"tid": "92 92_Generic",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "94 96_Material",
+					"tid": "98 100_Material",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "98 100_Material",
+					"tid": "92 92_Generic",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "115 116_Method",
+					"tid": "124 127_Method",
+					"name": "COMPARE"
+				},
+				{
+					"sid": "115 116_Method",
+					"tid": "126 127_Method",
+					"name": "COMPARE"
+				},
+				{
+					"sid": "120 121_Metric",
+					"tid": "115 116_Method",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "120 121_Metric",
+					"tid": "124 127_Method",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "120 121_Metric",
+					"tid": "126 127_Method",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "130 136_Material",
+					"tid": "115 116_Method",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "130 136_Material",
+					"tid": "124 127_Method",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "130 136_Material",
+					"tid": "126 127_Method",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "151 152_OtherScientificTerm",
+					"tid": "115 116_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "162 162_Generic",
+					"tid": "171 172_Material",
+					"name": "USED-FOR"
+				}
+			]
+		},
+		{
+			"doc_key": "CVPR_2009_18_abs",
+			"nodes": [
+				{
+					"name": "method",
+					"id": "4 4_Generic"
+				},
+				{
+					"name": "detecting interest points",
+					"id": "6 8_Task"
+				},
+				{
+					"name": "histogram information",
+					"id": "10 11_OtherScientificTerm"
+				},
+				{
+					"name": "detectors",
+					"id": "50 50_Generic"
+				},
+				{
+					"name": "large-scale structures",
+					"id": "55 56_OtherScientificTerm"
+				},
+				{
+					"name": "distinctive textured patterns",
+					"id": "58 60_OtherScientificTerm"
+				},
+				{
+					"name": "illumination variation",
+					"id": "69 70_OtherScientificTerm"
+				},
+				{
+					"name": "blur",
+					"id": "73 73_OtherScientificTerm"
+				},
+				{
+					"name": "histogram-based interest point detectors",
+					"id": "82 85_Method"
+				},
+				{
+					"name": "matching textured scenes",
+					"id": "93 95_Task"
+				},
+				{
+					"name": "blur and illumination changes",
+					"id": "97 100_OtherScientificTerm"
+				},
+				{
+					"name": "method",
+					"id": "113 113_Generic"
+				},
+				{
+					"name": "space-time interest point detection",
+					"id": "115 118_Task"
+				},
+				{
+					"name": "action classification",
+					"id": "120 121_Task"
+				}
+			],
+			"links": [
+				{
+					"sid": "4 4_Generic",
+					"tid": "6 8_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "10 11_OtherScientificTerm",
+					"tid": "4 4_Generic",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "50 50_Generic",
+					"tid": "55 56_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "50 50_Generic",
+					"tid": "58 60_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "55 56_OtherScientificTerm",
+					"tid": "58 60_OtherScientificTerm",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "55 56_OtherScientificTerm",
+					"tid": "69 70_OtherScientificTerm",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "69 70_OtherScientificTerm",
+					"tid": "73 73_OtherScientificTerm",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "82 85_Method",
+					"tid": "93 95_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "97 100_OtherScientificTerm",
+					"tid": "93 95_Task",
+					"name": "FEATURE-OF"
+				},
+				{
+					"sid": "113 113_Generic",
+					"tid": "115 118_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "113 113_Generic",
+					"tid": "120 121_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "115 118_Task",
+					"tid": "120 121_Task",
+					"name": "USED-FOR"
+				}
+			]
+		},
+		{
+			"doc_key": "ICCV_2013_47_abs",
+			"nodes": [
+				{
+					"name": "densely sampled rays",
+					"id": "7 9_non"
+				},
+				{
+					"name": "image-based representations",
+					"id": "3 4_Method"
+				},
+				{
+					"name": "geometric structures of 3D lines",
+					"id": "21 25_OtherScientificTerm"
+				},
+				{
+					"name": "light field triangulation",
+					"id": "31 33_Task"
+				},
+				{
+					"name": "stereo matching",
+					"id": "35 36_Task"
+				},
+				{
+					"name": "ray space",
+					"id": "27 28_OtherScientificTerm"
+				},
+				{
+					"name": "triangulation",
+					"id": "63 63_Method"
+				},
+				{
+					"name": "piecewise-linear interpolant",
+					"id": "66 67_OtherScientificTerm"
+				},
+				{
+					"name": "light field super-resolution",
+					"id": "70 72_Task"
+				},
+				{
+					"name": "algorithm",
+					"id": "112 112_Generic"
+				},
+				{
+					"name": "bilinear subspaces",
+					"id": "116 117_OtherScientificTerm"
+				},
+				{
+					"name": "3D line constraints",
+					"id": "150 152_OtherScientificTerm"
+				},
+				{
+					"name": "light field stereo matching",
+					"id": "154 157_Method"
+				},
+				{
+					"name": "synthetic and real data",
+					"id": "161 164_Material"
+				},
+				{
+					"name": "triangulation and LAGC algorithms",
+					"id": "169 172_Method"
+				},
+				{
+					"name": "state-of-the-art solutions",
+					"id": "174 175_Generic"
+				},
+				{
+					"name": "solutions",
+					"id": "175 175_Generic"
+				},
+				{
+					"name": "accuracy",
+					"id": "177 177_Metric"
+				},
+				{
+					"name": "visual quality",
+					"id": "179 180_Metric"
+				}
+			],
+			"links": [
+				{
+					"sid": "7 9_non",
+					"tid": "3 4_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "21 25_OtherScientificTerm",
+					"tid": "31 33_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "21 25_OtherScientificTerm",
+					"tid": "35 36_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "27 28_OtherScientificTerm",
+					"tid": "21 25_OtherScientificTerm",
+					"name": "FEATURE-OF"
+				},
+				{
+					"sid": "31 33_Task",
+					"tid": "35 36_Task",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "63 63_Method",
+					"tid": "66 67_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "66 67_OtherScientificTerm",
+					"tid": "70 72_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "112 112_Generic",
+					"tid": "116 117_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "150 152_OtherScientificTerm",
+					"tid": "154 157_Method",
+					"name": "PART-OF"
+				},
+				{
+					"sid": "161 164_Material",
+					"tid": "169 172_Method",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "169 172_Method",
+					"tid": "174 175_Generic",
+					"name": "COMPARE"
+				},
+				{
+					"sid": "169 172_Method",
+					"tid": "175 175_Generic",
+					"name": "COMPARE"
+				},
+				{
+					"sid": "177 177_Metric",
+					"tid": "169 172_Method",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "177 177_Metric",
+					"tid": "175 175_Generic",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "179 180_Metric",
+					"tid": "169 172_Method",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "179 180_Metric",
+					"tid": "174 175_Generic",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "179 180_Metric",
+					"tid": "175 175_Generic",
+					"name": "EVALUATE-FOR"
+				}
+			]
+		},
+		{
+			"doc_key": "P06-1018",
+			"nodes": [
+				{
+					"name": "strings",
+					"id": "14 14_OtherScientificTerm"
+				},
+				{
+					"name": "structures",
+					"id": "12 12_OtherScientificTerm"
+				},
+				{
+					"name": "trees",
+					"id": "16 16_OtherScientificTerm"
+				},
+				{
+					"name": "dags",
+					"id": "18 18_OtherScientificTerm"
+				},
+				{
+					"name": "graphs",
+					"id": "20 20_OtherScientificTerm"
+				},
+				{
+					"name": "formalism",
+					"id": "45 45_Generic"
+				},
+				{
+					"name": "grammar formalisms",
+					"id": "56 57_Method"
+				},
+				{
+					"name": "rewriting systems",
+					"id": "61 62_Method"
+				},
+				{
+					"name": "dependency grammars",
+					"id": "64 65_Method"
+				},
+				{
+					"name": "TAG",
+					"id": "67 67_OtherScientificTerm"
+				},
+				{
+					"name": "HPSG",
+					"id": "69 69_Method"
+				},
+				{
+					"name": "LFG",
+					"id": "71 71_OtherScientificTerm"
+				}
+			],
+			"links": [
+				{
+					"sid": "14 14_OtherScientificTerm",
+					"tid": "12 12_OtherScientificTerm",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "14 14_OtherScientificTerm",
+					"tid": "16 16_OtherScientificTerm",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "16 16_OtherScientificTerm",
+					"tid": "12 12_OtherScientificTerm",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "16 16_OtherScientificTerm",
+					"tid": "18 18_OtherScientificTerm",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "18 18_OtherScientificTerm",
+					"tid": "12 12_OtherScientificTerm",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "18 18_OtherScientificTerm",
+					"tid": "20 20_OtherScientificTerm",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "20 20_OtherScientificTerm",
+					"tid": "12 12_OtherScientificTerm",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "45 45_Generic",
+					"tid": "56 57_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "61 62_Method",
+					"tid": "56 57_Method",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "61 62_Method",
+					"tid": "64 65_Method",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "64 65_Method",
+					"tid": "56 57_Method",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "64 65_Method",
+					"tid": "67 67_OtherScientificTerm",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "64 65_Method",
+					"tid": "69 69_Method",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "67 67_OtherScientificTerm",
+					"tid": "56 57_Method",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "67 67_OtherScientificTerm",
+					"tid": "69 69_Method",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "67 67_OtherScientificTerm",
+					"tid": "71 71_OtherScientificTerm",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "69 69_Method",
+					"tid": "56 57_Method",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "69 69_Method",
+					"tid": "71 71_OtherScientificTerm",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "71 71_OtherScientificTerm",
+					"tid": "56 57_Method",
+					"name": "HYPONYM-OF"
+				}
+			]
+		},
+		{
+			"doc_key": "J86-3001",
+			"nodes": [
+				{
+					"name": "purpose",
+					"id": "16 16_non"
+				},
+				{
+					"name": "processing",
+					"id": "18 18_non"
+				},
+				{
+					"name": "discourse",
+					"id": "20 20_OtherScientificTerm"
+				},
+				{
+					"name": "components",
+					"id": "35 35_Generic"
+				},
+				{
+					"name": "discourse structure",
+					"id": "26 27_OtherScientificTerm"
+				},
+				{
+					"name": "structure of the sequence of utterances",
+					"id": "38 43_OtherScientificTerm"
+				},
+				{
+					"name": "structure of purposes",
+					"id": "52 54_OtherScientificTerm"
+				},
+				{
+					"name": "linguistic structure",
+					"id": "47 48_OtherScientificTerm"
+				},
+				{
+					"name": "state of focus of attention",
+					"id": "64 68_OtherScientificTerm"
+				},
+				{
+					"name": "intentional structure",
+					"id": "58 59_OtherScientificTerm"
+				},
+				{
+					"name": "attentional state",
+					"id": "72 73_OtherScientificTerm"
+				},
+				{
+					"name": "intentional structure",
+					"id": "93 94_OtherScientificTerm"
+				},
+				{
+					"name": "discourse-relevant purposes",
+					"id": "97 98_OtherScientificTerm"
+				},
+				{
+					"name": "properties",
+					"id": "144 144_non"
+				},
+				{
+					"name": "relations",
+					"id": "147 147_OtherScientificTerm"
+				},
+				{
+					"name": "cue phrases",
+					"id": "175 176_OtherScientificTerm"
+				},
+				{
+					"name": "discourse phenomena",
+					"id": "172 173_OtherScientificTerm"
+				},
+				{
+					"name": "referring expressions",
+					"id": "178 179_OtherScientificTerm"
+				},
+				{
+					"name": "interruptions",
+					"id": "182 182_OtherScientificTerm"
+				},
+				{
+					"name": "attention",
+					"id": "187 187_OtherScientificTerm"
+				},
+				{
+					"name": "intention",
+					"id": "189 189_OtherScientificTerm"
+				},
+				{
+					"name": "aggregation of utterances",
+					"id": "192 194_Task"
+				},
+				{
+					"name": "cue phrases",
+					"id": "220 221_OtherScientificTerm"
+				},
+				{
+					"name": "referring expressions",
+					"id": "223 224_OtherScientificTerm"
+				},
+				{
+					"name": "interruptions",
+					"id": "227 227_OtherScientificTerm"
+				},
+				{
+					"name": "theory",
+					"id": "232 232_Generic"
+				},
+				{
+					"name": "processing of utterances",
+					"id": "239 241_Task"
+				},
+				{
+					"name": "mechanisms",
+					"id": "282 282_non"
+				},
+				{
+					"name": "Discourse processing",
+					"id": "246 247_Task"
+				},
+				{
+					"name": "discourse",
+					"id": "302 302_OtherScientificTerm"
+				},
+				{
+					"name": "recognition tasks",
+					"id": "294 295_Task"
+				}
+			],
+			"links": [
+				{
+					"sid": "16 16_non",
+					"tid": "18 18_non",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "18 18_non",
+					"tid": "20 20_OtherScientificTerm",
+					"name": "FEATURE-OF"
+				},
+				{
+					"sid": "35 35_Generic",
+					"tid": "26 27_OtherScientificTerm",
+					"name": "PART-OF"
+				},
+				{
+					"sid": "38 43_OtherScientificTerm",
+					"tid": "35 35_Generic",
+					"name": "PART-OF"
+				},
+				{
+					"sid": "38 43_OtherScientificTerm",
+					"tid": "52 54_OtherScientificTerm",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "47 48_OtherScientificTerm",
+					"tid": "35 35_Generic",
+					"name": "PART-OF"
+				},
+				{
+					"sid": "52 54_OtherScientificTerm",
+					"tid": "35 35_Generic",
+					"name": "PART-OF"
+				},
+				{
+					"sid": "52 54_OtherScientificTerm",
+					"tid": "64 68_OtherScientificTerm",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "58 59_OtherScientificTerm",
+					"tid": "35 35_Generic",
+					"name": "PART-OF"
+				},
+				{
+					"sid": "72 73_OtherScientificTerm",
+					"tid": "35 35_Generic",
+					"name": "PART-OF"
+				},
+				{
+					"sid": "93 94_OtherScientificTerm",
+					"tid": "97 98_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "144 144_non",
+					"tid": "147 147_OtherScientificTerm",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "175 176_OtherScientificTerm",
+					"tid": "172 173_OtherScientificTerm",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "175 176_OtherScientificTerm",
+					"tid": "178 179_OtherScientificTerm",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "178 179_OtherScientificTerm",
+					"tid": "172 173_OtherScientificTerm",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "178 179_OtherScientificTerm",
+					"tid": "182 182_OtherScientificTerm",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "182 182_OtherScientificTerm",
+					"tid": "172 173_OtherScientificTerm",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "187 187_OtherScientificTerm",
+					"tid": "189 189_OtherScientificTerm",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "189 189_OtherScientificTerm",
+					"tid": "192 194_Task",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "220 221_OtherScientificTerm",
+					"tid": "223 224_OtherScientificTerm",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "223 224_OtherScientificTerm",
+					"tid": "227 227_OtherScientificTerm",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "232 232_Generic",
+					"tid": "239 241_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "282 282_non",
+					"tid": "246 247_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "302 302_OtherScientificTerm",
+					"tid": "294 295_Task",
+					"name": "USED-FOR"
+				}
+			]
+		},
+		{
+			"doc_key": "P05-1076",
+			"nodes": [
+				{
+					"name": "system",
+					"id": "5 5_Generic"
+				},
+				{
+					"name": "adjectival subcategorization frames -LRB- scfs -RRB-",
+					"id": "8 13_OtherScientificTerm"
+				},
+				{
+					"name": "associated frequency information",
+					"id": "15 17_OtherScientificTerm"
+				},
+				{
+					"name": "English corpus data",
+					"id": "19 21_Material"
+				},
+				{
+					"name": "decision-tree classifier",
+					"id": "27 28_Method"
+				},
+				{
+					"name": "grammatical relations",
+					"id": "39 40_OtherScientificTerm"
+				},
+				{
+					"name": "robust statistical parser",
+					"id": "49 51_Method"
+				},
+				{
+					"name": "pattern-matching language",
+					"id": "57 58_Method"
+				},
+				{
+					"name": "It",
+					"id": "53 53_Generic"
+				},
+				{
+					"name": "system",
+					"id": "78 78_Generic"
+				},
+				{
+					"name": "scf types",
+					"id": "83 84_OtherScientificTerm"
+				},
+				{
+					"name": "precision",
+					"id": "88 88_Metric"
+				},
+				{
+					"name": "recall rate",
+					"id": "92 93_Metric"
+				},
+				{
+					"name": "linguistic annotation of scfs in corpus data",
+					"id": "99 105_Task"
+				},
+				{
+					"name": "subcategorization acquisition",
+					"id": "122 123_Task"
+				},
+				{
+					"name": "training and test data",
+					"id": "117 120_Material"
+				}
+			],
+			"links": [
+				{
+					"sid": "5 5_Generic",
+					"tid": "8 13_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "5 5_Generic",
+					"tid": "15 17_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "19 21_Material",
+					"tid": "8 13_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "19 21_Material",
+					"tid": "15 17_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "19 21_Material",
+					"tid": "8 13_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "19 21_Material",
+					"tid": "15 17_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "19 21_Material",
+					"tid": "8 13_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "19 21_Material",
+					"tid": "15 17_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "19 21_Material",
+					"tid": "8 13_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "19 21_Material",
+					"tid": "15 17_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "27 28_Method",
+					"tid": "39 40_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "27 28_Method",
+					"tid": "49 51_Method",
+					"name": "PART-OF"
+				},
+				{
+					"sid": "57 58_Method",
+					"tid": "53 53_Generic",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "78 78_Generic",
+					"tid": "83 84_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "88 88_Metric",
+					"tid": "78 78_Generic",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "88 88_Metric",
+					"tid": "92 93_Metric",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "99 105_Task",
+					"tid": "122 123_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "117 120_Material",
+					"tid": "122 123_Task",
+					"name": "USED-FOR"
+				}
+			]
+		},
+		{
+			"doc_key": "ECCV_2016_204_abs",
+			"nodes": [
+				{
+					"name": "person re-identification",
+					"id": "46 47_Task"
+				},
+				{
+					"name": "problems",
+					"id": "40 40_Generic"
+				},
+				{
+					"name": "computer vision",
+					"id": "42 43_Task"
+				},
+				{
+					"name": "Weighted Approximate Rank Component Analysis -LRB- WARCA -RRB-",
+					"id": "57 64_Method"
+				},
+				{
+					"name": "metric learning formulation",
+					"id": "53 55_Method"
+				},
+				{
+					"name": "scalable stochastic gradient descent algorithm",
+					"id": "70 74_Method"
+				},
+				{
+					"name": "learning problem",
+					"id": "78 79_Task"
+				},
+				{
+					"name": "kernel trick",
+					"id": "93 94_Method"
+				},
+				{
+					"name": "non-linear extension of WARCA",
+					"id": "86 89_Method"
+				},
+				{
+					"name": "matrix rank degeneration",
+					"id": "133 135_Task"
+				},
+				{
+					"name": "non-isolated minima",
+					"id": "137 138_OtherScientificTerm"
+				},
+				{
+					"name": "low-rank matrix optimization",
+					"id": "141 143_Task"
+				},
+				{
+					"name": "method",
+					"id": "166 166_Generic"
+				},
+				{
+					"name": "state-of-the-art methods",
+					"id": "189 190_Generic"
+				},
+				{
+					"name": "person re-identification datasets",
+					"id": "170 172_Task"
+				},
+				{
+					"name": "large scale Market-1501 and CUHK03 datasets",
+					"id": "175 180_Material"
+				},
+				{
+					"name": "them",
+					"id": "194 194_Generic"
+				}
+			],
+			"links": [
+				{
+					"sid": "46 47_Task",
+					"tid": "40 40_Generic",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "46 47_Task",
+					"tid": "42 43_Task",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "57 64_Method",
+					"tid": "53 55_Method",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "70 74_Method",
+					"tid": "78 79_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "93 94_Method",
+					"tid": "86 89_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "133 135_Task",
+					"tid": "137 138_OtherScientificTerm",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "137 138_OtherScientificTerm",
+					"tid": "141 143_Task",
+					"name": "PART-OF"
+				},
+				{
+					"sid": "166 166_Generic",
+					"tid": "189 190_Generic",
+					"name": "COMPARE"
+				},
+				{
+					"sid": "170 172_Task",
+					"tid": "166 166_Generic",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "170 172_Task",
+					"tid": "189 190_Generic",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "175 180_Material",
+					"tid": "170 172_Task",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "194 194_Generic",
+					"tid": "166 166_Generic",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "194 194_Generic",
+					"tid": "166 166_Generic",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "194 194_Generic",
+					"tid": "166 166_Generic",
+					"name": "EVALUATE-FOR"
+				}
+			]
+		},
+		{
+			"doc_key": "P85-1019",
+			"nodes": [
+				{
+					"name": "Plume",
+					"id": "8 8_Method"
+				},
+				{
+					"name": "restricted domain parser",
+					"id": "4 6_Method"
+				},
+				{
+					"name": "Plume 's approach",
+					"id": "26 28_Method"
+				},
+				{
+					"name": "parsing",
+					"id": "30 30_Task"
+				},
+				{
+					"name": "semantic caseframe instantiation",
+					"id": "34 36_OtherScientificTerm"
+				},
+				{
+					"name": "efficiency",
+					"id": "43 43_Metric"
+				},
+				{
+					"name": "This",
+					"id": "38 38_Generic"
+				},
+				{
+					"name": "robustness",
+					"id": "49 49_Metric"
+				},
+				{
+					"name": "Plume",
+					"id": "58 58_Method"
+				},
+				{
+					"name": "declarative and imperative utterances",
+					"id": "64 67_Task"
+				},
+				{
+					"name": "passives",
+					"id": "71 71_OtherScientificTerm"
+				},
+				{
+					"name": "relative clauses",
+					"id": "73 74_OtherScientificTerm"
+				},
+				{
+					"name": "interrogatives",
+					"id": "76 76_OtherScientificTerm"
+				},
+				{
+					"name": "Plume",
+					"id": "103 103_Method"
+				},
+				{
+					"name": "passives",
+					"id": "106 106_OtherScientificTerm"
+				},
+				{
+					"name": "relative clauses",
+					"id": "108 109_OtherScientificTerm"
+				},
+				{
+					"name": "interrogatives",
+					"id": "112 112_OtherScientificTerm"
+				}
+			],
+			"links": [
+				{
+					"sid": "8 8_Method",
+					"tid": "4 6_Method",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "26 28_Method",
+					"tid": "30 30_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "34 36_OtherScientificTerm",
+					"tid": "26 28_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "43 43_Metric",
+					"tid": "38 38_Generic",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "43 43_Metric",
+					"tid": "49 49_Metric",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "49 49_Metric",
+					"tid": "38 38_Generic",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "58 58_Method",
+					"tid": "64 67_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "71 71_OtherScientificTerm",
+					"tid": "73 74_OtherScientificTerm",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "73 74_OtherScientificTerm",
+					"tid": "76 76_OtherScientificTerm",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "103 103_Method",
+					"tid": "106 106_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "103 103_Method",
+					"tid": "108 109_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "103 103_Method",
+					"tid": "112 112_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "106 106_OtherScientificTerm",
+					"tid": "108 109_OtherScientificTerm",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "108 109_OtherScientificTerm",
+					"tid": "112 112_OtherScientificTerm",
+					"name": "CONJUNCTION"
+				}
+			]
+		},
+		{
+			"doc_key": "CVPR_2009_10_abs",
+			"nodes": [
+				{
+					"name": "probabilistic framework",
+					"id": "4 5_Method"
+				},
+				{
+					"name": "visual models of 3D object categories",
+					"id": "8 13_Method"
+				},
+				{
+					"name": "appearance information",
+					"id": "16 17_OtherScientificTerm"
+				},
+				{
+					"name": "geometric constraints",
+					"id": "19 20_OtherScientificTerm"
+				},
+				{
+					"name": "generative framework",
+					"id": "50 51_Method"
+				},
+				{
+					"name": "model",
+					"id": "57 57_Generic"
+				},
+				{
+					"name": "relative position of parts",
+					"id": "61 64_OtherScientificTerm"
+				},
+				{
+					"name": "detection",
+					"id": "103 103_Task"
+				},
+				{
+					"name": "classification",
+					"id": "105 105_Task"
+				},
+				{
+					"name": "model",
+					"id": "116 116_Generic"
+				},
+				{
+					"name": "recognition scores",
+					"id": "119 120_Metric"
+				},
+				{
+					"name": "generative proba-bilistic framework",
+					"id": "135 137_Method"
+				},
+				{
+					"name": "3D object categorization",
+					"id": "139 141_Task"
+				},
+				{
+					"name": "algorithm",
+					"id": "146 146_Generic"
+				},
+				{
+					"name": "detection task",
+					"id": "149 150_Task"
+				},
+				{
+					"name": "viewpoint classification task",
+					"id": "153 155_Task"
+				}
+			],
+			"links": [
+				{
+					"sid": "4 5_Method",
+					"tid": "8 13_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "16 17_OtherScientificTerm",
+					"tid": "4 5_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "16 17_OtherScientificTerm",
+					"tid": "19 20_OtherScientificTerm",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "19 20_OtherScientificTerm",
+					"tid": "4 5_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "50 51_Method",
+					"tid": "57 57_Generic",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "50 51_Method",
+					"tid": "61 64_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "103 103_Task",
+					"tid": "105 105_Task",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "116 116_Generic",
+					"tid": "105 105_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "119 120_Metric",
+					"tid": "116 116_Generic",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "135 137_Method",
+					"tid": "139 141_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "146 146_Generic",
+					"tid": "149 150_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "146 146_Generic",
+					"tid": "153 155_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "149 150_Task",
+					"tid": "146 146_Generic",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "149 150_Task",
+					"tid": "153 155_Task",
+					"name": "CONJUNCTION"
+				}
+			]
+		},
+		{
+			"doc_key": "INTERSPEECH_2008_28_abs",
+			"nodes": [
+				{
+					"name": "encoding sound",
+					"id": "4 5_Task"
+				},
+				{
+					"name": "neuronal processing",
+					"id": "7 8_Task"
+				},
+				{
+					"name": "visual inspection",
+					"id": "46 47_Task"
+				},
+				{
+					"name": "automatic speech recognition -LRB- ASR -RRB-",
+					"id": "49 54_Task"
+				},
+				{
+					"name": "offset adaptation -LRB- OA -RRB- model",
+					"id": "58 63_Method"
+				},
+				{
+					"name": "OA",
+					"id": "73 73_Method"
+				},
+				{
+					"name": "phase locking",
+					"id": "75 76_OtherScientificTerm"
+				},
+				{
+					"name": "features",
+					"id": "89 89_OtherScientificTerm"
+				},
+				{
+					"name": "ASR accuracy",
+					"id": "86 87_Metric"
+				},
+				{
+					"name": "AN fibers -LRB- ANFs -RRB-",
+					"id": "92 96_OtherScientificTerm"
+				},
+				{
+					"name": "OA",
+					"id": "102 102_Material"
+				},
+				{
+					"name": "auditory processing",
+					"id": "106 107_Task"
+				},
+				{
+					"name": "onset neurons -LRB- ONs -RRB-",
+					"id": "109 113_OtherScientificTerm"
+				},
+				{
+					"name": "Multi-layer perceptrons -LRB- MLPs -RRB-",
+					"id": "124 128_Method"
+				},
+				{
+					"name": "Gaussian mixture models -LRB- GMMs -RRB-",
+					"id": "134 139_Method"
+				},
+				{
+					"name": "ANF-based and ON-based auditory features",
+					"id": "143 147_OtherScientificTerm"
+				}
+			],
+			"links": [
+				{
+					"sid": "4 5_Task",
+					"tid": "7 8_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "46 47_Task",
+					"tid": "49 54_Task",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "46 47_Task",
+					"tid": "58 63_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "49 54_Task",
+					"tid": "58 63_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "73 73_Method",
+					"tid": "75 76_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "73 73_Method",
+					"tid": "89 89_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "86 87_Metric",
+					"tid": "73 73_Method",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "92 96_OtherScientificTerm",
+					"tid": "75 76_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "92 96_OtherScientificTerm",
+					"tid": "89 89_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "102 102_Material",
+					"tid": "106 107_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "109 113_OtherScientificTerm",
+					"tid": "106 107_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "124 128_Method",
+					"tid": "134 139_Method",
+					"name": "COMPARE"
+				},
+				{
+					"sid": "124 128_Method",
+					"tid": "143 147_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "134 139_Method",
+					"tid": "143 147_OtherScientificTerm",
+					"name": "USED-FOR"
+				}
+			]
+		},
+		{
+			"doc_key": "N06-1037",
+			"nodes": [
+				{
+					"name": "convolution kernel",
+					"id": "6 7_Method"
+				},
+				{
+					"name": "syntactic structure information",
+					"id": "13 15_OtherScientificTerm"
+				},
+				{
+					"name": "relation extraction",
+					"id": "17 18_Task"
+				},
+				{
+					"name": "parse trees",
+					"id": "9 10_OtherScientificTerm"
+				},
+				{
+					"name": "syntactic structure features",
+					"id": "25 27_OtherScientificTerm"
+				},
+				{
+					"name": "parse tree",
+					"id": "31 32_OtherScientificTerm"
+				},
+				{
+					"name": "relation extraction",
+					"id": "37 38_Task"
+				},
+				{
+					"name": "convolution tree kernel",
+					"id": "48 50_Method"
+				},
+				{
+					"name": "features",
+					"id": "41 41_OtherScientificTerm"
+				},
+				{
+					"name": "ACE 2003 corpus",
+					"id": "55 57_Material"
+				},
+				{
+					"name": "convolution kernel",
+					"id": "61 62_Method"
+				},
+				{
+					"name": "feature-based methods",
+					"id": "74 75_Method"
+				},
+				{
+					"name": "ACE relation subtypes",
+					"id": "79 81_OtherScientificTerm"
+				},
+				{
+					"name": "method",
+					"id": "88 88_Generic"
+				},
+				{
+					"name": "dependency tree kernels",
+					"id": "94 96_Method"
+				},
+				{
+					"name": "ACE relation major types",
+					"id": "100 103_OtherScientificTerm"
+				}
+			],
+			"links": [
+				{
+					"sid": "6 7_Method",
+					"tid": "13 15_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "6 7_Method",
+					"tid": "17 18_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "9 10_OtherScientificTerm",
+					"tid": "13 15_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "13 15_OtherScientificTerm",
+					"tid": "17 18_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "25 27_OtherScientificTerm",
+					"tid": "31 32_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "25 27_OtherScientificTerm",
+					"tid": "37 38_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "48 50_Method",
+					"tid": "37 38_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "48 50_Method",
+					"tid": "41 41_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "55 57_Material",
+					"tid": "61 62_Method",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "55 57_Material",
+					"tid": "74 75_Method",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "61 62_Method",
+					"tid": "74 75_Method",
+					"name": "COMPARE"
+				},
+				{
+					"sid": "61 62_Method",
+					"tid": "79 81_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "74 75_Method",
+					"tid": "79 81_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "88 88_Generic",
+					"tid": "94 96_Method",
+					"name": "COMPARE"
+				},
+				{
+					"sid": "100 103_OtherScientificTerm",
+					"tid": "88 88_Generic",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "100 103_OtherScientificTerm",
+					"tid": "94 96_Method",
+					"name": "EVALUATE-FOR"
+				}
+			]
+		},
+		{
+			"doc_key": "CVPR_2010_30_abs",
+			"nodes": [
+				{
+					"name": "method",
+					"id": "3 3_Generic"
+				},
+				{
+					"name": "evaluation of object detection cascades",
+					"id": "7 11_Task"
+				},
+				{
+					"name": "object detection cascades",
+					"id": "9 11_Method"
+				},
+				{
+					"name": "exhaustive procedure",
+					"id": "29 30_Generic"
+				},
+				{
+					"name": "cascade evaluation",
+					"id": "38 39_Task"
+				},
+				{
+					"name": "method",
+					"id": "43 43_Generic"
+				},
+				{
+					"name": "evaluations",
+					"id": "46 46_non"
+				},
+				{
+					"name": "subwindow search -LRB- ESS -RRB- procedure",
+					"id": "67 72_Method"
+				},
+				{
+					"name": "method",
+					"id": "85 85_Generic"
+				},
+				{
+					"name": "method",
+					"id": "93 93_Generic"
+				},
+				{
+					"name": "cascade evaluation",
+					"id": "103 104_Task"
+				},
+				{
+					"name": "branch-and-bound object detection",
+					"id": "114 116_Task"
+				},
+				{
+					"name": "faster procedure",
+					"id": "100 101_Method"
+				},
+				{
+					"name": "kernel-ized support vector machines",
+					"id": "124 127_Method"
+				},
+				{
+					"name": "nonlinear quality functions",
+					"id": "118 120_OtherScientificTerm"
+				},
+				{
+					"name": "PASCAL VOC 2006 dataset",
+					"id": "132 135_Material"
+				},
+				{
+					"name": "method",
+					"id": "146 146_Generic"
+				},
+				{
+					"name": "cascade evaluation",
+					"id": "150 151_Method"
+				},
+				{
+					"name": "acceleration",
+					"id": "138 138_Metric"
+				}
+			],
+			"links": [
+				{
+					"sid": "3 3_Generic",
+					"tid": "7 11_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "3 3_Generic",
+					"tid": "9 11_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "29 30_Generic",
+					"tid": "38 39_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "29 30_Generic",
+					"tid": "43 43_Generic",
+					"name": "COMPARE"
+				},
+				{
+					"sid": "46 46_non",
+					"tid": "43 43_Generic",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "67 72_Method",
+					"tid": "85 85_Generic",
+					"name": "PART-OF"
+				},
+				{
+					"sid": "93 93_Generic",
+					"tid": "103 104_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "93 93_Generic",
+					"tid": "114 116_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "100 101_Method",
+					"tid": "103 104_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "100 101_Method",
+					"tid": "114 116_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "124 127_Method",
+					"tid": "118 120_OtherScientificTerm",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "132 135_Material",
+					"tid": "146 146_Generic",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "132 135_Material",
+					"tid": "150 151_Method",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "138 138_Metric",
+					"tid": "146 146_Generic",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "146 146_Generic",
+					"tid": "150 151_Method",
+					"name": "COMPARE"
+				}
+			]
+		},
+		{
+			"doc_key": "N03-1026",
+			"nodes": [
+				{
+					"name": "ambiguity packing",
+					"id": "5 6_Method"
+				},
+				{
+					"name": "stochastic disambiguation techniques",
+					"id": "8 10_Method"
+				},
+				{
+					"name": "Lexical-Functional Grammars -LRB- LFG -RRB-",
+					"id": "12 16_Method"
+				},
+				{
+					"name": "linguistic parser/generator",
+					"id": "28 29_Method"
+				},
+				{
+					"name": "LFG",
+					"id": "31 31_Method"
+				},
+				{
+					"name": "transfer component",
+					"id": "34 35_Method"
+				},
+				{
+					"name": "parse reduction",
+					"id": "37 38_Task"
+				},
+				{
+					"name": "stochastic output selection",
+					"id": "50 52_Task"
+				},
+				{
+					"name": "system",
+					"id": "25 25_Generic"
+				},
+				{
+					"name": "maximum-entropy model",
+					"id": "47 48_Method"
+				},
+				{
+					"name": "packed parse forests",
+					"id": "41 43_OtherScientificTerm"
+				},
+				{
+					"name": "parser evaluation methods",
+					"id": "62 64_Method"
+				},
+				{
+					"name": "sentence condensation systems",
+					"id": "72 74_Method"
+				},
+				{
+					"name": "automatically evaluating the summarization quality",
+					"id": "66 70_non"
+				},
+				{
+					"name": "summarization quality",
+					"id": "69 70_Metric"
+				},
+				{
+					"name": "automatic parse-based evaluation",
+					"id": "88 90_Task"
+				},
+				{
+					"name": "summarization quality",
+					"id": "80 81_Metric"
+				},
+				{
+					"name": "manual evaluation of generated strings",
+					"id": "93 97_Task"
+				},
+				{
+					"name": "summarization quality",
+					"id": "100 101_Metric"
+				},
+				{
+					"name": "system",
+					"id": "105 105_Generic"
+				},
+				{
+					"name": "grammaticality",
+					"id": "111 111_Metric"
+				}
+			],
+			"links": [
+				{
+					"sid": "5 6_Method",
+					"tid": "8 10_Method",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "5 6_Method",
+					"tid": "12 16_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "8 10_Method",
+					"tid": "12 16_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "28 29_Method",
+					"tid": "31 31_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "28 29_Method",
+					"tid": "34 35_Method",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "28 29_Method",
+					"tid": "37 38_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "28 29_Method",
+					"tid": "50 52_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "34 35_Method",
+					"tid": "25 25_Generic",
+					"name": "PART-OF"
+				},
+				{
+					"sid": "34 35_Method",
+					"tid": "37 38_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "34 35_Method",
+					"tid": "47 48_Method",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "34 35_Method",
+					"tid": "50 52_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "41 43_OtherScientificTerm",
+					"tid": "37 38_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "47 48_Method",
+					"tid": "25 25_Generic",
+					"name": "PART-OF"
+				},
+				{
+					"sid": "62 64_Method",
+					"tid": "72 74_Method",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "66 70_non",
+					"tid": "72 74_Method",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "69 70_Metric",
+					"tid": "72 74_Method",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "88 90_Task",
+					"tid": "80 81_Metric",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "88 90_Task",
+					"tid": "93 97_Task",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "100 101_Metric",
+					"tid": "105 105_Generic",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "111 111_Metric",
+					"tid": "105 105_Generic",
+					"name": "EVALUATE-FOR"
+				}
+			]
+		},
+		{
+			"doc_key": "ICCV_2003_151_abs",
+			"nodes": [
+				{
+					"name": "algorithm",
+					"id": "2 2_Generic"
+				},
+				{
+					"name": "view generation",
+					"id": "7 8_Task"
+				},
+				{
+					"name": "dynamic-programming , stereo algorithm",
+					"id": "63 66_Method"
+				},
+				{
+					"name": "technique",
+					"id": "56 56_Generic"
+				},
+				{
+					"name": "novel-view generation",
+					"id": "69 70_Task"
+				},
+				{
+					"name": "three-plane graph",
+					"id": "87 88_OtherScientificTerm"
+				},
+				{
+					"name": "dense-stereo dynamic-programming",
+					"id": "90 91_Method"
+				},
+				{
+					"name": "correct occlusion labeling",
+					"id": "95 97_OtherScientificTerm"
+				},
+				{
+					"name": "novel-view synthesis",
+					"id": "106 107_Task"
+				},
+				{
+					"name": "compact geometric derivation",
+					"id": "102 104_non"
+				},
+				{
+					"name": "geometric derivation",
+					"id": "103 104_non"
+				},
+				{
+					"name": "algorithm",
+					"id": "123 123_Generic"
+				},
+				{
+					"name": "temporal maintenance of a background model",
+					"id": "126 131_Task"
+				},
+				{
+					"name": "rendering of occlusions",
+					"id": "135 137_Task"
+				},
+				{
+					"name": "robustness",
+					"id": "167 167_Metric"
+				},
+				{
+					"name": "algorithm",
+					"id": "171 171_Generic"
+				},
+				{
+					"name": "spatial and temporal artefacts",
+					"id": "173 176_OtherScientificTerm"
+				},
+				{
+					"name": "freely translating virtual camera",
+					"id": "202 205_OtherScientificTerm"
+				},
+				{
+					"name": "synthesis",
+					"id": "199 199_Generic"
+				}
+			],
+			"links": [
+				{
+					"sid": "2 2_Generic",
+					"tid": "7 8_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "63 66_Method",
+					"tid": "56 56_Generic",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "63 66_Method",
+					"tid": "69 70_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "87 88_OtherScientificTerm",
+					"tid": "90 91_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "87 88_OtherScientificTerm",
+					"tid": "95 97_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "87 88_OtherScientificTerm",
+					"tid": "106 107_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "102 104_non",
+					"tid": "106 107_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "103 104_non",
+					"tid": "90 91_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "103 104_non",
+					"tid": "106 107_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "123 123_Generic",
+					"tid": "126 131_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "123 123_Generic",
+					"tid": "135 137_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "167 167_Metric",
+					"tid": "171 171_Generic",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "171 171_Generic",
+					"tid": "173 176_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "202 205_OtherScientificTerm",
+					"tid": "199 199_Generic",
+					"name": "USED-FOR"
+				}
+			]
+		},
+		{
+			"doc_key": "P01-1056",
+			"nodes": [
+				{
+					"name": "Techniques",
+					"id": "0 0_Generic"
+				},
+				{
+					"name": "automatically training modules",
+					"id": "2 4_Method"
+				},
+				{
+					"name": "modules",
+					"id": "4 4_Generic"
+				},
+				{
+					"name": "natural language generator",
+					"id": "7 9_Method"
+				},
+				{
+					"name": "quality of utterances",
+					"id": "22 24_non"
+				},
+				{
+					"name": "hand-crafted template-based or rule-based approaches",
+					"id": "32 36_Method"
+				},
+				{
+					"name": "components",
+					"id": "28 28_Generic"
+				},
+				{
+					"name": "sentence planner",
+					"id": "46 47_Method"
+				},
+				{
+					"name": "spoken dialogue system",
+					"id": "50 52_Task"
+				},
+				{
+					"name": "subjective human judgments",
+					"id": "55 57_OtherScientificTerm"
+				},
+				{
+					"name": "hand-crafted template-based generation component",
+					"id": "71 74_Method"
+				},
+				{
+					"name": "rule-based sentence planners",
+					"id": "77 79_Method"
+				},
+				{
+					"name": "baseline sentence planners",
+					"id": "83 85_Method"
+				},
+				{
+					"name": "trainable sentence planner",
+					"id": "91 93_Method"
+				},
+				{
+					"name": "rule-based systems",
+					"id": "98 99_Method"
+				},
+				{
+					"name": "baselines",
+					"id": "102 102_Generic"
+				},
+				{
+					"name": "sentence planner",
+					"id": "92 93_Method"
+				},
+				{
+					"name": "hand-crafted system",
+					"id": "109 110_Method"
+				}
+			],
+			"links": [
+				{
+					"sid": "0 0_Generic",
+					"tid": "2 4_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "0 0_Generic",
+					"tid": "4 4_Generic",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "4 4_Generic",
+					"tid": "7 9_Method",
+					"name": "PART-OF"
+				},
+				{
+					"sid": "22 24_non",
+					"tid": "32 36_Method",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "28 28_Generic",
+					"tid": "32 36_Method",
+					"name": "COMPARE"
+				},
+				{
+					"sid": "46 47_Method",
+					"tid": "50 52_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "55 57_OtherScientificTerm",
+					"tid": "46 47_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "71 74_Method",
+					"tid": "77 79_Method",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "77 79_Method",
+					"tid": "83 85_Method",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "91 93_Method",
+					"tid": "98 99_Method",
+					"name": "COMPARE"
+				},
+				{
+					"sid": "91 93_Method",
+					"tid": "102 102_Generic",
+					"name": "COMPARE"
+				},
+				{
+					"sid": "92 93_Method",
+					"tid": "98 99_Method",
+					"name": "COMPARE"
+				},
+				{
+					"sid": "92 93_Method",
+					"tid": "102 102_Generic",
+					"name": "COMPARE"
+				},
+				{
+					"sid": "92 93_Method",
+					"tid": "109 110_Method",
+					"name": "COMPARE"
+				},
+				{
+					"sid": "98 99_Method",
+					"tid": "102 102_Generic",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "98 99_Method",
+					"tid": "109 110_Method",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "102 102_Generic",
+					"tid": "109 110_Method",
+					"name": "CONJUNCTION"
+				}
+			]
+		},
+		{
+			"doc_key": "CVPR_1993_10_abs",
+			"nodes": [
+				{
+					"name": "model-based approach",
+					"id": "1 2_Generic"
+				},
+				{
+					"name": "on-line cursive handwriting analysis and recognition",
+					"id": "4 9_Task"
+				},
+				{
+					"name": "amplitudes",
+					"id": "55 55_OtherScientificTerm"
+				},
+				{
+					"name": "phase lags",
+					"id": "57 58_OtherScientificTerm"
+				},
+				{
+					"name": "oscillators",
+					"id": "62 62_Generic"
+				},
+				{
+					"name": "cycloidal motion parameters",
+					"id": "100 102_OtherScientificTerm"
+				},
+				{
+					"name": "arbitrary handwriting",
+					"id": "104 105_non"
+				},
+				{
+					"name": "discrete motor control representation",
+					"id": "113 116_Method"
+				},
+				{
+					"name": "continuous pen motion",
+					"id": "119 121_OtherScientificTerm"
+				},
+				{
+					"name": "quantized levels of the model parameters",
+					"id": "125 130_OtherScientificTerm"
+				},
+				{
+					"name": "motor control representation",
+					"id": "133 135_Method"
+				},
+				{
+					"name": "word spotting",
+					"id": "138 139_Task"
+				},
+				{
+					"name": "matching of cursive scripts",
+					"id": "141 144_Task"
+				},
+				{
+					"name": "dynamic representation",
+					"id": "154 155_Method"
+				},
+				{
+					"name": "complete cursive handwriting recognition",
+					"id": "157 160_Task"
+				}
+			],
+			"links": [
+				{
+					"sid": "1 2_Generic",
+					"tid": "4 9_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "55 55_OtherScientificTerm",
+					"tid": "57 58_OtherScientificTerm",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "57 58_OtherScientificTerm",
+					"tid": "62 62_Generic",
+					"name": "FEATURE-OF"
+				},
+				{
+					"sid": "100 102_OtherScientificTerm",
+					"tid": "104 105_non",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "113 116_Method",
+					"tid": "119 121_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "125 130_OtherScientificTerm",
+					"tid": "113 116_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "133 135_Method",
+					"tid": "138 139_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "133 135_Method",
+					"tid": "141 144_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "138 139_Task",
+					"tid": "141 144_Task",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "154 155_Method",
+					"tid": "157 160_Task",
+					"name": "USED-FOR"
+				}
+			]
+		},
+		{
+			"doc_key": "ICML_2016_18_abs",
+			"nodes": [
+				{
+					"name": "categorization of objects",
+					"id": "12 14_Task"
+				},
+				{
+					"name": "estimating object pose",
+					"id": "16 18_Task"
+				},
+				{
+					"name": "view-invariant representation",
+					"id": "25 26_Method"
+				},
+				{
+					"name": "former",
+					"id": "22 22_Generic"
+				},
+				{
+					"name": "deep archi-tectures",
+					"id": "49 50_Method"
+				},
+				{
+					"name": "object category recognition",
+					"id": "58 60_Task"
+				},
+				{
+					"name": "Deep learning methods",
+					"id": "62 64_Method"
+				},
+				{
+					"name": "task",
+					"id": "71 71_Generic"
+				},
+				{
+					"name": "approaches",
+					"id": "81 81_Generic"
+				},
+				{
+					"name": "object pose estimation",
+					"id": "76 78_Task"
+				},
+				{
+					"name": "Convolutional Neural Networks -LRB- CNN -RRB- architectures",
+					"id": "95 101_Method"
+				},
+				{
+					"name": "simultaneous object recognition",
+					"id": "109 111_Task"
+				},
+				{
+					"name": "pose estimation",
+					"id": "113 114_Task"
+				},
+				{
+					"name": "layers of distributed representations",
+					"id": "138 141_Method"
+				},
+				{
+					"name": "CNNs",
+					"id": "143 143_Method"
+				},
+				{
+					"name": "distributed representations",
+					"id": "140 141_Method"
+				}
+			],
+			"links": [
+				{
+					"sid": "12 14_Task",
+					"tid": "16 18_Task",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "25 26_Method",
+					"tid": "22 22_Generic",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "49 50_Method",
+					"tid": "58 60_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "62 64_Method",
+					"tid": "71 71_Generic",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "81 81_Generic",
+					"tid": "76 78_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "95 101_Method",
+					"tid": "109 111_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "95 101_Method",
+					"tid": "113 114_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "109 111_Task",
+					"tid": "113 114_Task",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "138 141_Method",
+					"tid": "143 143_Method",
+					"name": "PART-OF"
+				},
+				{
+					"sid": "140 141_Method",
+					"tid": "143 143_Method",
+					"name": "PART-OF"
+				}
+			]
+		},
+		{
+			"doc_key": "X96-1059",
+			"nodes": [
+				{
+					"name": "Japanese text",
+					"id": "5 6_Material"
+				},
+				{
+					"name": "Recognition of proper nouns",
+					"id": "0 3_Task"
+				},
+				{
+					"name": "approach",
+					"id": "56 56_Generic"
+				},
+				{
+					"name": "Multi-lingual Evaluation Task -LRB- MET -RRB-",
+					"id": "59 64_Task"
+				},
+				{
+					"name": "Japanese text",
+					"id": "66 67_Material"
+				},
+				{
+					"name": "morphological analysis problem",
+					"id": "76 78_Task"
+				},
+				{
+					"name": "task",
+					"id": "73 73_Generic"
+				},
+				{
+					"name": "morphological analyzer",
+					"id": "83 84_Method"
+				},
+				{
+					"name": "recognition",
+					"id": "93 93_non"
+				},
+				{
+					"name": "recognition and classification of proper names",
+					"id": "93 98_Task"
+				},
+				{
+					"name": "numerical and temporal expressions",
+					"id": "100 103_OtherScientificTerm"
+				},
+				{
+					"name": "Named Entity -LRB- NE -RRB- items",
+					"id": "106 111_OtherScientificTerm"
+				},
+				{
+					"name": "Japanese text",
+					"id": "114 115_Material"
+				},
+				{
+					"name": "dictionary lookup",
+					"id": "133 134_Task"
+				},
+				{
+					"name": "rule application",
+					"id": "136 137_Method"
+				},
+				{
+					"name": "dictionaries",
+					"id": "146 146_Generic"
+				},
+				{
+					"name": "it",
+					"id": "141 141_Generic"
+				},
+				{
+					"name": "rules",
+					"id": "171 171_OtherScientificTerm"
+				},
+				{
+					"name": "NE items",
+					"id": "182 183_OtherScientificTerm"
+				}
+			],
+			"links": [
+				{
+					"sid": "5 6_Material",
+					"tid": "0 3_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "56 56_Generic",
+					"tid": "59 64_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "66 67_Material",
+					"tid": "59 64_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "76 78_Task",
+					"tid": "59 64_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "76 78_Task",
+					"tid": "73 73_Generic",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "83 84_Method",
+					"tid": "93 93_non",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "83 84_Method",
+					"tid": "93 98_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "83 84_Method",
+					"tid": "100 103_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "83 84_Method",
+					"tid": "106 111_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "106 111_OtherScientificTerm",
+					"tid": "114 115_Material",
+					"name": "PART-OF"
+				},
+				{
+					"sid": "133 134_Task",
+					"tid": "136 137_Method",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "146 146_Generic",
+					"tid": "141 141_Generic",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "171 171_OtherScientificTerm",
+					"tid": "182 183_OtherScientificTerm",
+					"name": "USED-FOR"
+				}
+			]
+		},
+		{
+			"doc_key": "P04-2005",
+			"nodes": [
+				{
+					"name": "approach",
+					"id": "4 4_Generic"
+				},
+				{
+					"name": "automatically acquiring English topic signatures",
+					"id": "6 10_Task"
+				},
+				{
+					"name": "Topic signatures",
+					"id": "36 37_OtherScientificTerm"
+				},
+				{
+					"name": "Natural Language Processing -LRB- NLP -RRB- applications",
+					"id": "45 51_Task"
+				},
+				{
+					"name": "Word Sense Disambiguation -LRB- WSD -RRB-",
+					"id": "55 60_Task"
+				},
+				{
+					"name": "Text Summarisation",
+					"id": "62 63_Task"
+				},
+				{
+					"name": "Web",
+					"id": "99 99_Material"
+				},
+				{
+					"name": "Chinese text",
+					"id": "91 92_Material"
+				},
+				{
+					"name": "WSD task",
+					"id": "108 109_Task"
+				},
+				{
+					"name": "topic signatures",
+					"id": "104 105_OtherScientificTerm"
+				},
+				{
+					"name": "second-order vector cooccurrence algorithm",
+					"id": "115 118_Method"
+				},
+				{
+					"name": "WSD datasets",
+					"id": "121 122_Material"
+				}
+			],
+			"links": [
+				{
+					"sid": "4 4_Generic",
+					"tid": "6 10_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "36 37_OtherScientificTerm",
+					"tid": "45 51_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "55 60_Task",
+					"tid": "45 51_Task",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "62 63_Task",
+					"tid": "45 51_Task",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "99 99_Material",
+					"tid": "91 92_Material",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "108 109_Task",
+					"tid": "104 105_OtherScientificTerm",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "115 118_Method",
+					"tid": "104 105_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "121 122_Material",
+					"tid": "115 118_Method",
+					"name": "USED-FOR"
+				}
+			]
+		},
+		{
+			"doc_key": "P05-1046",
+			"nodes": [
+				{
+					"name": "supervised training data",
+					"id": "15 17_Material"
+				},
+				{
+					"name": "information extraction techniques",
+					"id": "5 7_Method"
+				},
+				{
+					"name": "classified advertisements",
+					"id": "31 32_Material"
+				},
+				{
+					"name": "field structured extraction tasks",
+					"id": "24 27_Task"
+				},
+				{
+					"name": "bibliographic citations",
+					"id": "34 35_Material"
+				},
+				{
+					"name": "prior knowledge",
+					"id": "40 41_OtherScientificTerm"
+				},
+				{
+					"name": "models",
+					"id": "48 48_Generic"
+				},
+				{
+					"name": "generative model",
+					"id": "65 66_Method"
+				},
+				{
+					"name": "field structured text",
+					"id": "68 70_Material"
+				},
+				{
+					"name": "unsupervised methods",
+					"id": "116 117_Method"
+				},
+				{
+					"name": "supervised methods",
+					"id": "130 131_Method"
+				}
+			],
+			"links": [
+				{
+					"sid": "15 17_Material",
+					"tid": "5 7_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "31 32_Material",
+					"tid": "24 27_Task",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "31 32_Material",
+					"tid": "34 35_Material",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "34 35_Material",
+					"tid": "24 27_Task",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "40 41_OtherScientificTerm",
+					"tid": "48 48_Generic",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "65 66_Method",
+					"tid": "68 70_Material",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "116 117_Method",
+					"tid": "130 131_Method",
+					"name": "COMPARE"
+				}
+			]
+		},
+		{
+			"doc_key": "ECCV_2016_99_abs",
+			"nodes": [
+				{
+					"name": "well-segmented 3D skeleton data",
+					"id": "4 7_Material"
+				},
+				{
+					"name": "Human action recognition",
+					"id": "0 2_Task"
+				},
+				{
+					"name": "streaming skeleton data",
+					"id": "62 64_Material"
+				},
+				{
+					"name": "online action detection",
+					"id": "57 59_Task"
+				},
+				{
+					"name": "multi-task end-to-end Joint Classification-Regression Recurrent Neural Network",
+					"id": "69 75_Method"
+				},
+				{
+					"name": "action type and temporal localiza-tion information",
+					"id": "80 85_OtherScientificTerm"
+				},
+				{
+					"name": "joint classification and regression optimization objective",
+					"id": "90 95_OtherScientificTerm"
+				},
+				{
+					"name": "network",
+					"id": "98 98_Generic"
+				},
+				{
+					"name": "model",
+					"id": "133 133_Generic"
+				},
+				{
+					"name": "complex long-range temporal dynamics",
+					"id": "137 140_OtherScientificTerm"
+				},
+				{
+					"name": "large streaming video dataset",
+					"id": "185 188_Material"
+				},
+				{
+					"name": "model",
+					"id": "180 180_Generic"
+				},
+				{
+					"name": "annotations",
+					"id": "190 190_Generic"
+				},
+				{
+					"name": "public G3D dataset",
+					"id": "199 201_Material"
+				},
+				{
+					"name": "scheme",
+					"id": "209 209_Generic"
+				}
+			],
+			"links": [
+				{
+					"sid": "4 7_Material",
+					"tid": "0 2_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "62 64_Material",
+					"tid": "57 59_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "69 75_Method",
+					"tid": "80 85_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "90 95_OtherScientificTerm",
+					"tid": "98 98_Generic",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "133 133_Generic",
+					"tid": "137 140_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "185 188_Material",
+					"tid": "180 180_Generic",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "190 190_Generic",
+					"tid": "185 188_Material",
+					"name": "PART-OF"
+				},
+				{
+					"sid": "199 201_Material",
+					"tid": "209 209_Generic",
+					"name": "EVALUATE-FOR"
+				}
+			]
+		},
+		{
+			"doc_key": "P08-1105",
+			"nodes": [
+				{
+					"name": "textual credibility indicators",
+					"id": "29 31_OtherScientificTerm"
+				},
+				{
+					"name": "retrieval process",
+					"id": "34 35_Task"
+				},
+				{
+					"name": "them",
+					"id": "80 80_Generic"
+				},
+				{
+					"name": "retrieval approach",
+					"id": "83 84_Method"
+				},
+				{
+					"name": "language models",
+					"id": "87 88_Method"
+				}
+			],
+			"links": [
+				{
+					"sid": "29 31_OtherScientificTerm",
+					"tid": "34 35_Task",
+					"name": "PART-OF"
+				},
+				{
+					"sid": "80 80_Generic",
+					"tid": "83 84_Method",
+					"name": "PART-OF"
+				},
+				{
+					"sid": "87 88_Method",
+					"tid": "83 84_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "87 88_Method",
+					"tid": "83 84_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "87 88_Method",
+					"tid": "83 84_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "87 88_Method",
+					"tid": "83 84_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "87 88_Method",
+					"tid": "83 84_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "87 88_Method",
+					"tid": "83 84_Method",
+					"name": "USED-FOR"
+				}
+			]
+		},
+		{
+			"doc_key": "INTERSPEECH_2014_40_abs",
+			"nodes": [
+				{
+					"name": "text input",
+					"id": "19 20_Material"
+				},
+				{
+					"name": "text-to-speech synthesis",
+					"id": "22 23_Task"
+				},
+				{
+					"name": "statistical model",
+					"id": "30 31_Method"
+				},
+				{
+					"name": "generating process of speech F0 contours",
+					"id": "34 39_Task"
+				},
+				{
+					"name": "discrete-time version of the Fujisaki model",
+					"id": "44 49_Method"
+				},
+				{
+					"name": "it",
+					"id": "59 59_Generic"
+				},
+				{
+					"name": "algorithm",
+					"id": "67 67_Generic"
+				},
+				{
+					"name": "statistical methods",
+					"id": "71 72_Method"
+				},
+				{
+					"name": "statistical learning",
+					"id": "97 98_Method"
+				},
+				{
+					"name": "text input",
+					"id": "93 94_OtherScientificTerm"
+				},
+				{
+					"name": "model",
+					"id": "105 105_Generic"
+				},
+				{
+					"name": "context-dependent one",
+					"id": "108 109_Task"
+				},
+				{
+					"name": "parameter training algorithm",
+					"id": "115 117_Method"
+				},
+				{
+					"name": "model",
+					"id": "121 121_Generic"
+				},
+				{
+					"name": "decision tree-based context clustering",
+					"id": "125 128_Method"
+				}
+			],
+			"links": [
+				{
+					"sid": "19 20_Material",
+					"tid": "22 23_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "30 31_Method",
+					"tid": "34 39_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "44 49_Method",
+					"tid": "30 31_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "59 59_Generic",
+					"tid": "67 67_Generic",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "71 72_Method",
+					"tid": "67 67_Generic",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "97 98_Method",
+					"tid": "93 94_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "105 105_Generic",
+					"tid": "108 109_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "115 117_Method",
+					"tid": "121 121_Generic",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "125 128_Method",
+					"tid": "115 117_Method",
+					"name": "USED-FOR"
+				}
+			]
+		},
+		{
+			"doc_key": "C04-1035",
+			"nodes": [
+				{
+					"name": "machine learning approach",
+					"id": "4 6_Method"
+				},
+				{
+					"name": "bare slice disambiguation",
+					"id": "8 10_Task"
+				},
+				{
+					"name": "corpus-based sample",
+					"id": "23 24_Material"
+				},
+				{
+					"name": "heuristic principles",
+					"id": "19 20_Method"
+				},
+				{
+					"name": "SLIPPER",
+					"id": "63 63_Method"
+				},
+				{
+					"name": "machine learning algorithms",
+					"id": "59 61_Method"
+				},
+				{
+					"name": "rule-based learning algorithm",
+					"id": "66 68_Method"
+				},
+				{
+					"name": "TiMBL",
+					"id": "71 71_Method"
+				},
+				{
+					"name": "memory-based system",
+					"id": "74 75_Method"
+				},
+				{
+					"name": "success rates",
+					"id": "84 85_Metric"
+				},
+				{
+					"name": "learners",
+					"id": "78 78_Generic"
+				}
+			],
+			"links": [
+				{
+					"sid": "4 6_Method",
+					"tid": "8 10_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "23 24_Material",
+					"tid": "19 20_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "63 63_Method",
+					"tid": "59 61_Method",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "63 63_Method",
+					"tid": "66 68_Method",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "66 68_Method",
+					"tid": "59 61_Method",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "71 71_Method",
+					"tid": "59 61_Method",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "74 75_Method",
+					"tid": "59 61_Method",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "84 85_Metric",
+					"tid": "78 78_Generic",
+					"name": "EVALUATE-FOR"
+				}
+			]
+		},
+		{
+			"doc_key": "CVPR_2008_258_abs",
+			"nodes": [
+				{
+					"name": "step",
+					"id": "4 4_Generic"
+				},
+				{
+					"name": "unsupervised seg-mentation of whole objects",
+					"id": "7 11_Task"
+				},
+				{
+					"name": "methods",
+					"id": "70 70_non"
+				},
+				{
+					"name": "unsupervised object discovery",
+					"id": "72 74_Task"
+				},
+				{
+					"name": "groups of images",
+					"id": "76 78_non"
+				},
+				{
+					"name": "spectral clustering",
+					"id": "113 114_Task"
+				},
+				{
+					"name": "approach",
+					"id": "107 107_Generic"
+				},
+				{
+					"name": "image matting",
+					"id": "116 117_Task"
+				},
+				{
+					"name": "boundary detection",
+					"id": "120 121_Task"
+				},
+				{
+					"name": "It",
+					"id": "123 123_Generic"
+				},
+				{
+					"name": "unsupervised object discovery",
+					"id": "141 143_Task"
+				},
+				{
+					"name": "dataset of scenes",
+					"id": "131 133_non"
+				}
+			],
+			"links": [
+				{
+					"sid": "4 4_Generic",
+					"tid": "7 11_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "70 70_non",
+					"tid": "72 74_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "76 78_non",
+					"tid": "72 74_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "113 114_Task",
+					"tid": "107 107_Generic",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "113 114_Task",
+					"tid": "116 117_Task",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "116 117_Task",
+					"tid": "107 107_Generic",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "116 117_Task",
+					"tid": "120 121_Task",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "120 121_Task",
+					"tid": "107 107_Generic",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "123 123_Generic",
+					"tid": "141 143_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "131 133_non",
+					"tid": "123 123_Generic",
+					"name": "EVALUATE-FOR"
+				}
+			]
+		},
+		{
+			"doc_key": "ICASSP_2016_11_abs",
+			"nodes": [
+				{
+					"name": "nonstationarity",
+					"id": "19 19_OtherScientificTerm"
+				},
+				{
+					"name": "method",
+					"id": "16 16_Generic"
+				},
+				{
+					"name": "model",
+					"id": "70 70_Generic"
+				},
+				{
+					"name": "blind separation of natural speech signals",
+					"id": "78 83_Task"
+				},
+				{
+					"name": "natural speech signals",
+					"id": "117 119_Material"
+				},
+				{
+					"name": "method",
+					"id": "122 122_Generic"
+				},
+				{
+					"name": "state-of-the-art methods",
+					"id": "132 133_Generic"
+				},
+				{
+					"name": "separation accuracy",
+					"id": "127 128_Metric"
+				}
+			],
+			"links": [
+				{
+					"sid": "19 19_OtherScientificTerm",
+					"tid": "16 16_Generic",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "70 70_Generic",
+					"tid": "78 83_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "117 119_Material",
+					"tid": "122 122_Generic",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "122 122_Generic",
+					"tid": "132 133_Generic",
+					"name": "COMPARE"
+				},
+				{
+					"sid": "127 128_Metric",
+					"tid": "122 122_Generic",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "127 128_Metric",
+					"tid": "132 133_Generic",
+					"name": "EVALUATE-FOR"
+				}
+			]
+		},
+		{
+			"doc_key": "ICASSP_1997_706_abs",
+			"nodes": [
+				{
+					"name": "Utterance Verification -LRB- UV -RRB-",
+					"id": "0 4_Task"
+				},
+				{
+					"name": "Automatic Speech Recognition -LRB- ASR -RRB- System",
+					"id": "11 17_Method"
+				},
+				{
+					"name": "out-of-vocabulary -LRB- OOV -RRB- words",
+					"id": "26 30_OtherScientificTerm"
+				},
+				{
+					"name": "acoustic noises",
+					"id": "32 33_OtherScientificTerm"
+				},
+				{
+					"name": "Confidence tests",
+					"id": "53 54_Method"
+				},
+				{
+					"name": "decoded string hypotheses",
+					"id": "58 60_OtherScientificTerm"
+				},
+				{
+					"name": "word and garbage models",
+					"id": "64 67_Method"
+				},
+				{
+					"name": "ASR system",
+					"id": "77 78_Method"
+				},
+				{
+					"name": "Word Spotting and Noise Spotting capabilities",
+					"id": "89 94_OtherScientificTerm"
+				},
+				{
+					"name": "confidence tests",
+					"id": "106 107_Generic"
+				},
+				{
+					"name": "UV procedure",
+					"id": "99 100_Method"
+				},
+				{
+					"name": "two",
+					"id": "109 109_Generic"
+				},
+				{
+					"name": "acoustic measures",
+					"id": "112 113_Metric"
+				},
+				{
+					"name": "one",
+					"id": "115 115_Generic"
+				},
+				{
+					"name": "linguistic information",
+					"id": "118 119_OtherScientificTerm"
+				},
+				{
+					"name": "rejection rate",
+					"id": "153 154_Metric"
+				},
+				{
+					"name": "real telephone application",
+					"id": "131 133_Task"
+				}
+			],
+			"links": [
+				{
+					"sid": "0 4_Task",
+					"tid": "11 17_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "26 30_OtherScientificTerm",
+					"tid": "32 33_OtherScientificTerm",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "53 54_Method",
+					"tid": "58 60_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "64 67_Method",
+					"tid": "58 60_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "77 78_Method",
+					"tid": "89 94_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "106 107_Generic",
+					"tid": "99 100_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "109 109_Generic",
+					"tid": "106 107_Generic",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "112 113_Metric",
+					"tid": "106 107_Generic",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "112 113_Metric",
+					"tid": "109 109_Generic",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "115 115_Generic",
+					"tid": "106 107_Generic",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "118 119_OtherScientificTerm",
+					"tid": "106 107_Generic",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "118 119_OtherScientificTerm",
+					"tid": "109 109_Generic",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "118 119_OtherScientificTerm",
+					"tid": "115 115_Generic",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "153 154_Metric",
+					"tid": "131 133_Task",
+					"name": "EVALUATE-FOR"
+				}
+			]
+		},
+		{
+			"doc_key": "P06-2012",
+			"nodes": [
+				{
+					"name": "unsupervised learning approach",
+					"id": "4 6_Method"
+				},
+				{
+					"name": "relations between named entities",
+					"id": "10 13_OtherScientificTerm"
+				},
+				{
+					"name": "lexical and syntactic features",
+					"id": "18 21_OtherScientificTerm"
+				},
+				{
+					"name": "eigenvectors",
+					"id": "30 30_OtherScientificTerm"
+				},
+				{
+					"name": "It",
+					"id": "26 26_Generic"
+				},
+				{
+					"name": "cluster number estimation",
+					"id": "51 53_Method"
+				},
+				{
+					"name": "eigenvectors",
+					"id": "56 56_Generic"
+				},
+				{
+					"name": "ACE corpora",
+					"id": "61 62_Material"
+				},
+				{
+					"name": "spectral clustering based approach",
+					"id": "66 69_Method"
+				},
+				{
+					"name": "clustering methods",
+					"id": "73 74_Method"
+				}
+			],
+			"links": [
+				{
+					"sid": "4 6_Method",
+					"tid": "10 13_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "18 21_OtherScientificTerm",
+					"tid": "4 6_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "30 30_OtherScientificTerm",
+					"tid": "26 26_Generic",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "30 30_OtherScientificTerm",
+					"tid": "51 53_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "56 56_Generic",
+					"tid": "51 53_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "61 62_Material",
+					"tid": "66 69_Method",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "61 62_Material",
+					"tid": "73 74_Method",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "66 69_Method",
+					"tid": "73 74_Method",
+					"name": "COMPARE"
+				}
+			]
+		},
+		{
+			"doc_key": "NIPS_2002_11_abs",
+			"nodes": [
+				{
+					"name": "approaches",
+					"id": "35 35_Generic"
+				},
+				{
+					"name": "clustering",
+					"id": "4 4_Task"
+				},
+				{
+					"name": "it",
+					"id": "26 26_Generic"
+				},
+				{
+					"name": "clustering",
+					"id": "37 37_Task"
+				},
+				{
+					"name": "single-linkage",
+					"id": "109 109_OtherScientificTerm"
+				},
+				{
+					"name": "clustering techniques",
+					"id": "105 106_Method"
+				},
+				{
+					"name": "sum-of-pairs",
+					"id": "111 111_Method"
+				},
+				{
+					"name": "k-means",
+					"id": "113 113_Method"
+				},
+				{
+					"name": "k-median",
+					"id": "116 116_OtherScientificTerm"
+				}
+			],
+			"links": [
+				{
+					"sid": "35 35_Generic",
+					"tid": "4 4_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "35 35_Generic",
+					"tid": "26 26_Generic",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "35 35_Generic",
+					"tid": "37 37_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "109 109_OtherScientificTerm",
+					"tid": "105 106_Method",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "109 109_OtherScientificTerm",
+					"tid": "111 111_Method",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "111 111_Method",
+					"tid": "105 106_Method",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "111 111_Method",
+					"tid": "113 113_Method",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "113 113_Method",
+					"tid": "105 106_Method",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "113 113_Method",
+					"tid": "116 116_OtherScientificTerm",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "116 116_OtherScientificTerm",
+					"tid": "105 106_Method",
+					"name": "HYPONYM-OF"
+				}
+			]
+		},
+		{
+			"doc_key": "ICCV_2013_25_abs",
+			"nodes": [
+				{
+					"name": "scanning method",
+					"id": "3 4_Method"
+				},
+				{
+					"name": "sub-pixel camera-projector correspondence",
+					"id": "8 10_OtherScientificTerm"
+				},
+				{
+					"name": "indirect lighting",
+					"id": "53 54_OtherScientificTerm"
+				},
+				{
+					"name": "scene discontinuities",
+					"id": "56 57_OtherScientificTerm"
+				},
+				{
+					"name": "method",
+					"id": "66 66_Generic"
+				},
+				{
+					"name": "scene geometry",
+					"id": "68 69_OtherScientificTerm"
+				},
+				{
+					"name": "subpixel precision",
+					"id": "72 73_Metric"
+				},
+				{
+					"name": "it",
+					"id": "77 77_Generic"
+				},
+				{
+					"name": "active reconstruction systems",
+					"id": "83 85_Task"
+				},
+				{
+					"name": "mi-cro phase shifting",
+					"id": "99 101_Method"
+				},
+				{
+					"name": "methods",
+					"id": "96 96_Generic"
+				},
+				{
+					"name": "modulated phase shifting",
+					"id": "103 105_Task"
+				}
+			],
+			"links": [
+				{
+					"sid": "3 4_Method",
+					"tid": "8 10_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "53 54_OtherScientificTerm",
+					"tid": "56 57_OtherScientificTerm",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "66 66_Generic",
+					"tid": "68 69_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "72 73_Metric",
+					"tid": "66 66_Generic",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "77 77_Generic",
+					"tid": "68 69_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "77 77_Generic",
+					"tid": "83 85_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "99 101_Method",
+					"tid": "96 96_Generic",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "99 101_Method",
+					"tid": "103 105_Task",
+					"name": "CONJUNCTION"
+				}
+			]
+		},
+		{
+			"doc_key": "N04-1022",
+			"nodes": [
+				{
+					"name": "Minimum Bayes-Risk -LRB- MBR -RRB- decoding",
+					"id": "2 7_Method"
+				},
+				{
+					"name": "statistical machine translation",
+					"id": "9 11_Task"
+				},
+				{
+					"name": "linguistic information",
+					"id": "44 45_OtherScientificTerm"
+				},
+				{
+					"name": "word-to-word alignments",
+					"id": "50 51_Task"
+				},
+				{
+					"name": "syntactic structure",
+					"id": "58 59_OtherScientificTerm"
+				},
+				{
+					"name": "Chinese-to-English translation task",
+					"id": "79 81_Task"
+				},
+				{
+					"name": "MBR decoders",
+					"id": "75 76_Method"
+				},
+				{
+					"name": "MBR decoding",
+					"id": "87 88_Method"
+				},
+				{
+					"name": "statistical MT",
+					"id": "94 95_Task"
+				},
+				{
+					"name": "specific loss functions",
+					"id": "98 100_OtherScientificTerm"
+				}
+			],
+			"links": [
+				{
+					"sid": "2 7_Method",
+					"tid": "9 11_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "44 45_OtherScientificTerm",
+					"tid": "50 51_Task",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "50 51_Task",
+					"tid": "58 59_OtherScientificTerm",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "79 81_Task",
+					"tid": "75 76_Method",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "87 88_Method",
+					"tid": "94 95_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "87 88_Method",
+					"tid": "98 100_OtherScientificTerm",
+					"name": "USED-FOR"
+				}
+			]
+		},
+		{
+			"doc_key": "C90-3063",
+			"nodes": [
+				{
+					"name": "automatic scheme",
+					"id": "16 17_Generic"
+				},
+				{
+					"name": "statistics on cooccurrence patterns",
+					"id": "20 23_OtherScientificTerm"
+				},
+				{
+					"name": "statistics",
+					"id": "35 35_Generic"
+				},
+				{
+					"name": "semantic constraints",
+					"id": "37 38_OtherScientificTerm"
+				},
+				{
+					"name": "anaphora references",
+					"id": "45 46_OtherScientificTerm"
+				},
+				{
+					"name": "syntactic ambiguities",
+					"id": "48 49_OtherScientificTerm"
+				},
+				{
+					"name": "cooccurrence statistics",
+					"id": "102 103_OtherScientificTerm"
+				},
+				{
+					"name": "semantic constraints",
+					"id": "107 108_OtherScientificTerm"
+				},
+				{
+					"name": "disambiguation tool",
+					"id": "117 118_Task"
+				}
+			],
+			"links": [
+				{
+					"sid": "16 17_Generic",
+					"tid": "20 23_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "35 35_Generic",
+					"tid": "37 38_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "35 35_Generic",
+					"tid": "45 46_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "35 35_Generic",
+					"tid": "48 49_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "45 46_OtherScientificTerm",
+					"tid": "48 49_OtherScientificTerm",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "102 103_OtherScientificTerm",
+					"tid": "107 108_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "102 103_OtherScientificTerm",
+					"tid": "117 118_Task",
+					"name": "USED-FOR"
+				}
+			]
+		},
+		{
+			"doc_key": "C04-1128",
+			"nodes": [
+				{
+					"name": "sentence extraction",
+					"id": "1 2_Method"
+				},
+				{
+					"name": "summarization",
+					"id": "7 7_Task"
+				},
+				{
+					"name": "email communication",
+					"id": "25 26_Task"
+				},
+				{
+					"name": "approach",
+					"id": "5 5_Generic"
+				},
+				{
+					"name": "detection of question-answer pairs",
+					"id": "65 68_Task"
+				},
+				{
+					"name": "email conversation",
+					"id": "71 72_OtherScientificTerm"
+				},
+				{
+					"name": "email summarization",
+					"id": "77 78_Task"
+				},
+				{
+					"name": "features",
+					"id": "84 84_OtherScientificTerm"
+				},
+				{
+					"name": "lexical similarity of discourse segments",
+					"id": "97 101_OtherScientificTerm"
+				},
+				{
+					"name": "structure of email-threads",
+					"id": "88 90_OtherScientificTerm"
+				},
+				{
+					"name": "question-answer pairing",
+					"id": "103 104_Task"
+				}
+			],
+			"links": [
+				{
+					"sid": "1 2_Method",
+					"tid": "7 7_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "1 2_Method",
+					"tid": "25 26_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "5 5_Generic",
+					"tid": "7 7_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "65 68_Task",
+					"tid": "71 72_OtherScientificTerm",
+					"name": "PART-OF"
+				},
+				{
+					"sid": "65 68_Task",
+					"tid": "77 78_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "84 84_OtherScientificTerm",
+					"tid": "97 101_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "88 90_OtherScientificTerm",
+					"tid": "84 84_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "88 90_OtherScientificTerm",
+					"tid": "97 101_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "97 101_OtherScientificTerm",
+					"tid": "103 104_Task",
+					"name": "USED-FOR"
+				}
+			]
+		},
+		{
+			"doc_key": "ICCV_2003_161_abs",
+			"nodes": [
+				{
+					"name": "images",
+					"id": "6 6_Material"
+				},
+				{
+					"name": "perception of transparent objects",
+					"id": "1 4_Task"
+				},
+				{
+					"name": "moving observer",
+					"id": "53 54_OtherScientificTerm"
+				},
+				{
+					"name": "transparent objects",
+					"id": "49 50_OtherScientificTerm"
+				},
+				{
+					"name": "model-based approach",
+					"id": "83 84_Method"
+				},
+				{
+					"name": "shapes",
+					"id": "88 88_OtherScientificTerm"
+				},
+				{
+					"name": "known motion",
+					"id": "96 97_OtherScientificTerm"
+				},
+				{
+					"name": "it",
+					"id": "135 135_Generic"
+				},
+				{
+					"name": "real scenes",
+					"id": "137 138_Material"
+				},
+				{
+					"name": "shapes",
+					"id": "146 146_OtherScientificTerm"
+				},
+				{
+					"name": "shapes of the objects",
+					"id": "146 149_non"
+				}
+			],
+			"links": [
+				{
+					"sid": "6 6_Material",
+					"tid": "1 4_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "53 54_OtherScientificTerm",
+					"tid": "49 50_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "83 84_Method",
+					"tid": "88 88_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "96 97_OtherScientificTerm",
+					"tid": "83 84_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "135 135_Generic",
+					"tid": "137 138_Material",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "135 135_Generic",
+					"tid": "146 146_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "135 135_Generic",
+					"tid": "146 149_non",
+					"name": "USED-FOR"
+				}
+			]
+		},
+		{
+			"doc_key": "CVPR_2004_18_abs",
+			"nodes": [
+				{
+					"name": "shape information",
+					"id": "10 11_OtherScientificTerm"
+				},
+				{
+					"name": "automated segmentation of images",
+					"id": "1 4_Task"
+				},
+				{
+					"name": "low-level feature analysis",
+					"id": "13 15_Method"
+				},
+				{
+					"name": "method",
+					"id": "28 28_Generic"
+				},
+				{
+					"name": "shape constrained image segmentation",
+					"id": "30 33_Task"
+				},
+				{
+					"name": "mixtures of feature distributions",
+					"id": "38 41_Method"
+				},
+				{
+					"name": "probabilistic shape knowledge",
+					"id": "49 51_OtherScientificTerm"
+				},
+				{
+					"name": "Bayesian statistics",
+					"id": "62 63_Method"
+				},
+				{
+					"name": "approach",
+					"id": "55 55_Generic"
+				},
+				{
+					"name": "image understanding",
+					"id": "71 72_Task"
+				},
+				{
+					"name": "image data",
+					"id": "86 87_Material"
+				},
+				{
+					"name": "ambiguous segmentations",
+					"id": "92 93_OtherScientificTerm"
+				}
+			],
+			"links": [
+				{
+					"sid": "10 11_OtherScientificTerm",
+					"tid": "1 4_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "13 15_Method",
+					"tid": "1 4_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "28 28_Generic",
+					"tid": "30 33_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "38 41_Method",
+					"tid": "28 28_Generic",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "38 41_Method",
+					"tid": "49 51_OtherScientificTerm",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "62 63_Method",
+					"tid": "55 55_Generic",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "62 63_Method",
+					"tid": "71 72_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "86 87_Material",
+					"tid": "92 93_OtherScientificTerm",
+					"name": "USED-FOR"
+				}
+			]
+		},
+		{
+			"doc_key": "J82-3002",
+			"nodes": [
+				{
+					"name": "Chat-80",
+					"id": "16 16_Method"
+				},
+				{
+					"name": "natural language question answering system",
+					"id": "9 13_Method"
+				},
+				{
+					"name": "Chat-80",
+					"id": "18 18_Method"
+				},
+				{
+					"name": "applications",
+					"id": "33 33_Generic"
+				},
+				{
+					"name": "Prolog",
+					"id": "41 41_Method"
+				},
+				{
+					"name": "system",
+					"id": "36 36_Generic"
+				},
+				{
+					"name": "programming language",
+					"id": "44 45_Material"
+				},
+				{
+					"name": "extraposition grammars",
+					"id": "59 60_Method"
+				},
+				{
+					"name": "logic-based grammar formalism",
+					"id": "55 57_Method"
+				},
+				{
+					"name": "Chat-80",
+					"id": "62 62_Method"
+				},
+				{
+					"name": "English questions",
+					"id": "64 65_Material"
+				},
+				{
+					"name": "Prolog subset of logic",
+					"id": "68 71_OtherScientificTerm"
+				},
+				{
+					"name": "planning algorithm",
+					"id": "82 83_Method"
+				},
+				{
+					"name": "logical expression",
+					"id": "75 76_OtherScientificTerm"
+				},
+				{
+					"name": "query optimisation",
+					"id": "89 90_Task"
+				},
+				{
+					"name": "Prolog",
+					"id": "86 86_OtherScientificTerm"
+				}
+			],
+			"links": [
+				{
+					"sid": "16 16_Method",
+					"tid": "9 13_Method",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "18 18_Method",
+					"tid": "33 33_Generic",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "41 41_Method",
+					"tid": "36 36_Generic",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "41 41_Method",
+					"tid": "44 45_Material",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "59 60_Method",
+					"tid": "55 57_Method",
+					"name": "HYPONYM-OF"
+				},
+				{
+					"sid": "62 62_Method",
+					"tid": "64 65_Material",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "62 62_Method",
+					"tid": "68 71_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "82 83_Method",
+					"tid": "75 76_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "89 90_Task",
+					"tid": "86 86_OtherScientificTerm",
+					"name": "HYPONYM-OF"
+				}
+			]
+		},
+		{
+			"doc_key": "NIPS_2015_18_abs",
+			"nodes": [
+				{
+					"name": "multinomial or categorical distributions",
+					"id": "14 17_Method"
+				},
+				{
+					"name": "discrete data",
+					"id": "5 6_Material"
+				},
+				{
+					"name": "nucleotides",
+					"id": "22 22_OtherScientificTerm"
+				},
+				{
+					"name": "DNA sequence",
+					"id": "25 26_Material"
+				},
+				{
+					"name": "children 's names",
+					"id": "28 30_non"
+				},
+				{
+					"name": "P\u00f3lya-gamma augmentation",
+					"id": "126 127_Method"
+				},
+				{
+					"name": "Gaussian models",
+					"id": "156 157_Method"
+				},
+				{
+					"name": "jointly Gaussian likelihoods",
+					"id": "139 141_Method"
+				},
+				{
+					"name": "multinomial distribution",
+					"id": "131 132_OtherScientificTerm"
+				},
+				{
+					"name": "Bayesian inference techniques",
+					"id": "152 154_Method"
+				}
+			],
+			"links": [
+				{
+					"sid": "14 17_Method",
+					"tid": "5 6_Material",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "22 22_OtherScientificTerm",
+					"tid": "25 26_Material",
+					"name": "PART-OF"
+				},
+				{
+					"sid": "22 22_OtherScientificTerm",
+					"tid": "28 30_non",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "126 127_Method",
+					"tid": "156 157_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "139 141_Method",
+					"tid": "131 132_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "152 154_Method",
+					"tid": "131 132_OtherScientificTerm",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "152 154_Method",
+					"tid": "156 157_Method",
+					"name": "USED-FOR"
+				}
+			]
+		},
+		{
+			"doc_key": "CVPR_2011_11_abs",
+			"nodes": [
+				{
+					"name": "approach",
+					"id": "4 4_Generic"
+				},
+				{
+					"name": "camera handoff",
+					"id": "18 19_Task"
+				},
+				{
+					"name": "wide-area surveillance scenarios",
+					"id": "21 23_Task"
+				},
+				{
+					"name": "geometric , appearance , or correlation-based information",
+					"id": "30 36_OtherScientificTerm"
+				},
+				{
+					"name": "approaches",
+					"id": "27 27_Generic"
+				},
+				{
+					"name": "Multiple Instance Learning -LRB- MIL -RRB- formulation",
+					"id": "117 123_Method"
+				},
+				{
+					"name": "problem",
+					"id": "126 126_Generic"
+				},
+				{
+					"name": "logistic softmax function of covariance-based region features",
+					"id": "130 136_OtherScientificTerm"
+				},
+				{
+					"name": "approach",
+					"id": "146 146_Generic"
+				},
+				{
+					"name": "state-of-the-art approaches",
+					"id": "162 163_Generic"
+				}
+			],
+			"links": [
+				{
+					"sid": "4 4_Generic",
+					"tid": "18 19_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "18 19_Task",
+					"tid": "21 23_Task",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "30 36_OtherScientificTerm",
+					"tid": "27 27_Generic",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "117 123_Method",
+					"tid": "126 126_Generic",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "130 136_OtherScientificTerm",
+					"tid": "117 123_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "146 146_Generic",
+					"tid": "162 163_Generic",
+					"name": "COMPARE"
+				}
+			]
+		},
+		{
+			"doc_key": "ICML_1995_38_abs",
+			"nodes": [
+				{
+					"name": "learning",
+					"id": "4 4_Task"
+				},
+				{
+					"name": "planning systems",
+					"id": "21 22_Method"
+				},
+				{
+					"name": "domain-speciic models of actions",
+					"id": "13 16_Task"
+				},
+				{
+					"name": "GOLEM",
+					"id": "103 103_Method"
+				},
+				{
+					"name": "action models",
+					"id": "108 109_Method"
+				},
+				{
+					"name": "simulated construction",
+					"id": "123 124_Task"
+				},
+				{
+					"name": "integrated learning system",
+					"id": "115 117_Method"
+				},
+				{
+					"name": "ooce domains",
+					"id": "126 127_Material"
+				},
+				{
+					"name": "simulated construction and ooce domains",
+					"id": "123 127_non"
+				}
+			],
+			"links": [
+				{
+					"sid": "4 4_Task",
+					"tid": "21 22_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "13 16_Task",
+					"tid": "21 22_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "103 103_Method",
+					"tid": "108 109_Method",
+					"name": "USED-FOR"
+				},
+				{
+					"sid": "123 124_Task",
+					"tid": "115 117_Method",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "123 124_Task",
+					"tid": "126 127_Material",
+					"name": "CONJUNCTION"
+				},
+				{
+					"sid": "123 127_non",
+					"tid": "115 117_Method",
+					"name": "EVALUATE-FOR"
+				},
+				{
+					"sid": "126 127_Material",
+					"tid": "115 117_Method",
+					"name": "EVALUATE-FOR"
+				}
+			]
+		}
+	]
+}

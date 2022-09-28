@@ -1,28 +1,45 @@
 <template>
-    <div class="container">
+    <div>
+
+        <div class="container">
+            <div>
+                <form>
+                    <div v-for="(item) in entity_type" :key="item">
+                        <input type="checkbox" v-model="check.check_enti" :value="item" v-on:change="send_check_Prop">
+                        {{item}}
+                        <br>
+
+                    </div>
+                </form>
+            </div>
+            <div>
+                <form>
+                    <div v-for="item in relation_type" :key="item">
+                        <input type="checkbox" v-model="check.check_rela" :value="item" @change="send_check_Prop">
+                        {{item}}
+                        <!--<input type="checkbox" v-model="check.check_rela" :value="item" v-on:click="send_check_Prop"> {{item}} -->
+                        <br>
+
+                    </div>
+                </form>
+
+                <!-- <button v-on:click="check_out">{{test}}</button> -->
+
+            </div>
+            
+        </div>
+        <br>
         <div>
             <form>
-                <div v-for="(item) in entity_type" :key="item">
-                    <input type="checkbox" v-model="check.check_enti" :value="item" v-on:change="send_check_Prop"> {{item}}
+                <div v-for="item in corelation_type" :key="item">
+                    <input type="checkbox" v-model="check.check_core" :value="item" @change="send_check_Prop">
+                    {{item}}
                     <br>
 
                 </div>
             </form>
-        </div>
-        <div>
-            <form>
-                <div v-for="item in relation_type" :key="item">
-                    <input type="checkbox" v-model="check.check_rela" :value="item" @change="send_check_Prop"> {{item}}
-                    <!--<input type="checkbox" v-model="check.check_rela" :value="item" v-on:click="send_check_Prop"> {{item}} -->
-                    <br>
-
-                </div>
-            </form>
-
-            <button v-on:click="check_out">{{test}}</button>
 
         </div>
-
     </div>
 
 </template>
@@ -31,68 +48,108 @@
 import scierc from "../../data/scideberta-cs-scierc-ordered.json"
 import genia from "../../data/scideberta-full-genia-ordered"
 
-import {eventBus} from "../main"
+import { eventBus } from "../main"
 
 export default {
     name: 'select_Property',
-    data(){
+    data() {
         return {
 
-            scierc : scierc,
-            genia : genia,
-            entity_type : entity_type,
-            relation_type : relation_type,
-            check : {
+            scierc: scierc,
+            genia: genia,
+            dataType : null,
+            doc_key : 0,
+            entity_type: entity_type,
+            relation_type: relation_type,
+            corelation_type: corelation_type,
+            check: {
 
-                check_enti : [],
-                check_rela : [],
-                
+                check_enti: [],
+                check_rela: [],
+                check_core: [],
+                co_ref_count : [],
             },
-            test : 'bye bye'
+            test: 'bye bye'
         }
     },
-    components :{
+    components: {
 
     },
     methods: {
-        check_out(){
+        check_out() {
             // alert(this.check.check_enti)
             // alert(this.check.check_rela)
-        },        
-        send_check_Prop(){
+        },
+        send_check_Prop() {
             console.log("selectproperty 파일에서 check_enti,check_rela디버깅중입니다.")
             console.log(this.check.check_enti)
             console.log(this.check.check_rela)
-            eventBus.$emit("check",this.check) // vue 2 형제 컴포넌트 데이터 전송
+
+            // json파일을 통해 체크박스 수정 해야됨!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11
+
+            
+
+            // this.check.co_ref_count = 
+            console.log(this.check.co_ref_count)
+            eventBus.$emit("check", this.check) // vue 2 형제 컴포넌트 데이터 전송
             //this.emitter.emit("check", this.check) vue 3
         }
 
     },
-    created(){
-        eventBus.$on('json_data', json_data =>{
-            if(json_data == "scierc"){
+    created() {
+        eventBus.$on('json_data', json_data => {
+            if (json_data == "scierc") {
                 this.check.check_enti = []
                 this.check.check_rela = []
+                this.check.check_core = []
                 this.entity_type = entity_type1
                 this.relation_type = relation_type1
+                this.corelation_type = corelation_type
+
             }
-            else if(json_data =="genia"){
+            else if (json_data == "genia") {
                 this.check.check_enti = []
                 this.check.check_rela = []
+                this.check.check_core = []
                 this.entity_type = entity_type2
                 this.relation_type = []
+                this.corelation_type = corelation_type
             }
         }),
-        eventBus.$on('doc_entity_rela', doc_entity_rela =>{
-            this.check.check_enti = doc_entity_rela.check_enti
-            this.check.check_rela = doc_entity_rela.check_rela
-            // this.check = doc_entity_rela
-            console.log(typeof(this.check.check_enti))
-            console.log(this.check.check_enti)
-            console.log(this.check.check_rela)
+            eventBus.$on('doc_entity_rela', doc_entity_rela => {
+                this.check.check_enti = doc_entity_rela.check_enti
+                this.check.check_rela = doc_entity_rela.check_rela
+                // this.check = doc_entity_rela
+                this.corelation_type = []
+                this.check.check_core = []
+                this.check.check_core = doc_entity_rela.check_core
+                // this.corelation_type = this.check.check_core
 
+                this.check.co_ref_count = doc_entity_rela.co_ref_count
+                console.log(this.check.co_ref_count)
+                console.log(this.corelation_type)
 
-        })
+                console.log(this.corelation_type)
+
+                let a = ''
+                for (let i = 0; i < this.check.check_core.length; i++) {
+                    for (let j = 0; j < this.check.check_core[i].length; j++) {
+                        console.log(this.check.check_core[i][j])
+                        a += this.check.check_core[i][j] + ' '
+                        console.log(a)
+
+                    }
+                    this.corelation_type.push(a)
+                    console.log(this.corelation_type)
+                    a = ''
+                }
+                this.check.check_core = this.corelation_type
+
+                console.log(doc_entity_rela.check_core)
+                console.log(this.check.check_core)
+                console.log(this.corelation_type)
+
+            })
 
     }
     // watch: {
@@ -105,12 +162,13 @@ export default {
 // let ent_rel_array = ['ner', 'predicted_ner', 'relations', 'predicted_relations']
 let entity_type = new Set()
 let relation_type = new Set()
+let corelation_type = new Array()
+
 
 let entity_type1 = ['Task', 'Metric', 'Method', 'OtherScientificTerm', 'Generic', 'Material']
 let entity_type2 = ['protein', 'cell_type', 'cell_line', 'DNA', 'RNA']
 
 let relation_type1 = ['CONJUNCTION', 'USED-FOR', 'HYPONYM-OF', 'COMPARE', 'EVALUATE-FOR', 'PART-OF', 'FEATURE-OF']
-// let relation_type2 = ['CONJUNCTION', 'USED-FOR', 'HYPONYM-OF', 'COMPARE', 'EVALUATE-FOR', 'PART-OF', 'FEATURE-OF']
 
 // var check = false;
 ///////////////
@@ -133,17 +191,6 @@ let relation_type1 = ['CONJUNCTION', 'USED-FOR', 'HYPONYM-OF', 'COMPARE', 'EVALU
 //     }
 // }
 //////////////////
-
-
-
-
-console.log(scierc[0]["doc_key"])
-console.log(scierc[1])
-
-console.log(scierc.length)
-console.log(entity_type)
-console.log(relation_type)
-
 
 
 </script>

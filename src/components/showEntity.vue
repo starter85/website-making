@@ -3,6 +3,7 @@
         <p>{{doc_key}}</p>
         <p>{{check.check_enti}}</p>
         <p>{{check.check_rela}}</p>
+        <p>{{check.co_ref_count}}</p>
     </div>
 </template>
 
@@ -19,8 +20,10 @@ export default {
             doc_key: 0,
             check: {
 
-                check_enti: [],
-                check_rela: [],
+                check_enti: '',
+                check_rela: '',
+                check_core: '',
+                co_ref_count: '',
             }
         }
     },
@@ -37,13 +40,12 @@ export default {
             eventBus.$on('check', check => {
                 this.check.check_enti = check.check_enti
                 this.check.check_rela = check.check_rela
-                // console.log(check.check_enti)
-                //alert(check.check_enti)
-                // alert(check.check_rela)asd
+                this.check.co_ref_count = check.co_ref_count
             }),
             eventBus.$on('doc_entity_rela', doc_entity_rela => {
                 this.check.check_enti = doc_entity_rela.check_enti
                 this.check.check_rela = doc_entity_rela.check_rela
+                this.check.co_ref_count = doc_entity_rela.co_ref_count
             })
 
     }

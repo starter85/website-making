@@ -1,0 +1,6 @@
+{
+	"nodes": [
+	{ "id": 1, "name": "relation 이 없습니다.","_color": "red" }
+	],
+	"links":[{"sid":1,"tid":1,"name":""}]
+}

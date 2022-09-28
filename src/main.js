@@ -1,14 +1,13 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import Vue from "vue";
+import App from "./App.vue";
+import router from './router'
 
-//// 형제 컴포넌트 통신
-import mitt from 'mitt'
+Vue.config.productionTip = false
 
-export const emitter = mitt();
-const app = createApp(App)
-app.config.globalProperties.emitter = emitter
-app.mount('#app')
-////
+// 형제 컴포넌트 통신 하기위한 코드
+export const eventBus = new Vue()
 
-// createApp(App).mount('#app')
-// 시발 이 새끼가 문제 였네 개새끼
+new Vue({
+  router,
+  render: h => h(App)
+}).$mount("#app");

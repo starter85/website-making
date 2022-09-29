@@ -41,6 +41,9 @@ export default {
                 check_rela: [],
                 check_core: [],
                 co_ref_count: 0,
+                entity_count : 0,
+                relation_count : 0,
+                clusters_count : 0,
             },
             test: 'hello'
 
@@ -93,6 +96,8 @@ export default {
                 let entity_unique = new Set(entity)
                 entity_unique = Array.from(entity_unique)
 
+                let entity_count = []
+
                 let cnt = 0;
                 for (let z of entity_unique) {
                     for (let zz = 0; zz < entity.length; zz++) {
@@ -100,7 +105,10 @@ export default {
                             cnt++;
                         }
                     }
+                    entity_count.push(cnt)
+                    cnt = 0
                 }
+                console.log(entity_count)
 
                 this.check.check_enti = entity_unique
 
@@ -113,6 +121,9 @@ export default {
                 let relation_unique = new Set(relation)
                 relation_unique = Array.from(relation_unique)
 
+                let relation_count = []
+
+
                 cnt = 0
                 for (let z of relation_unique) {
                     for (let zz = 0; zz < relation.length; zz++) {
@@ -120,11 +131,15 @@ export default {
                             cnt++;
                         }
                     }
-                    console.log(cnt)
+                    relation_count.push(cnt)
+                    cnt = 0
                 }
+                console.log(relation_count)
 
                 this.check.check_rela = relation_unique
 
+                this.check.entity_count = entity_count
+                this.check.relation_count = relation_count
             }
             else {
                 for (let x = 0; x < i['predicted_ner'].length; x++) {
@@ -136,6 +151,8 @@ export default {
 
                 entity_unique = Array.from(entity_unique)
 
+                let entity_count = []
+
                 let cnt = 0;
                 for (let z of entity_unique) {
                     for (let zz = 0; zz < entity.length; zz++) {
@@ -143,17 +160,33 @@ export default {
                             cnt++;
                         }
                     }
+                   entity_count.push(cnt)
                     console.log(cnt)
+                    cnt = 0
                 }
+
 
                 this.check.check_enti = entity_unique
                 this.check.check_rela = []
+
+                this.check.entity_count = entity_count
             }
+
+            let clusters_count = []
+
+            let cnt = 0
             for (let x = 0; x < i['predicted_clusters'].length; x++) {
                 console.log(i['predicted_clusters'][x][0])
                 co_ref.push(i['predicted_clusters'][x][0])
+                for (let y = 0; y<i['predicted_clusters'][x].length; y++){
+                    cnt++
+                }
+                clusters_count.push(cnt)
+                cnt = 0
             }
+            console.log(clusters_count)
 
+            this.check.clusters_count = clusters_count
             
             for (let i = 0; i < co_ref.length; i++) {
                 co_ref_count[i] = new Array();

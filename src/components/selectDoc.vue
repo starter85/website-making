@@ -1,8 +1,10 @@
 <template>
+<v-app>
     <div>
-        <p v-for="(item) in dataType" :key="item.sentences">
-            <v-btn v-on:click="find_doc_key(item)"><span v-for="item2 in item.sentences[0]"
-                    :key="item2">{{item2}}&nbsp;</span></v-btn>
+        <!-- :key="item.sentences" 이거 변경시 document button 버그생김.-->
+        <p v-for="(item,index) in dataType" :key="item.sentences" class="cursor" :class="{active:change_bold == index}" v-on:click="find_doc_key(item,index)">
+            <span v-for="item2 in item.sentences[0]"
+                    :key="item2">{{item2}}&nbsp;</span>
             <!-- <span v-on:click="find_doc_key(item)"><span v-for="item2 in item.sentences[0]" :key="item2">{{item2}}&nbsp;</span></span> -->
             <!-- 둘이 맨 끝에 space 하나 넣는건데 다름 -->
             <!-- 자바 스크립트에서 배열을 만들어서 올리자 -->
@@ -11,7 +13,7 @@
         </p>
 
     </div>
-
+</v-app>
 
 </template>
 
@@ -30,13 +32,13 @@ export default {
     name: 'To_ner',
     data() {
         return {
+            change_bold:-1, // 선택된 document 볼드체 하기위한 변수
             dataType: null, // scierc 인지 genia인지 구분할 변수
             scierc: scierc,
             genia: genia,
             doc_key: 0,
             corelation_type: 0,
             check: {
-
                 check_enti: [],
                 check_rela: [],
                 check_core: [],
@@ -53,20 +55,21 @@ export default {
 
     },
     methods: {
-        find_doc_key(i) {
+        find_doc_key(i,index) {
             //디버깅
+            this.change_bold = index;
             console.log('문서 키 확인디버깅입니다.')
             console.log(i["doc_key"])
             console.log(this.doc_key)
             //실제 작동
             this.doc_key = i['doc_key']
             // 컴포넌트 통신
-            // this.emitter.emit("doc_key", this.doc_key) vue 3
             let flatten_Para = this.make_Paragraph_flatten(i)
             console.log(flatten_Para)
-            eventBus.$emit("doc_key", this.doc_key)
+            eventBus.$emit("doc_key", this.doc_key) // doc_key만 전달
+            eventBus.$emit("clicked_document",i) // document 전체 전달.
+            console.log()
             this.check_count_entity(i, flatten_Para)
-
         },
         make_Paragraph_flatten(i) {
             let flatten_Para = []
@@ -242,8 +245,25 @@ export default {
                 this.dataType = this.genia
 
             }
+            this.change_bold = -1; // document 선택된거 해제
         })
     }
 
 }
 </script>
+<style>
+    .cursor{
+        cursor:pointer;
+        height:40px; /* display가 block일때만 지정가능 */
+        line-height: 35px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding-left:10px; /*여백주기 */
+    }
+    .active{
+        font-weight: bold;
+        font-size: larger;
+    }
+    .cursor:hover{
+    background:#F1F1F1;
+    }
+</style>

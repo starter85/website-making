@@ -60,7 +60,7 @@
 				},
 				{
 					"name": "MT evaluation techniques (1)",
-					"id": "85 87_Method_cluster(1)",
+					"id": "85 87_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -80,7 +80,7 @@
 				},
 				{
 					"name": "technique (1-MT evaluation techniques)",
-					"id": "105 105_Generic_cluster(1-1)",
+					"id": "105 105_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -201,19 +201,19 @@
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "85 87_Method_cluster(1)",
+					"sid": "85 87_Method",
 					"tid": "93 93_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "85 87_Method_cluster(1)",
+					"sid": "85 87_Method",
 					"tid": "95 96_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "85 87_Method_cluster(1)",
+					"sid": "85 87_Method",
 					"tid": "102 102_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
@@ -231,14 +231,14 @@
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "105 105_Generic_cluster(1-1)",
+					"sid": "105 105_Generic",
 					"tid": "119 119_Generic",
 					"name": "COMPARE",
 					"_color": "#7B9626"
 				},
 				{
 					"sid": "111 113_Metric",
-					"tid": "105 105_Generic_cluster(1-1)",
+					"tid": "105 105_Generic",
 					"name": "EVALUATE-FOR",
 					"_color": "#4747FF"
 				},
@@ -270,7 +270,7 @@
 				},
 				{
 					"name": "local optimization (1)",
-					"id": "42 43_Method_cluster(1)",
+					"id": "42 43_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -310,7 +310,7 @@
 				},
 				{
 					"name": "global optimization problem (2)",
-					"id": "121 123_Task_cluster(2)",
+					"id": "121 123_Task_cluster",
 					"_color": "#FF0909"
 				},
 				{
@@ -320,17 +320,17 @@
 				},
 				{
 					"name": "Adaptive Simulated Annealing -LRB- ASA -RRB- (3)",
-					"id": "128 133_Method_cluster(3)",
+					"id": "128 133_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
 					"name": "it (2-global optimization problem)",
-					"id": "126 126_Generic_cluster(2-1)",
+					"id": "126 126_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
 					"name": "method (3-Adaptive Simulated Annealing -LRB- ASA -RRB-)",
-					"id": "136 136_Generic_cluster(3-1)",
+					"id": "136 136_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -345,7 +345,7 @@
 				},
 				{
 					"name": "ASA (3-Adaptive Simulated Annealing -LRB- ASA -RRB-)",
-					"id": "158 158_Method_cluster(3-2)",
+					"id": "158 158_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -375,12 +375,12 @@
 				},
 				{
 					"name": "numerical hybrid local and global mode-seeking tracker (4)",
-					"id": "192 198_Method_cluster(4)",
+					"id": "192 198_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
 					"name": "approach (4-numerical hybrid local and global mode-seeking tracker)",
-					"id": "214 214_Generic_cluster(4-1)",
+					"id": "214 214_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -399,7 +399,7 @@
 					"_color": "#002060"
 				},
 				{
-					"id": "78 79_Method_cluster(1-1)",
+					"id": "78 79_Method_cluster",
 					"name": "local tracking (1-local optimization)",
 					"_color": "#FFC000"
 				},
@@ -438,7 +438,7 @@
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "42 43_Method_cluster(1)",
+					"sid": "42 43_Method",
 					"tid": "49 54_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
@@ -486,37 +486,37 @@
 					"_color": "#FF99FF"
 				},
 				{
-					"sid": "121 123_Task_cluster(2)",
+					"sid": "121 123_Task",
 					"tid": "117 118_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "128 133_Method_cluster(3)",
+					"sid": "128 133_Method",
 					"tid": "117 118_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "128 133_Method_cluster(3)",
-					"tid": "126 126_Generic_cluster(2-1)",
+					"sid": "128 133_Method",
+					"tid": "126 126_Generic",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "136 136_Generic_cluster(3-1)",
+					"sid": "136 136_Generic",
 					"tid": "149 150_Method",
 					"name": "COMPARE",
 					"_color": "#7B9626"
 				},
 				{
 					"sid": "154 156_Method",
-					"tid": "158 158_Method_cluster(3-2)",
+					"tid": "158 158_Method",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "158 158_Method_cluster(3-2)",
+					"sid": "158 158_Method",
 					"tid": "168 170_Method",
 					"name": "COMPARE",
 					"_color": "#7B9626"
@@ -535,31 +535,31 @@
 				},
 				{
 					"sid": "203 204_Material",
-					"tid": "192 198_Method_cluster(4)",
+					"tid": "192 198_Method",
 					"name": "EVALUATE-FOR",
 					"_color": "#4747FF"
 				},
 				{
-					"sid": "214 214_Generic_cluster(4-1)",
+					"sid": "214 214_Generic",
 					"tid": "216 217_Generic",
 					"name": "COMPARE",
 					"_color": "#7B9626"
 				},
 				{
-					"sid": "214 214_Generic_cluster(4-1)",
+					"sid": "214 214_Generic",
 					"tid": "217 217_Method",
 					"name": "COMPARE",
 					"_color": "#7B9626"
 				},
 				{
 					"sid": "217 217_Method",
-					"tid": "214 214_Generic_cluster(4-1)",
+					"tid": "214 214_Generic",
 					"name": "COMPARE",
 					"_color": "#7B9626"
 				},
 				{
 					"sid": "220 222_Material",
-					"tid": "214 214_Generic_cluster(4-1)",
+					"tid": "214 214_Generic",
 					"name": "EVALUATE-FOR",
 					"_color": "#4747FF"
 				},
@@ -612,7 +612,7 @@
 				},
 				{
 					"name": "robust PCA (1)",
-					"id": "95 96_Method_cluster(1)",
+					"id": "95 96_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -627,12 +627,12 @@
 				},
 				{
 					"name": "convex problem (2)",
-					"id": "117 118_Task_cluster(2)",
+					"id": "117 118_Task_cluster",
 					"_color": "#FF0909"
 				},
 				{
 					"name": "robust PCA (1-robust PCA)",
-					"id": "124 125_Method_cluster(1-1)",
+					"id": "124 125_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -647,12 +647,12 @@
 				},
 				{
 					"name": "method (2-convex problem)",
-					"id": "140 140_Generic_cluster(2-1)",
+					"id": "140 140_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
 					"name": "method (2-convex problem)",
-					"id": "175 175_Generic_cluster(2-2)",
+					"id": "175 175_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -667,12 +667,12 @@
 				},
 				{
 					"name": "robust PCA (1-robust PCA)",
-					"id": "186 187_Method_cluster(1-2)",
+					"id": "186 187_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
 					"name": "method (2-convex problem)",
-					"id": "210 210_Generic_cluster(2-3)",
+					"id": "210 210_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -737,7 +737,7 @@
 				},
 				{
 					"sid": "98 99_OtherScientificTerm",
-					"tid": "95 96_Method_cluster(1)",
+					"tid": "95 96_Method",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
@@ -748,92 +748,92 @@
 					"_color": "#92D050"
 				},
 				{
-					"sid": "117 118_Task_cluster(2)",
-					"tid": "124 125_Method_cluster(1-1)",
+					"sid": "117 118_Task",
+					"tid": "124 125_Method",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "117 118_Task_cluster(2)",
+					"sid": "117 118_Task",
 					"tid": "130 132_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "121 122_OtherScientificTerm",
-					"tid": "124 125_Method_cluster(1-1)",
+					"tid": "124 125_Method",
 					"name": "PART-OF",
 					"_color": "#C00000"
 				},
 				{
-					"sid": "140 140_Generic_cluster(2-1)",
+					"sid": "140 140_Generic",
 					"tid": "130 132_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "140 140_Generic_cluster(2-1)",
+					"sid": "140 140_Generic",
 					"tid": "130 132_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "140 140_Generic_cluster(2-1)",
+					"sid": "140 140_Generic",
 					"tid": "130 132_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "140 140_Generic_cluster(2-1)",
+					"sid": "140 140_Generic",
 					"tid": "130 132_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "140 140_Generic_cluster(2-1)",
+					"sid": "140 140_Generic",
 					"tid": "130 132_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "140 140_Generic_cluster(2-1)",
+					"sid": "140 140_Generic",
 					"tid": "130 132_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "140 140_Generic_cluster(2-1)",
+					"sid": "140 140_Generic",
 					"tid": "130 132_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "140 140_Generic_cluster(2-1)",
+					"sid": "140 140_Generic",
 					"tid": "130 132_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "175 175_Generic_cluster(2-2)",
+					"sid": "175 175_Generic",
 					"tid": "156 158_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "184 184_OtherScientificTerm",
-					"tid": "186 187_Method_cluster(1-2)",
+					"tid": "186 187_Method",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "210 210_Generic_cluster(2-3)",
+					"sid": "210 210_Generic",
 					"tid": "203 205_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "219 220_OtherScientificTerm",
-					"tid": "210 210_Generic_cluster(2-3)",
+					"tid": "210 210_Generic",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				}
@@ -884,7 +884,7 @@
 				},
 				{
 					"name": "deep embedding methods (2)",
-					"id": "78 80_Method_cluster(2)",
+					"id": "78 80_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -914,7 +914,7 @@
 				},
 				{
 					"name": "person re-identification (1-Person re-identification)",
-					"id": "179 180_Task_cluster(1-1)",
+					"id": "179 180_Task_cluster",
 					"_color": "#FF0909"
 				},
 				{
@@ -954,12 +954,12 @@
 				},
 				{
 					"name": "person re-identification (1-Person re-identification)",
-					"id": "228 229_Task_cluster(1-2)",
+					"id": "228 229_Task_cluster",
 					"_color": "#FF0909"
 				},
 				{
 					"name": "deep model (2-deep embedding methods)",
-					"id": "234 235_Method_cluster(2-1)",
+					"id": "234 235_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -979,11 +979,11 @@
 				},
 				{
 					"name": "person re-identification (1-Person re-identification)",
-					"id": "267 268_Task_cluster(1-4)",
+					"id": "267 268_Task_cluster",
 					"_color": "#FF0909"
 				},
 				{
-					"id": "0 1_Task_cluster(1)",
+					"id": "0 1_Task_cluster",
 					"name": "Person re-identification (1)",
 					"_color": "#FF0909"
 				},
@@ -1033,7 +1033,7 @@
 					"_color": "#B381D9"
 				},
 				{
-					"id": "245 246_Task_cluster(1-3)",
+					"id": "245 246_Task_cluster",
 					"name": "person re-identification (1-Person re-identification)",
 					"_color": "#FF0909"
 				}
@@ -1065,7 +1065,7 @@
 				},
 				{
 					"sid": "83 84_OtherScientificTerm",
-					"tid": "78 80_Method_cluster(2)",
+					"tid": "78 80_Method",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
@@ -1089,7 +1089,7 @@
 				},
 				{
 					"sid": "176 177_Method",
-					"tid": "179 180_Task_cluster(1-1)",
+					"tid": "179 180_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
@@ -1119,25 +1119,25 @@
 				},
 				{
 					"sid": "219 219_Generic",
-					"tid": "228 229_Task_cluster(1-2)",
+					"tid": "228 229_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "225 226_Metric",
-					"tid": "228 229_Task_cluster(1-2)",
+					"tid": "228 229_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "234 235_Method_cluster(2-1)",
+					"sid": "234 235_Method",
 					"tid": "239 240_Generic",
 					"name": "COMPARE",
 					"_color": "#7B9626"
 				},
 				{
 					"sid": "243 243_Generic",
-					"tid": "234 235_Method_cluster(2-1)",
+					"tid": "234 235_Method",
 					"name": "EVALUATE-FOR",
 					"_color": "#4747FF"
 				},
@@ -1149,7 +1149,7 @@
 				},
 				{
 					"sid": "264 265_Method",
-					"tid": "267 268_Task_cluster(1-4)",
+					"tid": "267 268_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				}
@@ -1175,7 +1175,7 @@
 				},
 				{
 					"name": "maximum entropy -LRB- Maxent -RRB- classifiers (1)",
-					"id": "40 45_Method_cluster(1)",
+					"id": "40 45_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -1185,7 +1185,7 @@
 				},
 				{
 					"name": "conditional random field -LRB- CRF -RRB- (2)",
-					"id": "68 73_Method_cluster(2)",
+					"id": "68 73_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -1210,7 +1210,7 @@
 				},
 				{
 					"name": "CRF model (2-conditional random field -LRB- CRF -RRB-)",
-					"id": "115 116_Method_cluster(2-1)",
+					"id": "115 116_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -1240,7 +1240,7 @@
 				},
 				{
 					"name": "model (1-maximum entropy -LRB- Maxent -RRB- classifiers)",
-					"id": "162 162_Generic_cluster(1-2)",
+					"id": "162 162_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -1264,7 +1264,7 @@
 					"_color": "#002060"
 				},
 				{
-					"id": "82 82_Generic_cluster(1-1)",
+					"id": "82 82_Generic_cluster",
 					"name": "model (1-maximum entropy -LRB- Maxent -RRB- classifiers)",
 					"_color": "#0070C0"
 				},
@@ -1293,18 +1293,18 @@
 				},
 				{
 					"sid": "33 38_Method",
-					"tid": "40 45_Method_cluster(1)",
+					"tid": "40 45_Method",
 					"name": "CONJUNCTION",
 					"_color": "#92D050"
 				},
 				{
-					"sid": "40 45_Method_cluster(1)",
+					"sid": "40 45_Method",
 					"tid": "54 56_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "68 73_Method_cluster(2)",
+					"sid": "68 73_Method",
 					"tid": "76 76_Generic",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
@@ -1328,20 +1328,20 @@
 					"_color": "#FF99FF"
 				},
 				{
-					"sid": "115 116_Method_cluster(2-1)",
+					"sid": "115 116_Method",
 					"tid": "124 127_Method",
 					"name": "COMPARE",
 					"_color": "#7B9626"
 				},
 				{
-					"sid": "115 116_Method_cluster(2-1)",
+					"sid": "115 116_Method",
 					"tid": "126 127_Method",
 					"name": "COMPARE",
 					"_color": "#7B9626"
 				},
 				{
 					"sid": "120 121_Metric",
-					"tid": "115 116_Method_cluster(2-1)",
+					"tid": "115 116_Method",
 					"name": "EVALUATE-FOR",
 					"_color": "#4747FF"
 				},
@@ -1359,7 +1359,7 @@
 				},
 				{
 					"sid": "130 136_Material",
-					"tid": "115 116_Method_cluster(2-1)",
+					"tid": "115 116_Method",
 					"name": "EVALUATE-FOR",
 					"_color": "#4747FF"
 				},
@@ -1377,12 +1377,12 @@
 				},
 				{
 					"sid": "151 152_OtherScientificTerm",
-					"tid": "115 116_Method_cluster(2-1)",
+					"tid": "115 116_Method",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "162 162_Generic_cluster(1-2)",
+					"sid": "162 162_Generic",
 					"tid": "171 172_Material",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
@@ -1394,7 +1394,7 @@
 			"nodes": [
 				{
 					"name": "method (1)",
-					"id": "4 4_Generic_cluster(1)",
+					"id": "4 4_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -1449,7 +1449,7 @@
 				},
 				{
 					"name": "method (1-method)",
-					"id": "113 113_Generic_cluster(1-2)",
+					"id": "113 113_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -1473,7 +1473,7 @@
 					"_color": "#B381D9"
 				},
 				{
-					"id": "28 28_Generic_cluster(1-1)",
+					"id": "28 28_Generic_cluster",
 					"name": "detectors (1-method)",
 					"_color": "#0070C0"
 				},
@@ -1505,14 +1505,14 @@
 			],
 			"links": [
 				{
-					"sid": "4 4_Generic_cluster(1)",
+					"sid": "4 4_Generic",
 					"tid": "6 8_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "10 11_OtherScientificTerm",
-					"tid": "4 4_Generic_cluster(1)",
+					"tid": "4 4_Generic",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
@@ -1559,13 +1559,13 @@
 					"_color": "#D7D200"
 				},
 				{
-					"sid": "113 113_Generic_cluster(1-2)",
+					"sid": "113 113_Generic",
 					"tid": "115 118_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "113 113_Generic_cluster(1-2)",
+					"sid": "113 113_Generic",
 					"tid": "120 121_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
@@ -1593,7 +1593,7 @@
 				},
 				{
 					"name": "geometric structures of 3D lines (1)",
-					"id": "21 25_OtherScientificTerm_cluster(1)",
+					"id": "21 25_OtherScientificTerm_cluster",
 					"_color": "#B381D9"
 				},
 				{
@@ -1613,7 +1613,7 @@
 				},
 				{
 					"name": "triangulation (1-geometric structures of 3D lines)",
-					"id": "63 63_Method_cluster(1-1)",
+					"id": "63 63_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -1653,7 +1653,7 @@
 				},
 				{
 					"name": "triangulation and LAGC algorithms (2-line-assisted graph-cut -LRB- LAGC -RRB- algorithm)",
-					"id": "169 172_Method_cluster(2-1)",
+					"id": "169 172_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -1727,7 +1727,7 @@
 					"_color": "#FFC000"
 				},
 				{
-					"id": "141 146_Method_cluster(2)",
+					"id": "141 146_Method_cluster",
 					"name": "line-assisted graph-cut -LRB- LAGC -RRB- algorithm (2)",
 					"_color": "#FFC000"
 				}
@@ -1740,20 +1740,20 @@
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "21 25_OtherScientificTerm_cluster(1)",
+					"sid": "21 25_OtherScientificTerm",
 					"tid": "31 33_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "21 25_OtherScientificTerm_cluster(1)",
+					"sid": "21 25_OtherScientificTerm",
 					"tid": "35 36_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "27 28_OtherScientificTerm",
-					"tid": "21 25_OtherScientificTerm_cluster(1)",
+					"tid": "21 25_OtherScientificTerm",
 					"name": "FEATURE-OF",
 					"_color": "#D7D200"
 				},
@@ -1764,7 +1764,7 @@
 					"_color": "#92D050"
 				},
 				{
-					"sid": "63 63_Method_cluster(1-1)",
+					"sid": "63 63_Method",
 					"tid": "66 67_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
@@ -1789,25 +1789,25 @@
 				},
 				{
 					"sid": "161 164_Material",
-					"tid": "169 172_Method_cluster(2-1)",
+					"tid": "169 172_Method",
 					"name": "EVALUATE-FOR",
 					"_color": "#4747FF"
 				},
 				{
-					"sid": "169 172_Method_cluster(2-1)",
+					"sid": "169 172_Method",
 					"tid": "174 175_Generic",
 					"name": "COMPARE",
 					"_color": "#7B9626"
 				},
 				{
-					"sid": "169 172_Method_cluster(2-1)",
+					"sid": "169 172_Method",
 					"tid": "175 175_Generic",
 					"name": "COMPARE",
 					"_color": "#7B9626"
 				},
 				{
 					"sid": "177 177_Metric",
-					"tid": "169 172_Method_cluster(2-1)",
+					"tid": "169 172_Method",
 					"name": "EVALUATE-FOR",
 					"_color": "#4747FF"
 				},
@@ -1819,7 +1819,7 @@
 				},
 				{
 					"sid": "179 180_Metric",
-					"tid": "169 172_Method_cluster(2-1)",
+					"tid": "169 172_Method",
 					"name": "EVALUATE-FOR",
 					"_color": "#4747FF"
 				},
@@ -1867,7 +1867,7 @@
 				},
 				{
 					"name": "formalism (1-generic mathematical formalism)",
-					"id": "45 45_Generic_cluster(1-1)",
+					"id": "45 45_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -1901,7 +1901,7 @@
 					"_color": "#B381D9"
 				},
 				{
-					"id": "4 6_Method_cluster(1)",
+					"id": "4 6_Method_cluster",
 					"name": "generic mathematical formalism (1)",
 					"_color": "#FFC000"
 				},
@@ -1955,7 +1955,7 @@
 					"_color": "#FF99FF"
 				},
 				{
-					"sid": "45 45_Generic_cluster(1-1)",
+					"sid": "45 45_Generic",
 					"tid": "56 57_Method",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
@@ -2048,7 +2048,7 @@
 				},
 				{
 					"name": "components (3)",
-					"id": "35 35_Generic_cluster(3)",
+					"id": "35 35_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -2088,7 +2088,7 @@
 				},
 				{
 					"name": "intentional structure (1-discourse structure)",
-					"id": "93 94_OtherScientificTerm_cluster(1-1)",
+					"id": "93 94_OtherScientificTerm_cluster",
 					"_color": "#B381D9"
 				},
 				{
@@ -2158,7 +2158,7 @@
 				},
 				{
 					"name": "theory (4-theory)",
-					"id": "232 232_Generic_cluster(4-1)",
+					"id": "232 232_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -2187,12 +2187,12 @@
 					"_color": "#FF0909"
 				},
 				{
-					"id": "9 10_OtherScientificTerm_cluster(1)",
+					"id": "9 10_OtherScientificTerm_cluster",
 					"name": "discourse structure (1)",
 					"_color": "#B381D9"
 				},
 				{
-					"id": "24 24_Generic_cluster(4)",
+					"id": "24 24_Generic_cluster",
 					"name": "theory (4)",
 					"_color": "#0070C0"
 				},
@@ -2207,7 +2207,7 @@
 					"_color": "#B381D9"
 				},
 				{
-					"id": "115 116_OtherScientificTerm_cluster(2)",
+					"id": "115 116_OtherScientificTerm_cluster",
 					"name": "attentional state (2)",
 					"_color": "#B381D9"
 				},
@@ -2217,7 +2217,7 @@
 					"_color": "#B381D9"
 				},
 				{
-					"id": "134 135_OtherScientificTerm_cluster(2-1)",
+					"id": "134 135_OtherScientificTerm_cluster",
 					"name": "attentional state (2-attentional state)",
 					"_color": "#B381D9"
 				},
@@ -2227,7 +2227,7 @@
 					"_color": "#B381D9"
 				},
 				{
-					"id": "162 162_Generic_cluster(3-1)",
+					"id": "162 162_Generic_cluster",
 					"name": "components (3-components)",
 					"_color": "#0070C0"
 				},
@@ -2276,14 +2276,14 @@
 					"_color": "#D7D200"
 				},
 				{
-					"sid": "35 35_Generic_cluster(3)",
+					"sid": "35 35_Generic",
 					"tid": "26 27_OtherScientificTerm",
 					"name": "PART-OF",
 					"_color": "#C00000"
 				},
 				{
 					"sid": "38 43_OtherScientificTerm",
-					"tid": "35 35_Generic_cluster(3)",
+					"tid": "35 35_Generic",
 					"name": "PART-OF",
 					"_color": "#C00000"
 				},
@@ -2295,13 +2295,13 @@
 				},
 				{
 					"sid": "47 48_OtherScientificTerm",
-					"tid": "35 35_Generic_cluster(3)",
+					"tid": "35 35_Generic",
 					"name": "PART-OF",
 					"_color": "#C00000"
 				},
 				{
 					"sid": "52 54_OtherScientificTerm",
-					"tid": "35 35_Generic_cluster(3)",
+					"tid": "35 35_Generic",
 					"name": "PART-OF",
 					"_color": "#C00000"
 				},
@@ -2313,18 +2313,18 @@
 				},
 				{
 					"sid": "58 59_OtherScientificTerm",
-					"tid": "35 35_Generic_cluster(3)",
+					"tid": "35 35_Generic",
 					"name": "PART-OF",
 					"_color": "#C00000"
 				},
 				{
 					"sid": "72 73_OtherScientificTerm",
-					"tid": "35 35_Generic_cluster(3)",
+					"tid": "35 35_Generic",
 					"name": "PART-OF",
 					"_color": "#C00000"
 				},
 				{
-					"sid": "93 94_OtherScientificTerm_cluster(1-1)",
+					"sid": "93 94_OtherScientificTerm",
 					"tid": "97 98_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
@@ -2390,7 +2390,7 @@
 					"_color": "#92D050"
 				},
 				{
-					"sid": "232 232_Generic_cluster(4-1)",
+					"sid": "232 232_Generic",
 					"tid": "239 241_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
@@ -2414,7 +2414,7 @@
 			"nodes": [
 				{
 					"name": "system (1)",
-					"id": "5 5_Generic_cluster(1)",
+					"id": "5 5_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -2454,12 +2454,12 @@
 				},
 				{
 					"name": "It (1-system)",
-					"id": "53 53_Generic_cluster(1-2)",
+					"id": "53 53_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
 					"name": "system (1-system)",
-					"id": "78 78_Generic_cluster(1-3)",
+					"id": "78 78_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -2493,7 +2493,7 @@
 					"_color": "#002060"
 				},
 				{
-					"id": "24 24_Generic_cluster(1-1)",
+					"id": "24 24_Generic_cluster",
 					"name": "system (1-system)",
 					"_color": "#0070C0"
 				},
@@ -2515,13 +2515,13 @@
 			],
 			"links": [
 				{
-					"sid": "5 5_Generic_cluster(1)",
+					"sid": "5 5_Generic",
 					"tid": "8 13_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "5 5_Generic_cluster(1)",
+					"sid": "5 5_Generic",
 					"tid": "15 17_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
@@ -2588,19 +2588,19 @@
 				},
 				{
 					"sid": "57 58_Method",
-					"tid": "53 53_Generic_cluster(1-2)",
+					"tid": "53 53_Generic",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "78 78_Generic_cluster(1-3)",
+					"sid": "78 78_Generic",
 					"tid": "83 84_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "88 88_Metric",
-					"tid": "78 78_Generic_cluster(1-3)",
+					"tid": "78 78_Generic",
 					"name": "EVALUATE-FOR",
 					"_color": "#4747FF"
 				},
@@ -2644,7 +2644,7 @@
 				},
 				{
 					"name": "Weighted Approximate Rank Component Analysis -LRB- WARCA -RRB- (1)",
-					"id": "57 64_Method_cluster(1)",
+					"id": "57 64_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -2654,7 +2654,7 @@
 				},
 				{
 					"name": "scalable stochastic gradient descent algorithm (2)",
-					"id": "70 74_Method_cluster(2)",
+					"id": "70 74_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -2689,7 +2689,7 @@
 				},
 				{
 					"name": "method (2-scalable stochastic gradient descent algorithm)",
-					"id": "166 166_Generic_cluster(2-1)",
+					"id": "166 166_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -2699,7 +2699,7 @@
 				},
 				{
 					"name": "person re-identification datasets (3)",
-					"id": "170 172_Task_cluster(3)",
+					"id": "170 172_Task_cluster",
 					"_color": "#FF0909"
 				},
 				{
@@ -2709,7 +2709,7 @@
 				},
 				{
 					"name": "them (3-person re-identification datasets)",
-					"id": "194 194_Generic_cluster(3-1)",
+					"id": "194 194_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -2723,7 +2723,7 @@
 					"_color": "#00B0F0"
 				},
 				{
-					"id": "89 89_Method_cluster(1-1)",
+					"id": "89 89_Method_cluster",
 					"name": "WARCA (1-Weighted Approximate Rank Component Analysis -LRB- WARCA -RRB-)",
 					"_color": "#FFC000"
 				},
@@ -2762,13 +2762,13 @@
 					"_color": "#FF99FF"
 				},
 				{
-					"sid": "57 64_Method_cluster(1)",
+					"sid": "57 64_Method",
 					"tid": "53 55_Method",
 					"name": "HYPONYM-OF",
 					"_color": "#FF99FF"
 				},
 				{
-					"sid": "70 74_Method_cluster(2)",
+					"sid": "70 74_Method",
 					"tid": "78 79_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
@@ -2792,44 +2792,44 @@
 					"_color": "#C00000"
 				},
 				{
-					"sid": "166 166_Generic_cluster(2-1)",
+					"sid": "166 166_Generic",
 					"tid": "189 190_Generic",
 					"name": "COMPARE",
 					"_color": "#7B9626"
 				},
 				{
-					"sid": "170 172_Task_cluster(3)",
-					"tid": "166 166_Generic_cluster(2-1)",
+					"sid": "170 172_Task",
+					"tid": "166 166_Generic",
 					"name": "EVALUATE-FOR",
 					"_color": "#4747FF"
 				},
 				{
-					"sid": "170 172_Task_cluster(3)",
+					"sid": "170 172_Task",
 					"tid": "189 190_Generic",
 					"name": "EVALUATE-FOR",
 					"_color": "#4747FF"
 				},
 				{
 					"sid": "175 180_Material",
-					"tid": "170 172_Task_cluster(3)",
+					"tid": "170 172_Task",
 					"name": "HYPONYM-OF",
 					"_color": "#FF99FF"
 				},
 				{
-					"sid": "194 194_Generic_cluster(3-1)",
-					"tid": "166 166_Generic_cluster(2-1)",
+					"sid": "194 194_Generic",
+					"tid": "166 166_Generic",
 					"name": "EVALUATE-FOR",
 					"_color": "#4747FF"
 				},
 				{
-					"sid": "194 194_Generic_cluster(3-1)",
-					"tid": "166 166_Generic_cluster(2-1)",
+					"sid": "194 194_Generic",
+					"tid": "166 166_Generic",
 					"name": "EVALUATE-FOR",
 					"_color": "#4747FF"
 				},
 				{
-					"sid": "194 194_Generic_cluster(3-1)",
-					"tid": "166 166_Generic_cluster(2-1)",
+					"sid": "194 194_Generic",
+					"tid": "166 166_Generic",
 					"name": "EVALUATE-FOR",
 					"_color": "#4747FF"
 				}
@@ -2840,7 +2840,7 @@
 			"nodes": [
 				{
 					"name": "Plume (1)",
-					"id": "8 8_Method_cluster(1)",
+					"id": "8 8_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -2870,7 +2870,7 @@
 				},
 				{
 					"name": "This (1-Plume)",
-					"id": "38 38_Generic_cluster(1-1)",
+					"id": "38 38_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -2880,7 +2880,7 @@
 				},
 				{
 					"name": "Plume (1-Plume)",
-					"id": "58 58_Method_cluster(1-2)",
+					"id": "58 58_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -2905,7 +2905,7 @@
 				},
 				{
 					"name": "Plume (1-Plume)",
-					"id": "103 103_Method_cluster(1-6)",
+					"id": "103 103_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -2934,7 +2934,7 @@
 					"_color": "#B381D9"
 				},
 				{
-					"id": "69 69_Generic_cluster(1-3)",
+					"id": "69 69_Generic_cluster",
 					"name": "it (1-Plume)",
 					"_color": "#0070C0"
 				},
@@ -2944,12 +2944,12 @@
 					"_color": "#B381D9"
 				},
 				{
-					"id": "91 91_Method_cluster(1-4)",
+					"id": "91 91_Method_cluster",
 					"name": "Plume (1-Plume)",
 					"_color": "#FFC000"
 				},
 				{
-					"id": "93 93_Generic_cluster(1-5)",
+					"id": "93 93_Generic_cluster",
 					"name": "it (1-Plume)",
 					"_color": "#0070C0"
 				},
@@ -2961,7 +2961,7 @@
 			],
 			"links": [
 				{
-					"sid": "8 8_Method_cluster(1)",
+					"sid": "8 8_Method",
 					"tid": "4 6_Method",
 					"name": "HYPONYM-OF",
 					"_color": "#FF99FF"
@@ -2980,7 +2980,7 @@
 				},
 				{
 					"sid": "43 43_Metric",
-					"tid": "38 38_Generic_cluster(1-1)",
+					"tid": "38 38_Generic",
 					"name": "EVALUATE-FOR",
 					"_color": "#4747FF"
 				},
@@ -2992,12 +2992,12 @@
 				},
 				{
 					"sid": "49 49_Metric",
-					"tid": "38 38_Generic_cluster(1-1)",
+					"tid": "38 38_Generic",
 					"name": "EVALUATE-FOR",
 					"_color": "#4747FF"
 				},
 				{
-					"sid": "58 58_Method_cluster(1-2)",
+					"sid": "58 58_Method",
 					"tid": "64 67_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
@@ -3015,19 +3015,19 @@
 					"_color": "#92D050"
 				},
 				{
-					"sid": "103 103_Method_cluster(1-6)",
+					"sid": "103 103_Method",
 					"tid": "106 106_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "103 103_Method_cluster(1-6)",
+					"sid": "103 103_Method",
 					"tid": "108 109_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "103 103_Method_cluster(1-6)",
+					"sid": "103 103_Method",
 					"tid": "112 112_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
@@ -3051,7 +3051,7 @@
 			"nodes": [
 				{
 					"name": "probabilistic framework (1)",
-					"id": "4 5_Method_cluster(1)",
+					"id": "4 5_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -3076,7 +3076,7 @@
 				},
 				{
 					"name": "model (1-probabilistic framework)",
-					"id": "57 57_Generic_cluster(1-1)",
+					"id": "57 57_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -3096,7 +3096,7 @@
 				},
 				{
 					"name": "model (1-probabilistic framework)",
-					"id": "116 116_Generic_cluster(1-3)",
+					"id": "116 116_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -3116,7 +3116,7 @@
 				},
 				{
 					"name": "algorithm (1-probabilistic framework)",
-					"id": "146 146_Generic_cluster(1-5)",
+					"id": "146 146_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -3150,7 +3150,7 @@
 					"_color": "#FFC000"
 				},
 				{
-					"id": "84 84_Generic_cluster(1-2)",
+					"id": "84 84_Generic_cluster",
 					"name": "model (1-probabilistic framework)",
 					"_color": "#0070C0"
 				},
@@ -3160,7 +3160,7 @@
 					"_color": "#B381D9"
 				},
 				{
-					"id": "127 127_Generic_cluster(1-4)",
+					"id": "127 127_Generic_cluster",
 					"name": "approach (1-probabilistic framework)",
 					"_color": "#0070C0"
 				},
@@ -3182,14 +3182,14 @@
 			],
 			"links": [
 				{
-					"sid": "4 5_Method_cluster(1)",
+					"sid": "4 5_Method",
 					"tid": "8 13_Method",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "16 17_OtherScientificTerm",
-					"tid": "4 5_Method_cluster(1)",
+					"tid": "4 5_Method",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
@@ -3201,13 +3201,13 @@
 				},
 				{
 					"sid": "19 20_OtherScientificTerm",
-					"tid": "4 5_Method_cluster(1)",
+					"tid": "4 5_Method",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "50 51_Method",
-					"tid": "57 57_Generic_cluster(1-1)",
+					"tid": "57 57_Generic",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
@@ -3224,14 +3224,14 @@
 					"_color": "#92D050"
 				},
 				{
-					"sid": "116 116_Generic_cluster(1-3)",
+					"sid": "116 116_Generic",
 					"tid": "105 105_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "119 120_Metric",
-					"tid": "116 116_Generic_cluster(1-3)",
+					"tid": "116 116_Generic",
 					"name": "EVALUATE-FOR",
 					"_color": "#4747FF"
 				},
@@ -3242,20 +3242,20 @@
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "146 146_Generic_cluster(1-5)",
+					"sid": "146 146_Generic",
 					"tid": "149 150_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "146 146_Generic_cluster(1-5)",
+					"sid": "146 146_Generic",
 					"tid": "153 155_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "149 150_Task",
-					"tid": "146 146_Generic_cluster(1-5)",
+					"tid": "146 146_Generic",
 					"name": "EVALUATE-FOR",
 					"_color": "#4747FF"
 				},
@@ -3292,12 +3292,12 @@
 				},
 				{
 					"name": "offset adaptation -LRB- OA -RRB- model (1)",
-					"id": "58 63_Method_cluster(1)",
+					"id": "58 63_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
 					"name": "OA (1-offset adaptation -LRB- OA -RRB- model)",
-					"id": "73 73_Method_cluster(1-1)",
+					"id": "73 73_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -3322,7 +3322,7 @@
 				},
 				{
 					"name": "OA (1-offset adaptation -LRB- OA -RRB- model)",
-					"id": "102 102_Material_cluster(1-2)",
+					"id": "102 102_Material_cluster",
 					"_color": "#002060"
 				},
 				{
@@ -3391,7 +3391,7 @@
 					"_color": "#B381D9"
 				},
 				{
-					"id": "155 161_Method_cluster(2)",
+					"id": "155 161_Method_cluster",
 					"name": "MSG -LRB- Modulation-filtered Spec-troGram -RRB- auditory features (2)",
 					"_color": "#FFC000"
 				},
@@ -3401,7 +3401,7 @@
 					"_color": "#B381D9"
 				},
 				{
-					"id": "177 177_Method_cluster(2-1)",
+					"id": "177 177_Method_cluster",
 					"name": "MLPs (2-MSG -LRB- Modulation-filtered Spec-troGram -RRB- auditory features)",
 					"_color": "#FFC000"
 				}
@@ -3421,31 +3421,31 @@
 				},
 				{
 					"sid": "46 47_Task",
-					"tid": "58 63_Method_cluster(1)",
+					"tid": "58 63_Method",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "49 54_Task",
-					"tid": "58 63_Method_cluster(1)",
+					"tid": "58 63_Method",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "73 73_Method_cluster(1-1)",
+					"sid": "73 73_Method",
 					"tid": "75 76_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "73 73_Method_cluster(1-1)",
+					"sid": "73 73_Method",
 					"tid": "89 89_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "86 87_Metric",
-					"tid": "73 73_Method_cluster(1-1)",
+					"tid": "73 73_Method",
 					"name": "EVALUATE-FOR",
 					"_color": "#4747FF"
 				},
@@ -3462,7 +3462,7 @@
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "102 102_Material_cluster(1-2)",
+					"sid": "102 102_Material",
 					"tid": "106 107_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
@@ -3508,7 +3508,7 @@
 				},
 				{
 					"name": "relation extraction (1)",
-					"id": "17 18_Task_cluster(1)",
+					"id": "17 18_Task_cluster",
 					"_color": "#FF0909"
 				},
 				{
@@ -3518,7 +3518,7 @@
 				},
 				{
 					"name": "syntactic structure features (2)",
-					"id": "25 27_OtherScientificTerm_cluster(2)",
+					"id": "25 27_OtherScientificTerm_cluster",
 					"_color": "#B381D9"
 				},
 				{
@@ -3528,7 +3528,7 @@
 				},
 				{
 					"name": "relation extraction (1-relation extraction)",
-					"id": "37 38_Task_cluster(1-1)",
+					"id": "37 38_Task_cluster",
 					"_color": "#FF0909"
 				},
 				{
@@ -3538,7 +3538,7 @@
 				},
 				{
 					"name": "features (2-syntactic structure features)",
-					"id": "41 41_OtherScientificTerm_cluster(2-1)",
+					"id": "41 41_OtherScientificTerm_cluster",
 					"_color": "#B381D9"
 				},
 				{
@@ -3591,7 +3591,7 @@
 				},
 				{
 					"sid": "6 7_Method",
-					"tid": "17 18_Task_cluster(1)",
+					"tid": "17 18_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
@@ -3603,31 +3603,31 @@
 				},
 				{
 					"sid": "13 15_OtherScientificTerm",
-					"tid": "17 18_Task_cluster(1)",
+					"tid": "17 18_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "25 27_OtherScientificTerm_cluster(2)",
+					"sid": "25 27_OtherScientificTerm",
 					"tid": "31 32_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "25 27_OtherScientificTerm_cluster(2)",
-					"tid": "37 38_Task_cluster(1-1)",
+					"sid": "25 27_OtherScientificTerm",
+					"tid": "37 38_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "48 50_Method",
-					"tid": "37 38_Task_cluster(1-1)",
+					"tid": "37 38_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "48 50_Method",
-					"tid": "41 41_OtherScientificTerm_cluster(2-1)",
+					"tid": "41 41_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
@@ -3686,7 +3686,7 @@
 			"nodes": [
 				{
 					"name": "method (1)",
-					"id": "3 3_Generic_cluster(1)",
+					"id": "3 3_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -3706,12 +3706,12 @@
 				},
 				{
 					"name": "cascade evaluation (2)",
-					"id": "38 39_Task_cluster(2)",
+					"id": "38 39_Task_cluster",
 					"_color": "#FF0909"
 				},
 				{
 					"name": "method (1-method)",
-					"id": "43 43_Generic_cluster(1-1)",
+					"id": "43 43_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -3726,17 +3726,17 @@
 				},
 				{
 					"name": "method (1-method)",
-					"id": "85 85_Generic_cluster(1-2)",
+					"id": "85 85_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
 					"name": "method (1-method)",
-					"id": "93 93_Generic_cluster(1-3)",
+					"id": "93 93_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
 					"name": "cascade evaluation (2-cascade evaluation)",
-					"id": "103 104_Task_cluster(2-1)",
+					"id": "103 104_Task_cluster",
 					"_color": "#FF0909"
 				},
 				{
@@ -3766,7 +3766,7 @@
 				},
 				{
 					"name": "method (1-method)",
-					"id": "146 146_Generic_cluster(1-4)",
+					"id": "146 146_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -3792,56 +3792,56 @@
 			],
 			"links": [
 				{
-					"sid": "3 3_Generic_cluster(1)",
+					"sid": "3 3_Generic",
 					"tid": "7 11_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "3 3_Generic_cluster(1)",
+					"sid": "3 3_Generic",
 					"tid": "9 11_Method",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "29 30_Generic",
-					"tid": "38 39_Task_cluster(2)",
+					"tid": "38 39_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "29 30_Generic",
-					"tid": "43 43_Generic_cluster(1-1)",
+					"tid": "43 43_Generic",
 					"name": "COMPARE",
 					"_color": "#7B9626"
 				},
 				{
 					"sid": "46 46_GeneralTerm",
-					"tid": "43 43_Generic_cluster(1-1)",
+					"tid": "43 43_Generic",
 					"name": "EVALUATE-FOR",
 					"_color": "#4747FF"
 				},
 				{
 					"sid": "67 72_Method",
-					"tid": "85 85_Generic_cluster(1-2)",
+					"tid": "85 85_Generic",
 					"name": "PART-OF",
 					"_color": "#C00000"
 				},
 				{
-					"sid": "93 93_Generic_cluster(1-3)",
-					"tid": "103 104_Task_cluster(2-1)",
+					"sid": "93 93_Generic",
+					"tid": "103 104_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "93 93_Generic_cluster(1-3)",
+					"sid": "93 93_Generic",
 					"tid": "114 116_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "100 101_Method",
-					"tid": "103 104_Task_cluster(2-1)",
+					"tid": "103 104_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
@@ -3859,7 +3859,7 @@
 				},
 				{
 					"sid": "132 135_Material",
-					"tid": "146 146_Generic_cluster(1-4)",
+					"tid": "146 146_Generic",
 					"name": "EVALUATE-FOR",
 					"_color": "#4747FF"
 				},
@@ -3871,12 +3871,12 @@
 				},
 				{
 					"sid": "138 138_Metric",
-					"tid": "146 146_Generic_cluster(1-4)",
+					"tid": "146 146_Generic",
 					"name": "EVALUATE-FOR",
 					"_color": "#4747FF"
 				},
 				{
-					"sid": "146 146_Generic_cluster(1-4)",
+					"sid": "146 146_Generic",
 					"tid": "150 151_Method",
 					"name": "COMPARE",
 					"_color": "#7B9626"
@@ -3898,7 +3898,7 @@
 				},
 				{
 					"name": "Lexical-Functional Grammars -LRB- LFG -RRB- (1)",
-					"id": "12 16_Method_cluster(1)",
+					"id": "12 16_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -3908,7 +3908,7 @@
 				},
 				{
 					"name": "LFG (1-Lexical-Functional Grammars -LRB- LFG -RRB-)",
-					"id": "31 31_Method_cluster(1-1)",
+					"id": "31 31_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -3928,7 +3928,7 @@
 				},
 				{
 					"name": "system (2)",
-					"id": "25 25_Generic_cluster(2)",
+					"id": "25 25_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -3983,7 +3983,7 @@
 				},
 				{
 					"name": "system (2-system)",
-					"id": "105 105_Generic_cluster(2-1)",
+					"id": "105 105_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -4011,19 +4011,19 @@
 				},
 				{
 					"sid": "5 6_Method",
-					"tid": "12 16_Method_cluster(1)",
+					"tid": "12 16_Method",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "8 10_Method",
-					"tid": "12 16_Method_cluster(1)",
+					"tid": "12 16_Method",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "28 29_Method",
-					"tid": "31 31_Method_cluster(1-1)",
+					"tid": "31 31_Method",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
@@ -4047,7 +4047,7 @@
 				},
 				{
 					"sid": "34 35_Method",
-					"tid": "25 25_Generic_cluster(2)",
+					"tid": "25 25_Generic",
 					"name": "PART-OF",
 					"_color": "#C00000"
 				},
@@ -4077,7 +4077,7 @@
 				},
 				{
 					"sid": "47 48_Method",
-					"tid": "25 25_Generic_cluster(2)",
+					"tid": "25 25_Generic",
 					"name": "PART-OF",
 					"_color": "#C00000"
 				},
@@ -4113,13 +4113,13 @@
 				},
 				{
 					"sid": "100 101_Metric",
-					"tid": "105 105_Generic_cluster(2-1)",
+					"tid": "105 105_Generic",
 					"name": "EVALUATE-FOR",
 					"_color": "#4747FF"
 				},
 				{
 					"sid": "111 111_Metric",
-					"tid": "105 105_Generic_cluster(2-1)",
+					"tid": "105 105_Generic",
 					"name": "EVALUATE-FOR",
 					"_color": "#4747FF"
 				}
@@ -4130,7 +4130,7 @@
 			"nodes": [
 				{
 					"name": "algorithm (1)",
-					"id": "2 2_Generic_cluster(1)",
+					"id": "2 2_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -4145,7 +4145,7 @@
 				},
 				{
 					"name": "technique (1-algorithm)",
-					"id": "56 56_Generic_cluster(1-2)",
+					"id": "56 56_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -4185,7 +4185,7 @@
 				},
 				{
 					"name": "algorithm (2)",
-					"id": "123 123_Generic_cluster(2)",
+					"id": "123 123_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -4205,7 +4205,7 @@
 				},
 				{
 					"name": "algorithm (2-algorithm)",
-					"id": "171 171_Generic_cluster(2-1)",
+					"id": "171 171_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -4239,7 +4239,7 @@
 					"_color": "#B381D9"
 				},
 				{
-					"id": "33 33_Generic_cluster(1-1)",
+					"id": "33 33_Generic_cluster",
 					"name": "algorithm (1-algorithm)",
 					"_color": "#0070C0"
 				},
@@ -4311,14 +4311,14 @@
 			],
 			"links": [
 				{
-					"sid": "2 2_Generic_cluster(1)",
+					"sid": "2 2_Generic",
 					"tid": "7 8_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "63 66_Method",
-					"tid": "56 56_Generic_cluster(1-2)",
+					"tid": "56 56_Generic",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
@@ -4365,25 +4365,25 @@
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "123 123_Generic_cluster(2)",
+					"sid": "123 123_Generic",
 					"tid": "126 131_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "123 123_Generic_cluster(2)",
+					"sid": "123 123_Generic",
 					"tid": "135 137_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "167 167_Metric",
-					"tid": "171 171_Generic_cluster(2-1)",
+					"tid": "171 171_Generic",
 					"name": "EVALUATE-FOR",
 					"_color": "#4747FF"
 				},
 				{
-					"sid": "171 171_Generic_cluster(2-1)",
+					"sid": "171 171_Generic",
 					"tid": "173 176_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
@@ -4436,7 +4436,7 @@
 				},
 				{
 					"name": "sentence planner (1)",
-					"id": "46 47_Method_cluster(1)",
+					"id": "46 47_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -4461,7 +4461,7 @@
 				},
 				{
 					"name": "baseline sentence planners (2)",
-					"id": "83 85_Method_cluster(2)",
+					"id": "83 85_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -4476,17 +4476,17 @@
 				},
 				{
 					"name": "baselines (2-baseline sentence planners)",
-					"id": "102 102_Generic_cluster(2-1)",
+					"id": "102 102_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
 					"name": "sentence planner (1-sentence planner)",
-					"id": "92 93_Method_cluster(1-1)",
+					"id": "92 93_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
 					"name": "hand-crafted system (2-baseline sentence planners)",
-					"id": "109 110_Method_cluster(2-2)",
+					"id": "109 110_Method_cluster",
 					"_color": "#FFC000"
 				}
 			],
@@ -4522,14 +4522,14 @@
 					"_color": "#7B9626"
 				},
 				{
-					"sid": "46 47_Method_cluster(1)",
+					"sid": "46 47_Method",
 					"tid": "50 52_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "55 57_OtherScientificTerm",
-					"tid": "46 47_Method_cluster(1)",
+					"tid": "46 47_Method",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
@@ -4541,7 +4541,7 @@
 				},
 				{
 					"sid": "77 79_Method",
-					"tid": "83 85_Method_cluster(2)",
+					"tid": "83 85_Method",
 					"name": "CONJUNCTION",
 					"_color": "#92D050"
 				},
@@ -4553,43 +4553,43 @@
 				},
 				{
 					"sid": "91 93_Method",
-					"tid": "102 102_Generic_cluster(2-1)",
+					"tid": "102 102_Generic",
 					"name": "COMPARE",
 					"_color": "#7B9626"
 				},
 				{
-					"sid": "92 93_Method_cluster(1-1)",
+					"sid": "92 93_Method",
 					"tid": "98 99_Method",
 					"name": "COMPARE",
 					"_color": "#7B9626"
 				},
 				{
-					"sid": "92 93_Method_cluster(1-1)",
-					"tid": "102 102_Generic_cluster(2-1)",
+					"sid": "92 93_Method",
+					"tid": "102 102_Generic",
 					"name": "COMPARE",
 					"_color": "#7B9626"
 				},
 				{
-					"sid": "92 93_Method_cluster(1-1)",
-					"tid": "109 110_Method_cluster(2-2)",
+					"sid": "92 93_Method",
+					"tid": "109 110_Method",
 					"name": "COMPARE",
 					"_color": "#7B9626"
 				},
 				{
 					"sid": "98 99_Method",
-					"tid": "102 102_Generic_cluster(2-1)",
+					"tid": "102 102_Generic",
 					"name": "CONJUNCTION",
 					"_color": "#92D050"
 				},
 				{
 					"sid": "98 99_Method",
-					"tid": "109 110_Method_cluster(2-2)",
+					"tid": "109 110_Method",
 					"name": "CONJUNCTION",
 					"_color": "#92D050"
 				},
 				{
-					"sid": "102 102_Generic_cluster(2-1)",
-					"tid": "109 110_Method_cluster(2-2)",
+					"sid": "102 102_Generic",
+					"tid": "109 110_Method",
 					"name": "CONJUNCTION",
 					"_color": "#92D050"
 				}
@@ -4600,7 +4600,7 @@
 			"nodes": [
 				{
 					"name": "model-based approach (1)",
-					"id": "1 2_Generic_cluster(1)",
+					"id": "1 2_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -4635,7 +4635,7 @@
 				},
 				{
 					"name": "discrete motor control representation (2)",
-					"id": "113 116_Method_cluster(2)",
+					"id": "113 116_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -4650,7 +4650,7 @@
 				},
 				{
 					"name": "motor control representation (2-discrete motor control representation)",
-					"id": "133 135_Method_cluster(2-1)",
+					"id": "133 135_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -4665,7 +4665,7 @@
 				},
 				{
 					"name": "dynamic representation (2-discrete motor control representation)",
-					"id": "154 155_Method_cluster(2-2)",
+					"id": "154 155_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -4674,7 +4674,7 @@
 					"_color": "#FF0909"
 				},
 				{
-					"id": "17 17_Generic_cluster(1-1)",
+					"id": "17 17_Generic_cluster",
 					"name": "model (1-model-based approach)",
 					"_color": "#0070C0"
 				},
@@ -4691,7 +4691,7 @@
 			],
 			"links": [
 				{
-					"sid": "1 2_Generic_cluster(1)",
+					"sid": "1 2_Generic",
 					"tid": "4 9_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
@@ -4715,25 +4715,25 @@
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "113 116_Method_cluster(2)",
+					"sid": "113 116_Method",
 					"tid": "119 121_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "125 130_OtherScientificTerm",
-					"tid": "113 116_Method_cluster(2)",
+					"tid": "113 116_Method",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "133 135_Method_cluster(2-1)",
+					"sid": "133 135_Method",
 					"tid": "138 139_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "133 135_Method_cluster(2-1)",
+					"sid": "133 135_Method",
 					"tid": "141 144_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
@@ -4745,7 +4745,7 @@
 					"_color": "#92D050"
 				},
 				{
-					"sid": "154 155_Method_cluster(2-2)",
+					"sid": "154 155_Method",
 					"tid": "157 160_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
@@ -4782,22 +4782,22 @@
 				},
 				{
 					"name": "object category recognition (1)",
-					"id": "58 60_Task_cluster(1)",
+					"id": "58 60_Task_cluster",
 					"_color": "#FF0909"
 				},
 				{
 					"name": "Deep learning methods (2)",
-					"id": "62 64_Method_cluster(2)",
+					"id": "62 64_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
 					"name": "task (1-object category recognition)",
-					"id": "71 71_Generic_cluster(1-1)",
+					"id": "71 71_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
 					"name": "approaches (2-Deep learning methods)",
-					"id": "81 81_Generic_cluster(2-1)",
+					"id": "81 81_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -4827,7 +4827,7 @@
 				},
 				{
 					"name": "CNNs (3-CNN models)",
-					"id": "143 143_Method_cluster(3-1)",
+					"id": "143 143_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -4861,7 +4861,7 @@
 					"_color": "#B381D9"
 				},
 				{
-					"id": "124 125_Method_cluster(3)",
+					"id": "124 125_Method_cluster",
 					"name": "CNN models (3)",
 					"_color": "#FFC000"
 				},
@@ -4901,18 +4901,18 @@
 				},
 				{
 					"sid": "49 50_Method",
-					"tid": "58 60_Task_cluster(1)",
+					"tid": "58 60_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "62 64_Method_cluster(2)",
-					"tid": "71 71_Generic_cluster(1-1)",
+					"sid": "62 64_Method",
+					"tid": "71 71_Generic",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "81 81_Generic_cluster(2-1)",
+					"sid": "81 81_Generic",
 					"tid": "76 78_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
@@ -4937,13 +4937,13 @@
 				},
 				{
 					"sid": "138 141_Method",
-					"tid": "143 143_Method_cluster(3-1)",
+					"tid": "143 143_Method",
 					"name": "PART-OF",
 					"_color": "#C00000"
 				},
 				{
 					"sid": "140 141_Method",
-					"tid": "143 143_Method_cluster(3-1)",
+					"tid": "143 143_Method",
 					"name": "PART-OF",
 					"_color": "#C00000"
 				}
@@ -4954,17 +4954,17 @@
 			"nodes": [
 				{
 					"name": "Japanese text (1)",
-					"id": "5 6_Material_cluster(1)",
+					"id": "5 6_Material_cluster",
 					"_color": "#002060"
 				},
 				{
 					"name": "Recognition of proper nouns (2)",
-					"id": "0 3_Task_cluster(2)",
+					"id": "0 3_Task_cluster",
 					"_color": "#FF0909"
 				},
 				{
 					"name": "approach (3)",
-					"id": "56 56_Generic_cluster(3)",
+					"id": "56 56_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -4974,7 +4974,7 @@
 				},
 				{
 					"name": "Japanese text (1-Japanese text)",
-					"id": "66 67_Material_cluster(1-2)",
+					"id": "66 67_Material_cluster",
 					"_color": "#002060"
 				},
 				{
@@ -4984,12 +4984,12 @@
 				},
 				{
 					"name": "task (2-Recognition of proper nouns)",
-					"id": "73 73_Generic_cluster(2-2)",
+					"id": "73 73_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
 					"name": "morphological analyzer (3-approach)",
-					"id": "83 84_Method_cluster(3-1)",
+					"id": "83 84_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -5014,7 +5014,7 @@
 				},
 				{
 					"name": "Japanese text (1-Japanese text)",
-					"id": "114 115_Material_cluster(1-3)",
+					"id": "114 115_Material_cluster",
 					"_color": "#002060"
 				},
 				{
@@ -5034,7 +5034,7 @@
 				},
 				{
 					"name": "it (2-Recognition of proper nouns)",
-					"id": "141 141_Generic_cluster(2-3)",
+					"id": "141 141_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -5044,7 +5044,7 @@
 				},
 				{
 					"name": "NE items (4)",
-					"id": "182 183_OtherScientificTerm_cluster(4)",
+					"id": "182 183_OtherScientificTerm_cluster",
 					"_color": "#B381D9"
 				},
 				{
@@ -5058,12 +5058,12 @@
 					"_color": "#FF0909"
 				},
 				{
-					"id": "22 24_Task_cluster(1-1)",
+					"id": "22 24_Task_cluster",
 					"name": "Japanese text processing (1-Japanese text)",
 					"_color": "#FF0909"
 				},
 				{
-					"id": "34 34_Generic_cluster(2-1)",
+					"id": "34 34_Generic_cluster",
 					"name": "It (2-Recognition of proper nouns)",
 					"_color": "#0070C0"
 				},
@@ -5073,7 +5073,7 @@
 					"_color": "#002060"
 				},
 				{
-					"id": "118 118_Generic_cluster(3-2)",
+					"id": "118 118_Generic_cluster",
 					"name": "analyzer (3-approach)",
 					"_color": "#0070C0"
 				},
@@ -5093,74 +5093,74 @@
 					"_color": "#FFC000"
 				},
 				{
-					"id": "193 194_OtherScientificTerm_cluster(4-1)",
+					"id": "193 194_OtherScientificTerm_cluster",
 					"name": "NE item (4-NE items)",
 					"_color": "#B381D9"
 				},
 				{
-					"id": "204 204_Generic_cluster(2-4)",
+					"id": "204 204_Generic_cluster",
 					"name": "it (2-Recognition of proper nouns)",
 					"_color": "#0070C0"
 				}
 			],
 			"links": [
 				{
-					"sid": "5 6_Material_cluster(1)",
-					"tid": "0 3_Task_cluster(2)",
+					"sid": "5 6_Material",
+					"tid": "0 3_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "56 56_Generic_cluster(3)",
+					"sid": "56 56_Generic",
 					"tid": "59 64_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "66 67_Material_cluster(1-2)",
-					"tid": "59 64_Task",
-					"name": "USED-FOR",
-					"_color": "#7030A0"
-				},
-				{
-					"sid": "76 78_Task",
+					"sid": "66 67_Material",
 					"tid": "59 64_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "76 78_Task",
-					"tid": "73 73_Generic_cluster(2-2)",
+					"tid": "59 64_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "83 84_Method_cluster(3-1)",
+					"sid": "76 78_Task",
+					"tid": "73 73_Generic",
+					"name": "USED-FOR",
+					"_color": "#7030A0"
+				},
+				{
+					"sid": "83 84_Method",
 					"tid": "93 93_GeneralTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "83 84_Method_cluster(3-1)",
+					"sid": "83 84_Method",
 					"tid": "93 98_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "83 84_Method_cluster(3-1)",
+					"sid": "83 84_Method",
 					"tid": "100 103_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "83 84_Method_cluster(3-1)",
+					"sid": "83 84_Method",
 					"tid": "106 111_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "106 111_OtherScientificTerm",
-					"tid": "114 115_Material_cluster(1-3)",
+					"tid": "114 115_Material",
 					"name": "PART-OF",
 					"_color": "#C00000"
 				},
@@ -5172,13 +5172,13 @@
 				},
 				{
 					"sid": "146 146_Generic",
-					"tid": "141 141_Generic_cluster(2-3)",
+					"tid": "141 141_Generic",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "171 171_OtherScientificTerm",
-					"tid": "182 183_OtherScientificTerm_cluster(4)",
+					"tid": "182 183_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				}
@@ -5189,7 +5189,7 @@
 			"nodes": [
 				{
 					"name": "approach (2)",
-					"id": "4 4_Generic_cluster(2)",
+					"id": "4 4_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -5199,7 +5199,7 @@
 				},
 				{
 					"name": "Topic signatures (1-topic signature)",
-					"id": "36 37_OtherScientificTerm_cluster(1-1)",
+					"id": "36 37_OtherScientificTerm_cluster",
 					"_color": "#B381D9"
 				},
 				{
@@ -5234,7 +5234,7 @@
 				},
 				{
 					"name": "topic signatures (1-topic signature)",
-					"id": "104 105_OtherScientificTerm_cluster(1-2)",
+					"id": "104 105_OtherScientificTerm_cluster",
 					"_color": "#B381D9"
 				},
 				{
@@ -5258,12 +5258,12 @@
 					"_color": "#B381D9"
 				},
 				{
-					"id": "22 23_OtherScientificTerm_cluster(1)",
+					"id": "22 23_OtherScientificTerm_cluster",
 					"name": "topic signature (1)",
 					"_color": "#B381D9"
 				},
 				{
-					"id": "66 66_Generic_cluster(2-1)",
+					"id": "66 66_Generic_cluster",
 					"name": "method (2-approach)",
 					"_color": "#0070C0"
 				},
@@ -5290,13 +5290,13 @@
 			],
 			"links": [
 				{
-					"sid": "4 4_Generic_cluster(2)",
+					"sid": "4 4_Generic",
 					"tid": "6 10_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "36 37_OtherScientificTerm_cluster(1-1)",
+					"sid": "36 37_OtherScientificTerm",
 					"tid": "45 51_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
@@ -5321,13 +5321,13 @@
 				},
 				{
 					"sid": "108 109_Task",
-					"tid": "104 105_OtherScientificTerm_cluster(1-2)",
+					"tid": "104 105_OtherScientificTerm",
 					"name": "EVALUATE-FOR",
 					"_color": "#4747FF"
 				},
 				{
 					"sid": "115 118_Method",
-					"tid": "104 105_OtherScientificTerm_cluster(1-2)",
+					"tid": "104 105_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
@@ -5503,7 +5503,7 @@
 				},
 				{
 					"name": "multi-task end-to-end Joint Classification-Regression Recurrent Neural Network (1)",
-					"id": "69 75_Method_cluster(1)",
+					"id": "69 75_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -5518,12 +5518,12 @@
 				},
 				{
 					"name": "network (1-multi-task end-to-end Joint Classification-Regression Recurrent Neural Network)",
-					"id": "98 98_Generic_cluster(1-1)",
+					"id": "98 98_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
 					"name": "model (1-multi-task end-to-end Joint Classification-Regression Recurrent Neural Network)",
-					"id": "133 133_Generic_cluster(1-2)",
+					"id": "133 133_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -5538,7 +5538,7 @@
 				},
 				{
 					"name": "model (1-multi-task end-to-end Joint Classification-Regression Recurrent Neural Network)",
-					"id": "180 180_Generic_cluster(1-3)",
+					"id": "180 180_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -5553,7 +5553,7 @@
 				},
 				{
 					"name": "scheme (1-multi-task end-to-end Joint Classification-Regression Recurrent Neural Network)",
-					"id": "209 209_Generic_cluster(1-4)",
+					"id": "209 209_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -5606,26 +5606,26 @@
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "69 75_Method_cluster(1)",
+					"sid": "69 75_Method",
 					"tid": "80 85_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "90 95_OtherScientificTerm",
-					"tid": "98 98_Generic_cluster(1-1)",
+					"tid": "98 98_Generic",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "133 133_Generic_cluster(1-2)",
+					"sid": "133 133_Generic",
 					"tid": "137 140_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "185 188_Material",
-					"tid": "180 180_Generic_cluster(1-3)",
+					"tid": "180 180_Generic",
 					"name": "EVALUATE-FOR",
 					"_color": "#4747FF"
 				},
@@ -5637,7 +5637,7 @@
 				},
 				{
 					"sid": "199 201_Material",
-					"tid": "209 209_Generic_cluster(1-4)",
+					"tid": "209 209_Generic",
 					"name": "EVALUATE-FOR",
 					"_color": "#4747FF"
 				}
@@ -5658,7 +5658,7 @@
 				},
 				{
 					"name": "them (2-indicators)",
-					"id": "80 80_Generic_cluster(2-2)",
+					"id": "80 80_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -5672,7 +5672,7 @@
 					"_color": "#FFC000"
 				},
 				{
-					"id": "0 3_Task_cluster(1)",
+					"id": "0 3_Task_cluster",
 					"name": "Topical blog post retrieval (1)",
 					"_color": "#FF0909"
 				},
@@ -5682,17 +5682,17 @@
 					"_color": "#B381D9"
 				},
 				{
-					"id": "23 26_Task_cluster(1-1)",
+					"id": "23 26_Task_cluster",
 					"name": "topical blog post retrieval (1-Topical blog post retrieval)",
 					"_color": "#FF0909"
 				},
 				{
-					"id": "42 42_Generic_cluster(2)",
+					"id": "42 42_Generic_cluster",
 					"name": "indicators (2)",
 					"_color": "#0070C0"
 				},
 				{
-					"id": "75 75_Generic_cluster(2-1)",
+					"id": "75 75_Generic_cluster",
 					"name": "indicators (2-indicators)",
 					"_color": "#0070C0"
 				},
@@ -5720,7 +5720,7 @@
 					"_color": "#C00000"
 				},
 				{
-					"sid": "80 80_Generic_cluster(2-2)",
+					"sid": "80 80_Generic",
 					"tid": "83 84_Method",
 					"name": "PART-OF",
 					"_color": "#C00000"
@@ -5778,7 +5778,7 @@
 				},
 				{
 					"name": "statistical model (1)",
-					"id": "30 31_Method_cluster(1)",
+					"id": "30 31_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -5793,7 +5793,7 @@
 				},
 				{
 					"name": "it (1-statistical model)",
-					"id": "59 59_Generic_cluster(1-2)",
+					"id": "59 59_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -5818,7 +5818,7 @@
 				},
 				{
 					"name": "model (1-statistical model)",
-					"id": "105 105_Generic_cluster(1-3)",
+					"id": "105 105_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -5833,7 +5833,7 @@
 				},
 				{
 					"name": "model (1-statistical model)",
-					"id": "121 121_Generic_cluster(1-4)",
+					"id": "121 121_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -5842,7 +5842,7 @@
 					"_color": "#FFC000"
 				},
 				{
-					"id": "56 56_Generic_cluster(1-1)",
+					"id": "56 56_Generic_cluster",
 					"name": "model (1-statistical model)",
 					"_color": "#0070C0"
 				},
@@ -5860,19 +5860,19 @@
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "30 31_Method_cluster(1)",
+					"sid": "30 31_Method",
 					"tid": "34 39_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "44 49_Method",
-					"tid": "30 31_Method_cluster(1)",
+					"tid": "30 31_Method",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "59 59_Generic_cluster(1-2)",
+					"sid": "59 59_Generic",
 					"tid": "67 67_Generic",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
@@ -5890,14 +5890,14 @@
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "105 105_Generic_cluster(1-3)",
+					"sid": "105 105_Generic",
 					"tid": "108 109_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "115 117_Method",
-					"tid": "121 121_Generic_cluster(1-4)",
+					"tid": "121 121_Generic",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
@@ -5929,7 +5929,7 @@
 				},
 				{
 					"name": "heuristic principles (1)",
-					"id": "19 20_Method_cluster(1)",
+					"id": "19 20_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -5988,7 +5988,7 @@
 					"_color": "#B381D9"
 				},
 				{
-					"id": "104 105_Method_cluster(1-1)",
+					"id": "104 105_Method_cluster",
 					"name": "heuristic principles (1-heuristic principles)",
 					"_color": "#FFC000"
 				},
@@ -6017,7 +6017,7 @@
 				},
 				{
 					"sid": "23 24_Material",
-					"tid": "19 20_Method_cluster(1)",
+					"tid": "19 20_Method",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
@@ -6064,7 +6064,7 @@
 			"nodes": [
 				{
 					"name": "step (2)",
-					"id": "4 4_Generic_cluster(2)",
+					"id": "4 4_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -6094,7 +6094,7 @@
 				},
 				{
 					"name": "approach (2-step)",
-					"id": "107 107_Generic_cluster(2-1)",
+					"id": "107 107_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -6109,7 +6109,7 @@
 				},
 				{
 					"name": "It (2-step)",
-					"id": "123 123_Generic_cluster(2-2)",
+					"id": "123 123_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -6128,7 +6128,7 @@
 					"_color": "#B381D9"
 				},
 				{
-					"id": "30 30_Generic_cluster(1-1)",
+					"id": "30 30_Generic_cluster",
 					"name": "mattes (1-hints '' of partial scene segmentation)",
 					"_color": "#0070C0"
 				},
@@ -6160,7 +6160,7 @@
 			],
 			"links": [
 				{
-					"sid": "4 4_Generic_cluster(2)",
+					"sid": "4 4_Generic",
 					"tid": "7 11_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
@@ -6179,7 +6179,7 @@
 				},
 				{
 					"sid": "113 114_Task",
-					"tid": "107 107_Generic_cluster(2-1)",
+					"tid": "107 107_Generic",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
@@ -6191,7 +6191,7 @@
 				},
 				{
 					"sid": "116 117_Task",
-					"tid": "107 107_Generic_cluster(2-1)",
+					"tid": "107 107_Generic",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
@@ -6203,19 +6203,19 @@
 				},
 				{
 					"sid": "120 121_Task",
-					"tid": "107 107_Generic_cluster(2-1)",
+					"tid": "107 107_Generic",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "123 123_Generic_cluster(2-2)",
+					"sid": "123 123_Generic",
 					"tid": "141 143_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "131 133_GeneralTerm",
-					"tid": "123 123_Generic_cluster(2-2)",
+					"tid": "123 123_Generic",
 					"name": "EVALUATE-FOR",
 					"_color": "#4747FF"
 				}
@@ -6231,12 +6231,12 @@
 				},
 				{
 					"name": "method (1)",
-					"id": "16 16_Generic_cluster(1)",
+					"id": "16 16_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
 					"name": "model (1-method)",
-					"id": "70 70_Generic_cluster(1-1)",
+					"id": "70 70_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -6251,7 +6251,7 @@
 				},
 				{
 					"name": "method (2-separation method)",
-					"id": "122 122_Generic_cluster(2-1)",
+					"id": "122 122_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -6270,7 +6270,7 @@
 					"_color": "#FFC000"
 				},
 				{
-					"id": "86 87_Method_cluster(2)",
+					"id": "86 87_Method_cluster",
 					"name": "separation method (2)",
 					"_color": "#FFC000"
 				},
@@ -6288,31 +6288,31 @@
 			"links": [
 				{
 					"sid": "19 19_OtherScientificTerm",
-					"tid": "16 16_Generic_cluster(1)",
+					"tid": "16 16_Generic",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "70 70_Generic_cluster(1-1)",
+					"sid": "70 70_Generic",
 					"tid": "78 83_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "117 119_Material",
-					"tid": "122 122_Generic_cluster(2-1)",
+					"tid": "122 122_Generic",
 					"name": "EVALUATE-FOR",
 					"_color": "#4747FF"
 				},
 				{
-					"sid": "122 122_Generic_cluster(2-1)",
+					"sid": "122 122_Generic",
 					"tid": "132 133_Generic",
 					"name": "COMPARE",
 					"_color": "#7B9626"
 				},
 				{
 					"sid": "127 128_Metric",
-					"tid": "122 122_Generic_cluster(2-1)",
+					"tid": "122 122_Generic",
 					"name": "EVALUATE-FOR",
 					"_color": "#4747FF"
 				},
@@ -6334,7 +6334,7 @@
 				},
 				{
 					"name": "Automatic Speech Recognition -LRB- ASR -RRB- System (1)",
-					"id": "11 17_Method_cluster(1)",
+					"id": "11 17_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -6364,7 +6364,7 @@
 				},
 				{
 					"name": "ASR system (1-Automatic Speech Recognition -LRB- ASR -RRB- System)",
-					"id": "77 78_Method_cluster(1-1)",
+					"id": "77 78_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -6379,7 +6379,7 @@
 				},
 				{
 					"name": "UV procedure (2-UV procedure)",
-					"id": "99 100_Method_cluster(2-1)",
+					"id": "99 100_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -6418,7 +6418,7 @@
 					"_color": "#002060"
 				},
 				{
-					"id": "44 45_Method_cluster(2)",
+					"id": "44 45_Method_cluster",
 					"name": "UV procedure (2)",
 					"_color": "#FFC000"
 				},
@@ -6461,7 +6461,7 @@
 			"links": [
 				{
 					"sid": "0 4_Task",
-					"tid": "11 17_Method_cluster(1)",
+					"tid": "11 17_Method",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
@@ -6484,14 +6484,14 @@
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "77 78_Method_cluster(1-1)",
+					"sid": "77 78_Method",
 					"tid": "89 94_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "106 107_Generic",
-					"tid": "99 100_Method_cluster(2-1)",
+					"tid": "99 100_Method",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
@@ -6550,7 +6550,7 @@
 			"nodes": [
 				{
 					"name": "unsupervised learning approach (1)",
-					"id": "4 6_Method_cluster(1)",
+					"id": "4 6_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -6565,12 +6565,12 @@
 				},
 				{
 					"name": "eigenvectors (2)",
-					"id": "30 30_OtherScientificTerm_cluster(2)",
+					"id": "30 30_OtherScientificTerm_cluster",
 					"_color": "#B381D9"
 				},
 				{
 					"name": "It (1-unsupervised learning approach)",
-					"id": "26 26_Generic_cluster(1-1)",
+					"id": "26 26_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -6580,7 +6580,7 @@
 				},
 				{
 					"name": "eigenvectors (2-eigenvectors)",
-					"id": "56 56_Generic_cluster(2-1)",
+					"id": "56 56_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -6590,7 +6590,7 @@
 				},
 				{
 					"name": "spectral clustering based approach (1-unsupervised learning approach)",
-					"id": "66 69_Method_cluster(1-2)",
+					"id": "66 69_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -6616,38 +6616,38 @@
 			],
 			"links": [
 				{
-					"sid": "4 6_Method_cluster(1)",
+					"sid": "4 6_Method",
 					"tid": "10 13_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "18 21_OtherScientificTerm",
-					"tid": "4 6_Method_cluster(1)",
+					"tid": "4 6_Method",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "30 30_OtherScientificTerm_cluster(2)",
-					"tid": "26 26_Generic_cluster(1-1)",
+					"sid": "30 30_OtherScientificTerm",
+					"tid": "26 26_Generic",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "30 30_OtherScientificTerm_cluster(2)",
+					"sid": "30 30_OtherScientificTerm",
 					"tid": "51 53_Method",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "56 56_Generic_cluster(2-1)",
+					"sid": "56 56_Generic",
 					"tid": "51 53_Method",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "61 62_Material",
-					"tid": "66 69_Method_cluster(1-2)",
+					"tid": "66 69_Method",
 					"name": "EVALUATE-FOR",
 					"_color": "#4747FF"
 				},
@@ -6658,7 +6658,7 @@
 					"_color": "#4747FF"
 				},
 				{
-					"sid": "66 69_Method_cluster(1-2)",
+					"sid": "66 69_Method",
 					"tid": "73 74_Method",
 					"name": "COMPARE",
 					"_color": "#7B9626"
@@ -6675,12 +6675,12 @@
 				},
 				{
 					"name": "clustering (1)",
-					"id": "4 4_Task_cluster(1)",
+					"id": "4 4_Task_cluster",
 					"_color": "#FF0909"
 				},
 				{
 					"name": "it (1-clustering)",
-					"id": "26 26_Generic_cluster(1-1)",
+					"id": "26 26_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -6732,13 +6732,13 @@
 			"links": [
 				{
 					"sid": "35 35_Generic",
-					"tid": "4 4_Task_cluster(1)",
+					"tid": "4 4_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "35 35_Generic",
-					"tid": "26 26_Generic_cluster(1-1)",
+					"tid": "26 26_Generic",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
@@ -6797,7 +6797,7 @@
 			"nodes": [
 				{
 					"name": "scanning method (1)",
-					"id": "3 4_Method_cluster(1)",
+					"id": "3 4_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -6817,7 +6817,7 @@
 				},
 				{
 					"name": "method (1-scanning method)",
-					"id": "66 66_Generic_cluster(1-1)",
+					"id": "66 66_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -6832,7 +6832,7 @@
 				},
 				{
 					"name": "it (1-scanning method)",
-					"id": "77 77_Generic_cluster(1-2)",
+					"id": "77 77_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -6893,7 +6893,7 @@
 			],
 			"links": [
 				{
-					"sid": "3 4_Method_cluster(1)",
+					"sid": "3 4_Method",
 					"tid": "8 10_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
@@ -6905,25 +6905,25 @@
 					"_color": "#92D050"
 				},
 				{
-					"sid": "66 66_Generic_cluster(1-1)",
+					"sid": "66 66_Generic",
 					"tid": "68 69_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "72 73_Metric",
-					"tid": "66 66_Generic_cluster(1-1)",
+					"tid": "66 66_Generic",
 					"name": "EVALUATE-FOR",
 					"_color": "#4747FF"
 				},
 				{
-					"sid": "77 77_Generic_cluster(1-2)",
+					"sid": "77 77_Generic",
 					"tid": "68 69_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "77 77_Generic_cluster(1-2)",
+					"sid": "77 77_Generic",
 					"tid": "83 85_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
@@ -6947,7 +6947,7 @@
 			"nodes": [
 				{
 					"name": "Minimum Bayes-Risk -LRB- MBR -RRB- decoding (1)",
-					"id": "2 7_Method_cluster(1)",
+					"id": "2 7_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -6977,12 +6977,12 @@
 				},
 				{
 					"name": "MBR decoders (1-Minimum Bayes-Risk -LRB- MBR -RRB- decoding)",
-					"id": "75 76_Method_cluster(1-2)",
+					"id": "75 76_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
 					"name": "MBR decoding (1-Minimum Bayes-Risk -LRB- MBR -RRB- decoding)",
-					"id": "87 88_Method_cluster(1-3)",
+					"id": "87 88_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -6996,7 +6996,7 @@
 					"_color": "#B381D9"
 				},
 				{
-					"id": "14 15_Method_cluster(1-1)",
+					"id": "14 15_Method_cluster",
 					"name": "statistical approach (1-Minimum Bayes-Risk -LRB- MBR -RRB- decoding)",
 					"_color": "#FFC000"
 				},
@@ -7028,7 +7028,7 @@
 			],
 			"links": [
 				{
-					"sid": "2 7_Method_cluster(1)",
+					"sid": "2 7_Method",
 					"tid": "9 11_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
@@ -7047,18 +7047,18 @@
 				},
 				{
 					"sid": "79 81_Task",
-					"tid": "75 76_Method_cluster(1-2)",
+					"tid": "75 76_Method",
 					"name": "EVALUATE-FOR",
 					"_color": "#4747FF"
 				},
 				{
-					"sid": "87 88_Method_cluster(1-3)",
+					"sid": "87 88_Method",
 					"tid": "94 95_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "87 88_Method_cluster(1-3)",
+					"sid": "87 88_Method",
 					"tid": "98 100_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
@@ -7070,17 +7070,17 @@
 			"nodes": [
 				{
 					"name": "automatic scheme (2)",
-					"id": "16 17_Generic_cluster(2)",
+					"id": "16 17_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
 					"name": "statistics on cooccurrence patterns (1)",
-					"id": "20 23_OtherScientificTerm_cluster(1)",
+					"id": "20 23_OtherScientificTerm_cluster",
 					"_color": "#B381D9"
 				},
 				{
 					"name": "statistics (1-statistics on cooccurrence patterns)",
-					"id": "35 35_Generic_cluster(1-1)",
+					"id": "35 35_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -7119,7 +7119,7 @@
 					"_color": "#FF0909"
 				},
 				{
-					"id": "52 52_Generic_cluster(2-1)",
+					"id": "52 52_Generic_cluster",
 					"name": "scheme (2-automatic scheme)",
 					"_color": "#0070C0"
 				},
@@ -7131,25 +7131,25 @@
 			],
 			"links": [
 				{
-					"sid": "16 17_Generic_cluster(2)",
-					"tid": "20 23_OtherScientificTerm_cluster(1)",
+					"sid": "16 17_Generic",
+					"tid": "20 23_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "35 35_Generic_cluster(1-1)",
+					"sid": "35 35_Generic",
 					"tid": "37 38_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "35 35_Generic_cluster(1-1)",
+					"sid": "35 35_Generic",
 					"tid": "45 46_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "35 35_Generic_cluster(1-1)",
+					"sid": "35 35_Generic",
 					"tid": "48 49_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
@@ -7179,7 +7179,7 @@
 			"nodes": [
 				{
 					"name": "sentence extraction (1)",
-					"id": "1 2_Method_cluster(1)",
+					"id": "1 2_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -7233,20 +7233,20 @@
 					"_color": "#FF0909"
 				},
 				{
-					"id": "38 39_Method_cluster(1-1)",
+					"id": "38 39_Method_cluster",
 					"name": "sentence extraction (1-sentence extraction)",
 					"_color": "#FFC000"
 				}
 			],
 			"links": [
 				{
-					"sid": "1 2_Method_cluster(1)",
+					"sid": "1 2_Method",
 					"tid": "7 7_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "1 2_Method_cluster(1)",
+					"sid": "1 2_Method",
 					"tid": "25 26_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
@@ -7320,7 +7320,7 @@
 				},
 				{
 					"name": "model-based approach (1)",
-					"id": "83 84_Method_cluster(1)",
+					"id": "83 84_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -7335,7 +7335,7 @@
 				},
 				{
 					"name": "it (1-model-based approach)",
-					"id": "135 135_Generic_cluster(1-2)",
+					"id": "135 135_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -7399,7 +7399,7 @@
 					"_color": "#B381D9"
 				},
 				{
-					"id": "130 130_Generic_cluster(1-1)",
+					"id": "130 130_Generic_cluster",
 					"name": "algorithm (1-model-based approach)",
 					"_color": "#0070C0"
 				},
@@ -7423,31 +7423,31 @@
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "83 84_Method_cluster(1)",
+					"sid": "83 84_Method",
 					"tid": "88 88_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "96 97_OtherScientificTerm",
-					"tid": "83 84_Method_cluster(1)",
+					"tid": "83 84_Method",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "135 135_Generic_cluster(1-2)",
+					"sid": "135 135_Generic",
 					"tid": "137 138_Material",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "135 135_Generic_cluster(1-2)",
+					"sid": "135 135_Generic",
 					"tid": "146 146_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "135 135_Generic_cluster(1-2)",
+					"sid": "135 135_Generic",
 					"tid": "146 149_GeneralTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
@@ -7474,7 +7474,7 @@
 				},
 				{
 					"name": "method (1)",
-					"id": "28 28_Generic_cluster(1)",
+					"id": "28 28_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -7499,7 +7499,7 @@
 				},
 				{
 					"name": "approach (1-method)",
-					"id": "55 55_Generic_cluster(1-1)",
+					"id": "55 55_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -7537,14 +7537,14 @@
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "28 28_Generic_cluster(1)",
+					"sid": "28 28_Generic",
 					"tid": "30 33_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "38 41_Method",
-					"tid": "28 28_Generic_cluster(1)",
+					"tid": "28 28_Generic",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
@@ -7556,7 +7556,7 @@
 				},
 				{
 					"sid": "62 63_Method",
-					"tid": "55 55_Generic_cluster(1-1)",
+					"tid": "55 55_Generic",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
@@ -7579,7 +7579,7 @@
 			"nodes": [
 				{
 					"name": "Chat-80 (1)",
-					"id": "16 16_Method_cluster(1)",
+					"id": "16 16_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -7589,7 +7589,7 @@
 				},
 				{
 					"name": "Chat-80 (1-Chat-80)",
-					"id": "18 18_Method_cluster(1-1)",
+					"id": "18 18_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -7604,7 +7604,7 @@
 				},
 				{
 					"name": "system (1-Chat-80)",
-					"id": "36 36_Generic_cluster(1-2)",
+					"id": "36 36_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -7624,7 +7624,7 @@
 				},
 				{
 					"name": "Chat-80 (1-Chat-80)",
-					"id": "62 62_Method_cluster(1-3)",
+					"id": "62 62_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -7675,20 +7675,20 @@
 			],
 			"links": [
 				{
-					"sid": "16 16_Method_cluster(1)",
+					"sid": "16 16_Method",
 					"tid": "9 13_Method",
 					"name": "HYPONYM-OF",
 					"_color": "#FF99FF"
 				},
 				{
-					"sid": "18 18_Method_cluster(1-1)",
+					"sid": "18 18_Method",
 					"tid": "33 33_Generic",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
 					"sid": "41 41_Method",
-					"tid": "36 36_Generic_cluster(1-2)",
+					"tid": "36 36_Generic",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
@@ -7705,13 +7705,13 @@
 					"_color": "#FF99FF"
 				},
 				{
-					"sid": "62 62_Method_cluster(1-3)",
+					"sid": "62 62_Method",
 					"tid": "64 65_Material",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "62 62_Method_cluster(1-3)",
+					"sid": "62 62_Method",
 					"tid": "68 71_OtherScientificTerm",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
@@ -7879,7 +7879,7 @@
 			"nodes": [
 				{
 					"name": "approach (2)",
-					"id": "4 4_Generic_cluster(2)",
+					"id": "4 4_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -7899,7 +7899,7 @@
 				},
 				{
 					"name": "approaches (1)",
-					"id": "27 27_Generic_cluster(1)",
+					"id": "27 27_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -7919,7 +7919,7 @@
 				},
 				{
 					"name": "approach (2-approach)",
-					"id": "146 146_Generic_cluster(2-2)",
+					"id": "146 146_Generic_cluster",
 					"_color": "#0070C0"
 				},
 				{
@@ -7938,7 +7938,7 @@
 					"_color": "#B381D9"
 				},
 				{
-					"id": "44 44_Generic_cluster(1-1)",
+					"id": "44 44_Generic_cluster",
 					"name": "they (1-approaches)",
 					"_color": "#0070C0"
 				},
@@ -7948,7 +7948,7 @@
 					"_color": "#B381D9"
 				},
 				{
-					"id": "62 62_Generic_cluster(2-1)",
+					"id": "62 62_Generic_cluster",
 					"name": "approach (2-approach)",
 					"_color": "#0070C0"
 				},
@@ -7985,7 +7985,7 @@
 			],
 			"links": [
 				{
-					"sid": "4 4_Generic_cluster(2)",
+					"sid": "4 4_Generic",
 					"tid": "18 19_Task",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
@@ -7998,7 +7998,7 @@
 				},
 				{
 					"sid": "30 36_OtherScientificTerm",
-					"tid": "27 27_Generic_cluster(1)",
+					"tid": "27 27_Generic",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
@@ -8015,7 +8015,7 @@
 					"_color": "#7030A0"
 				},
 				{
-					"sid": "146 146_Generic_cluster(2-2)",
+					"sid": "146 146_Generic",
 					"tid": "162 163_Generic",
 					"name": "COMPARE",
 					"_color": "#7B9626"
@@ -8047,7 +8047,7 @@
 				},
 				{
 					"name": "action models (2-action models)",
-					"id": "108 109_Method_cluster(2-1)",
+					"id": "108 109_Method_cluster",
 					"_color": "#FFC000"
 				},
 				{
@@ -8081,12 +8081,12 @@
 					"_color": "#0070C0"
 				},
 				{
-					"id": "36 37_Method_cluster(2)",
+					"id": "36 37_Method_cluster",
 					"name": "action models (2)",
 					"_color": "#FFC000"
 				},
 				{
-					"id": "52 52_Generic_cluster(1-1)",
+					"id": "52 52_Generic_cluster",
 					"name": "methods (1-methods)",
 					"_color": "#0070C0"
 				},
@@ -8106,12 +8106,12 @@
 					"_color": "#FFC000"
 				},
 				{
-					"id": "90 91_Material_cluster(3)",
+					"id": "90 91_Material_cluster",
 					"name": "Training instances (3)",
 					"_color": "#002060"
 				},
 				{
-					"id": "112 112_Generic_cluster(3-1)",
+					"id": "112 112_Generic_cluster",
 					"name": "instances (3-Training instances)",
 					"_color": "#0070C0"
 				}
@@ -8131,7 +8131,7 @@
 				},
 				{
 					"sid": "103 103_Method",
-					"tid": "108 109_Method_cluster(2-1)",
+					"tid": "108 109_Method",
 					"name": "USED-FOR",
 					"_color": "#7030A0"
 				},
